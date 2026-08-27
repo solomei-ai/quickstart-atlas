@@ -1,0 +1,21 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-md;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+}
+
+.container h2 {
+  font-size: var.$font-size-3xl;
+  max-width: 900px;
+}
+
+.container p {
+  max-width: 800px;
+  font-size: var.$font-size-sm;
+}

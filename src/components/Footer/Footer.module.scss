@@ -1,0 +1,21 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  position: fixed;
+  // Above the background's variant overlay (z-index 2), which itself covers
+  // the page content — the prompt bar is the only thing above the overlay.
+  bottom: var.$space-md;
+  // Pinned to the left edge at full width (equivalent to the old
+  // left:50% + translateX(-50%) centering) so `transform` stays free for
+  // motion's y-axis entrance — otherwise the inline translateY overrides it.
+  left: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-xs;
+  align-items: center;
+  min-width: 320px;
+  touch-action: none;
+  pointer-events: none;
+  z-index: 99;
+}

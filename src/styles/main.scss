@@ -1,0 +1,10 @@
+// =============================================================================
+// Global stylesheet entry point. Imported once in src/main.tsx.
+//
+// Only global, app-wide layers belong here. Component styles live in their own
+// *.module.scss files (which automatically have access to the abstracts layer
+// via Vite's additionalData — no import needed).
+// =============================================================================
+
+@use 'base/themes';
+@use 'base/reset';

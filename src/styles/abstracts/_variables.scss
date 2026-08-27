@@ -1,0 +1,97 @@
+// =============================================================================
+// Design tokens — compile-time SCSS variables.
+//
+// These are static values used for layout math, media queries and mixins.
+// They are NOT themeable. Anything that changes between themes (colours,
+// shadows, etc.) lives in `base/_themes.scss` as a CSS custom property.
+//
+// This file is auto-injected into every .scss module (see vite.config.ts),
+// so you can use these tokens anywhere without an explicit `@use`.
+// =============================================================================
+
+@use 'sass:map';
+
+// -- Spacing scale -----------------------------------------------------------
+$space-2xs: 0.25rem; //  4px
+$space-xs: 0.5rem; //  8px
+$space-sm: 0.75rem; // 12px
+$space-md: 1rem; // 16px
+$space-lg: 1.5rem; // 24px
+$space-xl: 2rem; // 32px
+$space-2xl: 3rem; // 48px
+$space-3xl: 4rem; // 64px
+$space-4xl: 8rem; // 128px
+$space-5xl: 10rem; // 128px
+
+// -- Border radius -----------------------------------------------------------
+$radius-xxs: 2px;
+$radius-xs: 4px;
+$radius-sm: 8px;
+$radius-md: 12px;
+$radius-lg: 16px;
+$radius-xl: 20px;
+$radius-full: 9999px;
+
+// -- Blur --------------------------------------------------------------------
+$blur-xs: 2px;
+$blur-base: 4px;
+$blur-lg: 8px;
+
+// -- Shadows -----------------------------------------------------------------
+$box-shadow-base: 2px 2px 16px 0 rgba(0, 0, 0, 0.10);
+
+// -- Typography --------------------------------------------------------------
+// Loaded via Google Fonts in index.html.
+//   $font-display → Barriecito (decorative, for headings/branding)
+//   $font-mono    → Google Sans Code (monospace, for code & UI mono)
+//   $font-sans    → system stack for readable body copy
+$font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+$font-display: 'Barriecito', system-ui, cursive;
+$font-mono: 'Google Sans Code', ui-monospace, SFMono-Regular, Consolas,
+  monospace;
+
+// Fluid type: clamp(mobile-min, fluid-preferred, desktop-max). The max equals
+// the previous fixed value, so desktop is unchanged while sizes scale down with
+// the viewport — mobile is handled here, no per-component media queries needed.
+$font-size-xs: clamp(0.8125rem, 0.68rem + 0.1vw, 0.785rem);
+$font-size-sm: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+$font-size-base: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+$font-size-lg: clamp(1.0625rem, 0.97rem + 0.45vw, 1.25rem);
+$font-size-xl: clamp(1.25rem, 1rem + 1.1vw, 1.75rem);
+$font-size-2xl: clamp(1.75rem, 1.1rem + 2.8vw, 3rem);
+$font-size-3xl: clamp(2rem, 1.15rem + 3.55vw, 4rem);
+$font-size-4xl: clamp(2.5rem, 0.95rem + 6.65vw, 6.25rem); // ~100px desktop
+$font-size-5xl: clamp(3rem, 0.93rem + 8.85vw, 8rem); // ~128px desktop
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$line-height-tight: 1.2;
+$line-height-base: 1.5;
+
+// -- Layout ------------------------------------------------------------------
+$container-max: 81.25rem; // 1300px
+$cards-container-max: 1092px;
+
+// -- Elevation (z-index) -----------------------------------------------------
+$z-base: 0;
+$z-dropdown: 10;
+$z-sticky: 20;
+$z-overlay: 30;
+$z-modal: 40;
+$z-toast: 50;
+
+// -- Breakpoints -------------------------------------------------------------
+// Consumed by the `respond-to` mixin in `_mixins.scss`.
+$breakpoints: (
+  'sm': 40rem, // 640px
+  'md': 48rem, // 768px
+  'lg': 64rem, // 1024px
+  'xl': 80rem, // 1280px
+);
+
+// -- Motion ------------------------------------------------------------------
+$transition-fast: 150ms ease;
+$transition-base: 250ms ease;
+$scale-transition: scale 0.21s ease-in-out;

@@ -1,0 +1,59 @@
+@use '../../styles/abstracts/variables' as var;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var.$space-xs;
+  padding: var.$space-xs;
+  border-radius: var.$radius-sm;
+  font-weight: var.$font-weight-medium;
+  font-size: var.$font-size-base;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition:
+    background-color var.$transition-base,
+    color var.$transition-base,
+    border-color var.$transition-base;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.primary {
+  color: var(--color-text);
+  background-color: var(--color-surface);
+  border-color: var(--color-surface);
+
+  &:hover:not(:disabled) {
+    opacity: 0.7;
+  }
+}
+
+.fill {
+  color: var(--color-surface);
+  background-color: var(--color-surface-negative);
+  border-color: var(--color-surface);
+
+  &:hover:not(:disabled) {
+    opacity: 0.7;
+  }
+}
+
+.outline,
+.outline-muted {
+  color: var(--color-text);
+  background-color: var(--color-surface);
+  border-color: var(--color-text);
+
+  &:hover:not(:disabled) {
+    opacity: 0.7;
+  }
+
+  &.outline-muted {
+    border-color: var(--color-border-muted);
+  }
+}

@@ -1,0 +1,115 @@
+@use '../../styles/abstracts/variables' as var;
+
+// Hero Section
+
+.container {
+  position: relative;
+}
+
+.container,
+.heroContainer {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.1;
+    pointer-events: none;
+    touch-action: none;
+    background:
+      linear-gradient(to right, #A29D97 1px, transparent 1px),
+      linear-gradient(to bottom, #A29D97 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+}
+
+.heroContainer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  touch-action: none;
+}
+
+// Floating shortcut back to the map, shown once the map has scrolled out of view.
+.mapButton {
+  position: fixed;
+  top: var.$space-xl;
+  right: var.$space-xl;
+  z-index: var.$z-sticky;
+}
+
+// Map overlay
+
+.mapOverlay {
+  position: absolute;
+  inset: 0;
+  touch-action: none;
+  pointer-events: none;
+
+}
+
+.north,
+.south,
+.east,
+.west {
+  position: absolute;
+}
+
+.east,
+.west {
+  top: 50%;
+  transform: translateY(-50%);
+  &.east {
+    right: var.$space-xl;
+  }
+  &.west {
+    left: var.$space-xl;
+  }
+}
+
+.north,
+.south {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.north {
+  top: var.$space-3xl * 1.4;
+}
+
+.south {
+  bottom: var.$space-5xl;
+}
+
+.ship {
+  position: absolute;
+  bottom: var.$space-xl;
+  right: var.$space-xl;
+}
+
+.shells {
+  position: absolute;
+  top: var.$space-xl;
+  left: var.$space-xl;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 679px) {
+  .ship,
+  .shells,
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}

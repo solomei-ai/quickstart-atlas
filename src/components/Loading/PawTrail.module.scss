@@ -1,0 +1,23 @@
+.trail {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.print {
+	position: absolute;
+	will-change: transform, opacity;
+	height: 10vh;
+
+	svg {
+		display: block;
+		height: 100%;
+		width: auto;
+	}
+
+	path {
+		// Overrides the baked-in #E8E3DD fill, which would vanish on the paper background.
+		fill: #7a5c40;
+	}
+}

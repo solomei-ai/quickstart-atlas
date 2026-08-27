@@ -1,0 +1,40 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-md;
+  align-items: center;
+  text-align: center;
+
+  @media (max-width: 700px) {
+    margin: var.$space-xs;
+  }
+
+  h3 {
+    font-size: var.$font-size-4xl;
+  }
+
+  p {
+    font-size: var.$font-size-base;
+    max-width: min(100%, 800px);
+  }
+}
+
+.grid {
+  // Mobile-first: 1 column, 2 from `md`, 3 from `lg` (desktop).
+  // Fixed-width columns (matching the card's 356px) + `justify-content: center`
+  // keep the gap constant and center the cards instead of stretching them.
+  display: grid;
+  grid-template-columns: min(356px, 100%);
+  justify-content: center;
+  gap: var.$space-sm;
+
+  @include respond-to('md') {
+    grid-template-columns: repeat(2, 356px);
+  }
+
+  @include respond-to('lg') {
+    grid-template-columns: repeat(3, 356px);
+  }
+}

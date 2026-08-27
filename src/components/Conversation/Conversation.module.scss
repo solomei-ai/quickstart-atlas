@@ -1,0 +1,32 @@
+@use '../../styles/abstracts/variables' as var;
+
+// Thamyr round output: blocks returned for the visitor's question.
+// Top-aligned (not centered) so a round's position stays fixed as its own
+// content streams in and grows — centering would shift it out from under
+// an already-completed scroll.
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-4xl;
+  padding: var.$space-xl var.$space-lg var.$space-5xl;
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-4xl;
+}
+
+// Trailing spacer after the last round. Reserves a viewport of scrollable room
+// so the pre-scroll (fired while the loader is still up, before the round has
+// any content) can bring the incoming round's top to the top of the viewport
+// instead of clamping short at the document end.
+.scrollRoom {
+  min-height: 100dvh;
+}
+
+@media (max-width: 679px) {
+  .results {
+    padding: var.$space-xl 0 var.$space-5xl;
+  }
+}

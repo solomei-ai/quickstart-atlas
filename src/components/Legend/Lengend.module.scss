@@ -1,0 +1,94 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  position: relative;
+}
+
+.legendContainer {
+  position: absolute;
+  top: calc(100% + #{var.$space-sm});
+  right: 0;
+  width: max-content;
+  max-width: min(calc(100vw - 1rem), 30rem);
+  background-color: var(--color-surface-70);
+  backdrop-filter: blur(var.$blur-base);
+  border: 1px solid var(--color-border-muted);
+  padding: var.$space-md;
+  border-radius: var.$radius-sm;
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-sm;
+}
+
+.topContainer {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  padding-bottom: var.$space-sm;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.left,
+.right,
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-sm;
+}
+
+.left {
+  padding-right: var.$space-md;
+}
+
+.right {
+  padding-left: var.$space-md;
+  border-left: 1px solid var(--color-border-muted);
+}
+
+.sectionHeader {
+  font-size: var.$font-size-sm;
+  text-transform: uppercase;
+  font-weight: var.$font-weight-bold;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-xs;
+  font-size: var.$font-size-sm;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: var.$space-sm;
+  font-size: var.$font-size-sm;
+  text-transform: capitalize;
+}
+
+.habitatList {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(6.5rem, 1fr));
+  column-gap: var.$space-md;
+  row-gap: var.$space-xs;
+}
+
+.habitatContainer {
+  display: flex;
+  gap: var.$space-xs;
+}
+
+.habitatPlaceholder {
+  height: var.$space-md;
+  width: var.$space-md;
+  border-radius: var.$radius-xs;
+  background-color: var(--color-surface);
+}
+
+@media (max-width: 48rem) {
+  .desktop {
+    display: none;
+  }
+}

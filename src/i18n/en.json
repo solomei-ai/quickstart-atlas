@@ -1,0 +1,77 @@
+{
+  "promptBar": {
+    "placeholder": "Ask about animal kingdom",
+    "filters": "Filters"
+  },
+  "interact_to_explore": "Interact with the map to explore",
+  "hero-title": "One planet\na million different ways\nof being alive",
+  "related_questions": {
+    "still_curios": "Still curious?"
+  },
+  "statCard": {
+    "size": {
+      "height": "height",
+      "weight": "weight"
+    }
+  },
+  "animalCard": {
+    "distinctiveFeatures": "distinctive features"
+  },
+  "habitatCard": {
+    "distinctiveFeatures": "distinctive features",
+    "climate": "climate",
+    "rainfall": "rainfall",
+    "drySeason": "dry season",
+    "canopy": "canopy"
+  },
+  "intent": {
+    "logbook": "logbook",
+    "sub": "a record of your expeditions across <strong>atlas</strong>",
+    "about_you": "about you",
+    "close": "Close"
+  },
+  "history": {
+    "clear_history": "Clear history",
+    "your_expeditions": "Your expeditions",
+    "new_expedition": "New expedition",
+    "empty": "Somewhere out there, the first creature is waiting to be found."
+  },
+  "confirmDialog": {
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "loading": {
+    "splashing": "Splashing...",
+    "rippling": "Rippling...",
+    "gliding": "Gliding...",
+    "Darting": "Darting...",
+    "bobbing": "Bobbing...",
+    "pattering": "Pattering...",
+    "scurrying": "Scurrying...",
+    "burrowing": "Burrowing...",
+    "foraging": "Foraging...",
+    "nesting": "Nesting...",
+    "rustling": "Rustling...",
+    "prowling": "Prowling...",
+    "trotting": "Trotting..."
+  },
+  "legend": {
+    "species": "Species",
+    "status": "Status",
+    "habitats": "Habitats",
+    "classification": {
+      "Mammal": "Mammal",
+      "Bird": "Bird",
+      "Reptile": "Reptile",
+      "Amphibian": "Reptile & Amphibian",
+      "Fish": "Fish",
+      "Crustacean": "Crustacean",
+      "Invertebrates": "Invertebrates"
+    },
+    "statuses": {
+      "living": "Living",
+      "endangered": "Endangered",
+      "extinct": "Extinct"
+    }
+  }
+}

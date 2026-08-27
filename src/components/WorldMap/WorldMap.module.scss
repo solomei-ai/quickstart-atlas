@@ -1,0 +1,144 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 80svh;
+  overflow: hidden;
+}
+
+// Horizontal-only pan layer. On narrow viewports the map is fitted to fill the
+// height, so it's wider than the screen — this lets the user swipe/scroll along
+// the X axis to reach the cropped edges. `touch-action: pan-x` keeps vertical
+// swipes free to scroll the page. On wide desktops the content fits and this
+// never scrolls. The scrollbar is hidden to preserve the printed-map look.
+.scroller {
+  position: absolute;
+  inset: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.track {
+  position: relative;
+  height: 100%;
+}
+
+// The GeoJSON map layer. Blended `multiply` over whatever sits behind the
+// component so the landmasses read as printed on the paper texture — the same
+// treatment as the raster background in `Background.module.scss` `.overlay`.
+.map {
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.countries {
+  path {
+    fill: rgb(94 94 94 / 0.1);
+    stroke: rgb(52 52 52 / 0.58);
+    stroke-width: 0.3px;
+    stroke-linejoin: round;
+    vector-effect: non-scaling-stroke;
+  }
+}
+
+// Decorative wave stickers anchored to sea coordinates (see WAVES in
+// WorldMap.tsx). Sits above the map but below the markers, blended `multiply`
+// so it reads as printed on the paper texture like the landmasses.
+.waves {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.wave {
+  position: absolute;
+  width: 170px;
+  height: auto;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: multiply;
+}
+
+// Overlay plane holding the animal markers. Sits above the map; individual
+// markers re-enable pointer events.
+.markers {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.markerSlot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.marker {
+  display: block;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--color-text);
+  cursor: pointer;
+  pointer-events: auto;
+  transform-origin: center;
+
+  &:focus-visible {
+    outline: 2px solid var(--color-text);
+    outline-offset: 2px;
+    border-radius: var.$radius-sm;
+  }
+}
+
+// Portalled to <body> and pinned over `.container` via inline document-space
+// `left`/`top`/`width`/`height` (see WorldMap.tsx). Living outside `main.app`
+// (z-index 1) is what lets the tooltip/card paint above the fixed prompt bar
+// (z-index 99) and the map decorations; 500 keeps them below the loader (999).
+// Absolute (not fixed) so the layer scrolls with the page along with the map.
+.overlayLayer {
+  position: absolute;
+  z-index: 500;
+  pointer-events: none;
+}
+
+// Positioned in layer space via inline `left`/`top` (see WorldMap.tsx), so it
+// can flip and clamp to stay inside the map rather than clipping at the edges.
+.tooltip {
+  position: absolute;
+  margin: 0;
+  white-space: nowrap;
+  padding: var.$space-xs;
+  border-radius: var.$radius-sm;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  font-size: var.$font-size-base;
+  font-weight: var.$font-weight-bold;
+  text-transform: capitalize;
+  pointer-events: none;
+  box-shadow: var(--shadow-sm);
+  z-index: var.$z-dropdown;
+}
+
+.card {
+  position: absolute;
+  z-index: var.$z-overlay;
+  // The layer is click-through; the card itself is interactive.
+  pointer-events: auto;
+  // `transform-origin` is set inline so the card grows from whichever side it
+  // opens on. A card taller than the container scrolls internally rather than
+  // spilling past the edge.
+  overflow-y: auto;
+  overflow-x: hidden;
+  // No `filter` here: a filtered element becomes a *backdrop root*, which would
+  // starve the `backdrop-filter` on AnimalCard's surface — it would sample this
+  // wrapper's (empty) content instead of the map behind it. AnimalCard carries
+  // its own `box-shadow`, so the drop-shadow this replaced isn't needed.
+}

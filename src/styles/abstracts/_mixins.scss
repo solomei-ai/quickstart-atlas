@@ -1,0 +1,36 @@
+// =============================================================================
+// Mixins & functions.
+// Auto-injected into every .scss module alongside the variables.
+// =============================================================================
+
+@use 'sass:map';
+@use 'variables' as *;
+
+// Apply styles from a named breakpoint upward (mobile-first).
+//
+//   .card {
+//     padding: $space-md;
+//     @include respond-to('lg') { padding: $space-xl; }
+//   }
+@mixin respond-to($breakpoint) {
+  @if map.has-key($breakpoints, $breakpoint) {
+    @media (min-width: map.get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @error "Unknown breakpoint `#{$breakpoint}`. Available: #{map.keys($breakpoints)}.";
+  }
+}
+
+// Visually hide an element while keeping it available to screen readers.
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

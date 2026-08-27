@@ -1,0 +1,118 @@
+@use '../../styles/abstracts/variables' as var;
+
+// The bar's outer size limits. They're applied to `.content` (the measured
+// element) rather than to `.container`, minus the padding, so the width motion
+// animates is already inside the clamp.
+$bar-padding: var.$space-sm;
+$bar-max-width: 479px;
+$bar-gutter: 2rem;
+$bar-border: 1px;
+// What `.content` may occupy for the bar to total $bar-max-width: the
+// container's padding and border sit outside the measured size.
+$bar-chrome: calc(2 * #{$bar-padding} + 2 * #{$bar-border});
+
+.container {
+  background-color: var(--color-surface-70);
+  backdrop-filter: blur(var.$blur-base);
+  color: var(--color-text);
+  border-radius: var.$radius-lg;
+  border: 1px solid var(--color-border-muted);
+  touch-action: auto;
+  pointer-events: auto;
+  box-shadow: var.$box-shadow-base;
+
+  // Width and height are animated inline from the measurement of `.content`.
+  // `content-box` makes those values mean exactly "the size of `.content`", so
+  // this element's own padding and border stack outside them.
+  box-sizing: content-box;
+  padding: $bar-padding;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-sm;
+  width: max-content;
+  min-width: min-content;
+}
+
+.loaderContainer {
+  min-width:  12rem;
+}
+
+.inputContainer {
+  display: flex;
+  width: min(
+          calc(100vw - #{$bar-gutter} - #{$bar-chrome}),
+          calc(#{$bar-max-width} - #{$bar-chrome})
+  );
+  gap: var.$space-sm;
+  // No `width: 100%`: a percentage contributes nothing to `.content`'s
+  // max-content width, which would leave `min-width` as the bar's only size.
+  // As a flex item it stretches to fill anyway.
+}
+
+.input {
+  flex: 1 1 auto;
+  min-width: 0;
+  line-height: 1.4;
+  padding: var.$space-2xs 0;
+  max-height: 6rem;
+
+  appearance: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  font-family: var.$font-mono;
+  font-size: var.$font-size-base;
+  resize: none;
+
+  field-sizing: content;
+}
+
+.sendBtn {
+  background-color: var(--color-surface-negative);
+  color: var(--color-surface);
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var.$transition-base;
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  gap: var.$space-xs;
+}
+.promptBtn {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: var.$space-xs;
+  border: 1px solid var(--color-border-default);
+  padding: var.$space-2xs var.$space-xs;
+  min-height: 34px;
+  font-size: var.$font-size-sm;
+  transition: var.$transition-base;
+  &:hover {
+    opacity: 0.7
+  }
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.promptBtn,
+.sendBtn {
+  border-radius: calc(#{var.$radius-lg} - #{var.$space-xs});
+}
+
+.sendBtn:disabled {
+  opacity: 0.5;
+}

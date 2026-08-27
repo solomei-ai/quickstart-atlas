@@ -1,0 +1,19 @@
+.wrapper {
+  flex: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+.brandWrapper {
+  border-radius: var(--cui-radius-sm);
+  background-color: var(--cui-color-surface-brand-muted);
+}

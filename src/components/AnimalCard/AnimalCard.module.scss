@@ -1,0 +1,100 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  padding: var.$space-sm;
+  color: var(--color-text);
+  background-color: var(--color-surface-70);
+  border-radius: var.$radius-sm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var.$box-shadow-base;
+  gap: var.$space-lg;
+  // 356px everywhere; a consuming layout may enlarge the card by setting
+  // --animal-card-max-width (see AnimalComparison).
+  max-width: var(--animal-card-max-width, 356px);
+  backdrop-filter: blur(var.$blur-base);
+  transition: scale 0.21s ease-in-out;
+
+  @media (pointer: fine) {
+
+    &:hover {
+      scale: 0.98;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: var.$font-weight-bold;
+}
+
+.description {
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.name {
+  font-size: var.$font-size-xl;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.heading {
+  font-weight: var.$font-weight-bold;
+  font-size: var.$font-size-base;
+  text-transform: uppercase;
+}
+
+.row {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: var.$space-2xs;
+  flex-wrap: wrap;
+  font-size: var.$font-size-sm;
+}
+
+.item {
+  // Separate items with a middle dot — but not after the last one.
+  &:not(:last-child)::after {
+    content: '·';
+    margin-left: var.$space-2xs;
+  }
+}
+
+.shape {
+  width: 2.3rem;
+  height: 1.3rem;
+  border-radius: 80%;
+  background-color: var(--color-text);
+}
+
+.imageContainer {
+  height: 12rem;
+  margin: 0 auto;
+}
+
+.image {
+  height: 100%;
+  width: auto;
+  // Wide images on narrow cards (e.g. AnimalComparison on mobile) scale down
+  // instead of overflowing the card.
+  max-width: 100%;
+  object-fit: contain;
+  --webkit-user-drag: none;
+    transition: scale 0.21s ease-in-out;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: var.$space-lg;
+  flex: 1;
+  justify-content: space-between;
+  text-align: left;
+}

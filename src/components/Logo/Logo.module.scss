@@ -1,0 +1,35 @@
+@use '../../styles/abstracts/variables' as var;
+
+.logo {
+	display: inline-flex;
+	align-items: center;
+	gap: var.$space-xs;
+}
+
+.name {
+	margin: 0;
+	font-weight: var.$font-weight-bold;
+	line-height: 1;
+	color: var(--color-text);
+	text-transform: uppercase;
+}
+
+.size-sm {
+	gap: var.$space-sm;
+
+	.name {
+		font-size: var.$font-size-lg;
+	}
+}
+
+.size-md .name {
+	font-size: var.$font-size-xl;
+}
+
+.size-lg {
+	gap: var.$space-sm;
+
+	.name {
+		font-size: var.$font-size-2xl;
+	}
+}

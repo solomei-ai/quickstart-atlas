@@ -1,0 +1,74 @@
+@use '../../styles/abstracts/variables' as var;
+
+$marker-width: 24px;
+
+.container {
+  display: flex;
+  position: fixed;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  flex-direction: column;
+  align-items: flex-end;
+  width: $marker-width;
+  z-index: var.$z-sticky;
+}
+
+.markerContainer {
+  padding: var.$space-xs 0;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  // Anchored at the column top; its `y` (a spring driven by the pointer)
+  // positions it. Zero height + centered flow centres the icon on that Y line,
+  // so no per-icon offset is needed.
+  top: 0;
+  right: 1.8rem;
+  display: flex;
+  height: 0;
+  align-items: center;
+  pointer-events: none;
+}
+
+// Zero-height anchor (same trick as .arrow): its spring-driven `y` positions it
+// and the centered flow keeps the card's middle on that Y line as it glides.
+.flyout {
+  position: absolute;
+  top: 2rem;
+  right: 3.2rem;
+  display: flex;
+  height: 0;
+  align-items: center;
+  pointer-events: none;
+}
+
+.flyoutCard {
+  display: flex;
+  gap: var.$space-sm;
+  align-items: center;
+  padding: var.$space-sm;
+  border-radius: var.$radius-xl 0 var.$radius-xl var.$radius-xl;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border-muted);
+  width: 20rem;
+  font-size: var.$font-size-sm;
+  text-align: left;
+  color: var(--color-text-muted);
+}
+
+.marker {
+  width: $marker-width;
+  height: 2px;
+  padding: 0;
+  border: none;
+  border-radius: var.$radius-full;
+  background-color: var(--color-text);
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 2px solid var(--color-text);
+    outline-offset: 2px;
+  }
+}

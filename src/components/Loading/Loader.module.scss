@@ -1,0 +1,80 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  padding: var.$space-md;
+  @media (max-width: 679px) {
+    text-align: center;
+  }
+}
+
+.background {
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  z-index: 999;
+}
+
+.loadingPhrase {
+  font-family: var.$font-display;
+  font-size: var.$font-size-3xl;
+}
+
+// ProgressLoader
+
+.progressLoaderContainer {
+  display: flex;
+  align-items: start;
+  gap: var.$space-sm;
+  margin-inline: auto;
+  min-width: 12rem;
+  z-index: 50;
+  width: fit-content;
+  overflow: hidden;
+  padding: var.$space-xs var.$space-sm;
+}
+
+.fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 8rem;
+  background-color: var(--color-surface-90);
+  border-radius: var.$radius-sm;
+  backdrop-filter: var.$blur-base;
+}
+
+.phraseWrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 7rem;
+  text-align: left;
+}
+
+.phraseMeasure {
+  visibility: hidden;
+  white-space: nowrap;
+}
+
+.phrase {
+  position: absolute;
+  inset: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.iconsContainer {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var.$space-2xs;
+}

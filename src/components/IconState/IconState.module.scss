@@ -1,0 +1,59 @@
+.wrapper {
+  flex: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+  color: var(--color-surface);
+
+  [data-theme='light'] & {
+    color: var(--color-text);
+  }
+
+  // Reversed: use the negative colours so the icon reads on a dark/coloured
+  // background (light theme falls back to the cream surface, since its
+  // surface-negative is the same dark tone as the normal colour).
+  &.reverse {
+    color: var(--color-surface-negative);
+
+    [data-theme='light'] & {
+      color: var(--color-surface);
+    }
+  }
+
+  // Some source SVGs (e.g. invertebrate) draw shapes flush against the viewBox
+  // edge, so half the stroke would be clipped by the outermost <svg>'s default
+  // overflow: hidden. Let the stroke render past the edge instead.
+  overflow: visible;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+// State colours are applied to the shapes themselves (not just the <svg>) so a
+// child's own `fill="#…"` presentation attribute is overridden — a class
+// selector always wins over a presentation attribute, whereas an inherited
+// value from the <svg> would not.
+.filled :global(*) {
+  fill: currentColor;
+  stroke: none;
+}
+
+.outline :global(*) {
+  fill: none;
+  stroke: currentColor;
+}
+
+.dashed :global(*) {
+  fill: none;
+  stroke: currentColor;
+  stroke-dasharray: 4 9; // `<dash> <gap>` — raise the second value for more space between segments
+}

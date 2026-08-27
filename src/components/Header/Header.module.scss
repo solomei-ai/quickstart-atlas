@@ -1,0 +1,39 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100dvw;
+  padding: var.$space-xl var.$space-xl 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  touch-action: none;
+  pointer-events: none;
+}
+
+.action {
+  touch-action: auto;
+  pointer-events: auto;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 679px) {
+
+  .container {
+    padding: var.$space-sm var.$space-sm 0;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+}

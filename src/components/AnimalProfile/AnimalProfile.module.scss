@@ -1,0 +1,162 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-lg;
+  padding: var.$space-sm;
+  color: var(--color-text);
+  box-sizing: border-box;
+  max-width: min(100%, #{var.$container-max});
+  margin: 0 auto;
+
+  @include respond-to('lg') {
+    // Desktop: the whole component is pinned to the viewport — no page scroll.
+    overflow: hidden;
+    padding: var.$space-xl;
+  }
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: var.$space-md;
+}
+
+.headerContainer h2 {
+  font-size: var.$space-3xl;
+  text-transform: capitalize;
+}
+
+.grid {
+  // Mobile-first: stack into one column, grow with content so the page scrolls.
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-2xl;
+
+  @include respond-to('lg') {
+    // Desktop: fill the leftover space inside the pinned container.
+    display: grid;
+    grid-template-columns: minmax(0, 560px) 1fr;
+    gap: var.$space-2xl;
+    min-height: 0;
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-xl;
+  // Let flex/grid children shrink below their content so the image is contained.
+  min-height: 0;
+
+  @include respond-to('lg') {
+    // Content taller than the column scrolls inside it instead of the page.
+    overflow-y: auto;
+  }
+}
+
+.section > h2 {
+  font-family: var.$font-display;
+  font-size: var.$font-size-2xl;
+  line-height: var.$line-height-tight;
+  margin: 0;
+}
+
+.rightContentContainer {
+  display: flex;
+  gap: var.$space-xl;
+  flex: 1;
+  min-height: 0;
+}
+
+.imageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var.$space-lg;
+  flex: 1;
+  min-height: 0;
+
+  p {
+    margin: 0;
+    font-weight: var.$font-weight-bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.imageContainer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  min-height: 0;
+
+  @include respond-to('lg') {
+    max-height: min(60vh, 600px);
+  }
+}
+
+.imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  -webkit-user-drag: none;
+}
+
+.featuresContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var.$space-xs;
+}
+
+.statsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1025px) {
+  .desktop {
+    display: none;
+  }
+}
+
+.statCards {
+  // 2 columns on small screens, 4 from the `lg` breakpoint up.
+  // `minmax(0, 1fr)` lets tracks shrink so cards never overflow — the StatCard
+  // caps its own width at 20rem and has no min-width.
+  display: grid;
+  grid-template-columns: 1fr;
+  // Single column: center each card instead of the alternating-edge stagger
+  // below, which only reads correctly once there's more than one track.
+  justify-items: center;
+  gap: var.$space-md;
+  // Fill the centering container so the grid stays wide (otherwise it collapses
+  // to content width inside the flexbox), capped at $container-max.
+  width: 100%;
+  max-width: var.$container-max;
+  // Keep the footer at its natural height inside the pinned container.
+  flex-shrink: 0;
+
+  @include respond-to('sm') {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    // Cards are narrower than their track (capped width in StatCard), so align
+    // them to alternating edges instead of the stretch default's left bias.
+    > *:nth-child(odd) {
+      justify-self: end;
+    }
+
+    > *:nth-child(even) {
+      justify-self: start;
+    }
+  }
+
+  @include respond-to('xl') {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

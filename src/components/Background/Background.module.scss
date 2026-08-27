@@ -1,0 +1,40 @@
+.background {
+  // Absolute (not fixed) so it spans the full document height and scrolls
+  // with the page, rather than staying pinned to the viewport.
+  position: absolute;
+  inset: 0;
+  z-index: $z-base;
+  pointer-events: none;
+}
+
+.base {
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-surface);
+  transition: background-color 0.3s ease-in-out;
+  // The white overlay sits above the texture, fading it. Raise the alpha
+  // (0.75) toward 1 for a more washed-out image, lower it for a stronger one.
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
+    url('../../assets/assets/storybook-bg.png');
+  // Full viewport width, no horizontal repeat; tiles vertically down the page.
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
+
+// Each variant's image, blended `multiply` over everything beneath it; opacity
+// is animated by motion for the cross-fade. The image itself comes from an
+// inline `background-image` set per variant.
+// Sits in the root stacking context — above page content (`.app`, z-index 1)
+// but below the prompt bar (Footer, z-index 3). It must NOT be nested inside
+// a stacking-context-creating wrapper, or the blend gets isolated from the
+// page content it's meant to multiply over.
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  pointer-events: none;
+}

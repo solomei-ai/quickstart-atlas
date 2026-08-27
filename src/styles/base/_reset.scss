@@ -1,0 +1,156 @@
+// =============================================================================
+// Modern CSS reset.
+// A clean baseline that removes default UA styling and sets sensible defaults.
+// =============================================================================
+
+// Partials loaded via @use don't receive Vite's auto-injected abstracts
+// (that only reaches the files Vite hands to Sass directly), so import here.
+@use '../abstracts' as *;
+
+// Box sizing & default margin/padding reset.
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// Core root defaults.
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  text-rendering: optimizeLegibility;
+  // The canvas/overscroll (rubber-band) area takes its colour from <html>;
+  // without this it shows the browser default (white) past the page edges.
+  background-color: var(--color-surface);
+  // `none` also suppresses the local rubber-band bounce; `contain` only stops
+  // scroll chaining to the parent/browser.
+  overscroll-behavior: none;
+  // The page still scrolls (Lenis-driven); only the scrollbar indicator is
+  // hidden so it doesn't sit on top of the design.
+  scrollbar-width: none;
+  // The app owns the scroll position (Lenis + per-round pre-scroll). Round
+  // blocks stream in sorted by priority, so high-priority blocks insert ABOVE
+  // the viewport; browser scroll anchoring would compensate for each insert
+  // and drag the viewport down past the top of the round.
+  overflow-anchor: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  min-height: 100svh;
+  // Establishes the containing block for absolutely positioned descendants
+  // (e.g. <Background>) so `inset: 0` spans the full document height instead
+  // of falling back to the initial containing block's viewport-only height.
+  position: relative;
+  line-height: $line-height-base;
+  // Google Sans Code is the default for all non-heading text; headings below
+  // override with $font-display.
+  font-family: $font-mono;
+  font-size: $font-size-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  // Theme-driven (see base/_themes.scss).
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+// Headings inherit a tighter rhythm; sizes are set by component/utility styles.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-display;
+  line-height: $line-height-tight;
+  font-weight: $font-weight-regular;
+  text-wrap: balance;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: $font-mono;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+// Media defaults.
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// Form elements inherit typography.
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+// Links.
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// Lists used as navigation/containers.
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+// Avoid orphaned text breaking layout.
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+// Respect reduced-motion preferences.
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+// Useful root focus styling.
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}

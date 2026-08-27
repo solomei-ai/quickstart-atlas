@@ -1,0 +1,51 @@
+@use '../../styles/abstracts/variables' as var;
+
+.headline {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: var.$space-xl;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.line {
+	margin: 0;
+	line-height: 1.05;
+	font-family: var.$font-display;
+}
+
+// Clips the rising text; the inner span starts below this box and slides up.
+.mask {
+	display: block;
+	overflow: hidden;
+	// A touch of vertical padding so tall ascenders/descenders aren't clipped
+	// at rest, while still hiding the text fully when translated 110% down.
+	padding-block: 0.08em;
+}
+
+.inner {
+	display: block;
+	// Hint the compositor; the transform itself is driven by motion.
+	will-change: transform;
+}
+
+.start {
+	text-align: start;
+	align-self: flex-start;
+	font-size: var.$font-size-5xl;
+	padding-left: var.$space-lg;
+}
+
+.center {
+	text-align: center;
+	align-self: center;
+	font-size: var.$font-size-4xl;
+}
+
+.end {
+	text-align: end;
+	align-self: flex-end;
+	font-size: var.$font-size-5xl;
+	padding-right: var.$space-lg;
+}

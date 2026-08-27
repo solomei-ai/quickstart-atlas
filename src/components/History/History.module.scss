@@ -1,0 +1,277 @@
+@use '../../styles/abstracts/variables' as var;
+
+// HistoryTile
+
+.historyTileContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: var.$space-sm;
+    gap: var.$space-md;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--color-border-muted);
+  }
+
+  h4 {
+    text-align: left;
+    font-size: var.$font-size-xl;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.tileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inline {
+  display: flex;
+  gap: var.$space-xs;
+  align-items: center;
+  font-size: var.$font-size-base;
+
+  span {
+    text-transform: uppercase;
+  }
+}
+
+// MapIcon
+
+.mapIconContainer {
+  padding: var.$space-sm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var.$radius-md;
+  position: relative;
+}
+
+.light {
+  color: var(--color-surface-negative);
+  background-color: var(--color-surface);
+  border: 1px solid  var(--color-border-muted);
+}
+
+.dark {
+  background-color: var(--color-surface-negative);
+  border: 1px solid var(--color-surface-negative);
+  color: var(--color-surface);
+}
+
+.interactionContainer {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border-muted);
+  color: var(--color-surface-negative);
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var.$radius-xs;
+}
+
+// HistoryMap
+
+.mapContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-self: stretch;
+  min-height: 0;
+  min-width: 0;
+  color: var(--color-text-primary);
+}
+
+.mapHeader {
+  display: flex;
+  align-items: center;
+  gap: var.$space-md;
+  padding-bottom: var.$space-sm;
+  flex-wrap: wrap;
+}
+
+.hoverable {
+  background-color: transparent;
+  padding: 0 var.$space-xs;
+  border-radius: var.$radius-sm;
+  transition: background-color var.$transition-base;
+  position: relative;
+  @media (pointer: fine) {
+    &:hover {
+      background-color: var(--color-border-muted);
+    }
+  }
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: var.$space-2xs;
+  padding: var.$space-2xs var.$space-sm;
+  border: 1px solid var(--color-border-muted);
+  border-radius: var.$radius-sm;
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-family: var.$font-mono;
+  font-size: var.$font-size-sm;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  span {
+    font-size: var.$font-size-lg;
+    line-height: 1;
+  }
+}
+
+.mapMeta {
+  display: flex;
+  flex-direction: column;
+  font-family: var.$font-mono;
+  font-size: var.$font-size-xs;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding-right: var.$space-md;
+  border-right: 1px solid var(--color-border-muted);
+}
+
+.mapTitle {
+  flex: 1;
+  min-width: 0;
+  font-family: var.$font-display;
+  font-size: var.$font-size-2xl;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mapScroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: var.$space-2xl 0;
+}
+
+.mapTrack {
+  position: relative;
+  width: 100%;
+}
+
+.connectors {
+  position: absolute;
+  inset: 0;
+  color: var(--color-text-primary);
+  pointer-events: none;
+}
+
+.mapNode {
+  position: absolute;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var.$space-2xs;
+}
+
+.nodeButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var.$space-2xs;
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+.startPin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var.$space-sm;
+  border: 1px solid var(--color-border-muted);
+  border-radius: var.$radius-md;
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+}
+
+.nodeLabel {
+  font-family: var.$font-mono;
+  font-size: var.$font-size-xs;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.nodePill {
+  max-width: 180px;
+  padding: var.$space-2xs var.$space-sm;
+  border: 1px solid var(--color-border-muted);
+  border-radius: var.$radius-sm;
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-family: var.$font-mono;
+  font-size: var.$font-size-sm;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// Flyout
+
+.flyoutContainer {
+  padding: var.$space-sm;
+  border-radius: var.$radius-xl 0 var.$radius-xl var.$radius-xl;
+  border: 1px solid var(--color-border-muted);
+  background-color: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-sm;
+  max-width: 671px;
+}
+
+.flyoutSection,
+.detailSection {
+  display: flex;
+  gap: var.$space-sm;
+
+  &.detailSection {
+    justify-content: space-between;
+    color: var(--color-text-muted);
+  }
+}
+
+.interactionLabel {
+  display: flex;
+  flex: 1;
+  &:last-child {
+    justify-content: end;
+  }
+}
+
+.extraItemContainer {
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var.$radius-md;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border-muted);
+  font-size: var.$font-size-sm;
+}
+
+// Portaled to <body> and positioned inline from the trigger's rect, so it is
+// never clipped by the scrolling history list or any transformed ancestor.
+.flyout {
+  position: fixed;
+  z-index: 99;
+  pointer-events: none;
+}

@@ -1,0 +1,111 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: var.$space-sm;
+  gap: var.$space-md;
+  color: var(--color-text);
+  background-color: var(--color-surface-base-70);
+  border-radius: var.$radius-sm;
+  max-width: var.$cards-container-max;
+  margin: 0 auto;
+  box-shadow: var.$box-shadow-base;
+  @media (max-width: 700px) {
+    margin: var.$space-xs;
+  }
+}
+
+.contentContainer {
+  display: flex;
+  gap: var.$space-md;
+  padding-top: var.$space-md;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+
+.imageContainer {
+  display: flex;
+  flex: 1;
+  background-color: var(--color-surface-base-70);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: var.$radius-sm;
+  min-height:  360px;
+}
+
+.category {
+  text-transform: uppercase;
+  color: var(--color-surface);
+  font-weight: var.$font-weight-bold;
+  display: flex;
+  align-items: center;
+  gap: var.$space-sm;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var.$space-lg;
+}
+
+.right {
+  max-width: 640px;
+  gap: var.$space-xl;
+  justify-content: flex-end;
+}
+
+.header {
+  font-size: var.$font-size-sm;
+  font-weight: var.$font-weight-bold;
+  text-transform: uppercase;
+}
+
+.featuresContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-sm;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var.$space-sm
+}
+
+.chipsContainer {
+  display: flex;
+  gap: var.$space-sm;
+  flex-wrap: wrap;
+}
+
+.chip {
+  text-transform: uppercase;
+  padding: var.$space-xs var.$space-sm;
+  border-radius: var.$radius-sm;
+  background-color: var(--color-surface-base-70);
+}
+
+@media (max-width: 1025px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .right {
+    align-items: center;
+    max-width: unset;
+  }
+
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 690px) {
+  .cardsContainer {
+    grid-template-columns: 1fr;
+  }
+}

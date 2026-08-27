@@ -1,0 +1,9 @@
+// Barrel for the abstracts layer. This is the file injected into every
+// .scss module via Vite's `additionalData`, so `@use '@styles/abstracts' as *`
+// gives every file access to all variables and mixins.
+//
+// Only put things here that produce NO CSS output (variables, mixins,
+// functions) — anything emitting rules would be duplicated into every file.
+
+@forward 'variables';
+@forward 'mixins';

@@ -1,0 +1,14 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  touch-action: none;
+  pointer-events: none;
+  bottom: 8.5rem;
+  text-transform: uppercase;
+}
