@@ -6,8 +6,8 @@
 // page gain a capability at each step.
 //
 //   STAGE 1  (now)          the styled shell — no Callimacus at all
-//   STAGE 2  (part 4 §3)    connect to your project
-//   STAGE 3  (part 4 §4)    render the blocks your project composes
+//   STAGE 2  (part 2 §3)    connect to your project
+//   STAGE 3  (part 2 §3)    render the blocks your project composes
 // ─────────────────────────────────────────────────────────────────────────────
 
 import styles from './App.module.scss'

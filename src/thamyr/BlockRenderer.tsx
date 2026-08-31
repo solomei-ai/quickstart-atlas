@@ -4,9 +4,11 @@ import AnimalCardList from "../components/AnimalscardList/AnimalCardList.tsx";
 import AnimalProfile from "../components/AnimalProfile/AnimalProfile.tsx";
 import HabitatCard from "../components/HabitatCard/HabitatCard.tsx";
 import RelatedQuestions from "../components/RelatedQuestions/RelatedQuestions.tsx";
+import ThemedSection from "../components/ThemedSection/ThemedSection.tsx";
 import { animalsGridFromBlock } from "./animalsGridFromBlock.ts";
+import { themedSectionFromBlock } from "./themedSectionFromBlock.ts";
 import { animalFromSkesisHit, habitatFromSkesisHit } from "./animalFromSkesis.ts";
-import { normalizeType, skesisAnimalHits, skesisHabitatHits, asFact, asFacts, type Fact } from "./blockData.ts";
+import { normalizeType, skesisAnimalHits, skesisHabitatHits, asFact, asFacts, listOf, type Fact } from "./blockData.ts";
 
 /**
  * Resolve a Thamyr block to its content node. One case per block type the tenant
@@ -34,12 +36,16 @@ function renderBlockContent(block: Block, isLatestRelatedQuestions?: boolean) {
 			return <AnimalProfile animal={animalFromSkesisHit(hit)} curiosities={curiosities} />;
 		}
 		case 'relQuestions': {
-			const questions = asFacts((block.data as { questions?: unknown })?.questions);
+			const questions = asFacts(listOf((block.data as { questions?: unknown })?.questions, 'questions'));
 			if (questions.length === 0) return null;
 			// Kept mounted even when no longer the latest round so its
 			// AnimatePresence survives to play the exit animation; visibility
 			// (and thus enter/exit) is driven by the `visible` prop.
 			return <RelatedQuestions questions={questions} visible={isLatestRelatedQuestions} />;
+		}
+		case 'ThemedSection': {
+			const props = themedSectionFromBlock(block.data);
+			return props ? <ThemedSection {...props} /> : null;
 		}
 		case 'HabitatCard': {
 			// The slot may include animals (the engine ignores `kinds`) — keep only

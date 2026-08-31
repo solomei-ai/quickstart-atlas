@@ -54,3 +54,19 @@ export function asFacts(value: unknown): Fact[] {
 		? value.map(asFact).filter((fact): fact is Fact => fact !== undefined)
 		: [];
 }
+
+/**
+ * Read an array out of an `llm` JSON slot. The platform injects such an item's
+ * WHOLE parsed object at `data[<id>]`, so an item with id `questions` whose
+ * schema is `{questions: [...]}` lands at `data.questions.questions` — one level
+ * deeper than the slot name suggests. Accepts either shape so the renderer does
+ * not care which the block author chose.
+ */
+export function listOf(value: unknown, key: string): unknown[] {
+	if (Array.isArray(value)) return value;
+	if (value !== null && typeof value === 'object') {
+		const inner = (value as Record<string, unknown>)[key];
+		if (Array.isArray(inner)) return inner;
+	}
+	return [];
+}

@@ -1,0 +1,56 @@
+// Fills its positioned ancestor at any height — the pattern repeats vertically, so there
+// is no height to measure and nothing to recompute when the section grows.
+.field {
+  display: block;
+  position: absolute;
+
+  // Overhangs the section by `--scatter-bleed` top and bottom. Without it the art is sliced along a
+  // straight line at both edges: the outermost `<svg>` clips to its own viewport (UA `overflow:
+  // hidden`, which the section cannot opt out of), and the `<rect>` painting the pattern is that
+  // viewport exactly, so nothing is drawn past it either. Overhanging by one asset's reach moves
+  // both cuts outside the section, leaving whole leaves at the edges.
+  //
+  // The component sets the value — only it knows the basis the art was sized against.
+  // Height is stated rather than left to `top`/`bottom`: an `<svg>` is a replaced element, so
+  // `height: auto` would resolve to its intrinsic size and drop `bottom` as over-constrained.
+  left: 0;
+  right: 0;
+  top: calc(-1 * var(--scatter-bleed, 0px));
+  width: 100%;
+  height: calc(100% + 2 * var(--scatter-bleed, 0px));
+
+  // The overhang lands in the neighbouring sections' space, and sections are siblings ordered by
+  // DOM, so at z-index 0 a section's upward bleed would paint over the *previous* section's text.
+  // Negative z-index drops the field below every positioned sibling instead. The section carries no
+  // background of its own, so this does not change what the field multiplies over.
+  z-index: -1;
+
+  // The bleed relocates the SVG's hard edge rather than removing it, which matters as soon as two
+  // fielded sections are adjacent: each field's cut then lands a full bleed *inside* its neighbour,
+  // and the two multiply layers stack into a darker slab bounded by two straight lines. Ramping the
+  // alpha to zero across the overhang cuts the art where it is already invisible. The ramp lives
+  // entirely outside the section — full strength from the top edge to the bottom edge — so nothing
+  // in the section is dimmed, and neighbours cross-fade instead of butting.
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    #000 var(--scatter-bleed, 0px),
+    #000 calc(100% - var(--scatter-bleed, 0px)),
+    transparent 100%
+  );
+
+  pointer-events: none;
+  opacity: var(--scatter-opacity, 0.6);
+  // Ink into the section rather than sitting on top of it: white art drops out, the art's own
+  // shading darkens what is behind it. Blending belongs here on the root and nowhere deeper —
+  // a `<pattern>` renders its tile offscreen as an isolated group, so `mix-blend-mode` on the
+  // assets themselves would blend against transparency and do nothing.
+  //
+  // Two things break it from outside this file, both silently:
+  // - any `opacity`, `filter`, `transform` or `isolation: isolate` on an ancestor between here
+  //   and the surface being multiplied over — that ancestor becomes the isolation boundary and
+  //   the blend stops at it;
+  // - DOM order. Only what paints *before* the field is its backdrop, so the field multiplies
+  //   over the section's background but not over content that follows it in the section.
+  mix-blend-mode: multiply;
+}

@@ -1,0 +1,1 @@
+export type ThemeAsset = Record<string, string[]>;
