@@ -1,5 +1,6 @@
 import styles from './AnimalEntry.module.scss';
 import useCustomInteraction from "../../hooks/useCustomInteraction.ts";
+import {useLoadingStore} from "../../stores/loadingStore.ts";
 
 type AnimalEntryProps = {
 	name: string;
@@ -10,10 +11,14 @@ type AnimalEntryProps = {
 
 export function AnimalEntry({imageUrl, name, theme = 'light', size = 'md'}: AnimalEntryProps) {
 	const {handleClick} = useCustomInteraction({interactionId: 'animalClick', target: 'animals'});
+	// Matches AnimalCard: a second click while a round is generating would enqueue
+	// a duplicate CREATE_ROUND and a duplicate history entry.
+	const isLoading = useLoadingStore(state => state.isLoading);
 	const contentStyle= styles[`content-${size}`];
 	return(
 		<button
 			type={'button'}
+			disabled={isLoading}
 			onClick={() => handleClick(name)}
 			aria-label={name}
 			className={styles.container}>

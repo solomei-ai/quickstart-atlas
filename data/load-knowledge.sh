@@ -21,17 +21,25 @@ tries=${TRIES:-4}
 
 tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
 
-# What is already loaded, so a re-run resumes instead of duplicating.
-callimacus document list 2>/dev/null > "$tmp/existing.json" || echo '[]' > "$tmp/existing.json"
+# What is already loaded, so a re-run resumes instead of duplicating. This must
+# succeed: treating a failed lookup as "nothing present" would re-submit every
+# document and duplicate the whole catalogue, so fail before creating anything.
+if ! callimacus document list > "$tmp/existing.json" 2>"$tmp/list.err"; then
+  echo "Could not read the project's existing documents — refusing to load," >&2
+  echo "because re-submitting would duplicate anything already there." >&2
+  sed 's/^/  /' "$tmp/list.err" >&2
+  exit 1
+fi
+if ! python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$tmp/existing.json" 2>/dev/null; then
+  echo "Unexpected response from \`callimacus document list\` — refusing to load." >&2
+  exit 1
+fi
 
 python3 - "$src" "$tmp" "$chunk" <<'PY'
 import json, sys, os
 src, out, chunk = sys.argv[1], sys.argv[2], int(sys.argv[3])
 docs = json.load(open(src))
-try:
-    have = {d.get('name') for d in json.load(open(os.path.join(out, 'existing.json')))}
-except Exception:
-    have = set()
+have = {d.get('name') for d in json.load(open(os.path.join(out, 'existing.json')))}
 todo = [d for d in docs if d.get('name') not in have]
 for i in range(0, len(todo), chunk):
     with open(os.path.join(out, 'part-%04d.json' % (i // chunk)), 'w') as fh:

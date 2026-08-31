@@ -1,5 +1,21 @@
 @use '../../styles/abstracts/variables' as var;
 
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+
+	&:disabled {
+		cursor: default;
+	}
+}
+
+
 .imageContainer {
   position: relative;
   width: 100%;

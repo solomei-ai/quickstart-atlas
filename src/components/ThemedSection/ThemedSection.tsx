@@ -68,16 +68,18 @@ function ThemedSection({animals, theme, description, title}: ThemedSectionProps)
 			</div>
 			{
 				animals.map(({animal, fact}, index) => {
-					if (!fact) {
-						return null
-					}
+					// `fact` is the generated caption and is allowed to be absent. Keep the
+					// animal either way: dropping the section would also drop its
+					// AnimalEntry, and with it the only way to open that animal.
 					return (
 						<div key={`${animal.slug}-${index}`} className={styles.animalSection}>
-							<div data-theme={'light'} className={styles.textContainer}>
-								<div className={styles.cardContainer}>
-									{fact && <FactSection title={fact.title} description={fact.text}/>}
+							{fact && (
+								<div data-theme={'light'} className={styles.textContainer}>
+									<div className={styles.cardContainer}>
+										<FactSection title={fact.title} description={fact.text}/>
+									</div>
 								</div>
-							</div>
+							)}
 							<div className={styles.animalContainer}>
 								<AnimalEntry name={animal.name} imageUrl={animal.imageUrl} size={'xl'} theme={'light'}/>
 							</div>
