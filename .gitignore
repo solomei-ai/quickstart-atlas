@@ -30,3 +30,6 @@ storybook-static
 
 # local secrets — the reader creates their own
 .env
+
+# upload-images.sh writes the handle map here
+data/.image-urls.tsv

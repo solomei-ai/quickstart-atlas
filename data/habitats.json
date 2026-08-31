@@ -1,0 +1,363 @@
+[
+ {
+  "habitat": "Canopy",
+  "category": "Forest Canopy",
+  "name": "Amazon Canopy",
+  "description": "The sunlit roof of the rainforest, a tangle of crowns 30 to 50 metres above the floor. Most of the forest's life never touches the ground, feeding, mating, and nesting entirely among the leaves.",
+  "features": [
+   "arboreal",
+   "layered",
+   "biodiverse",
+   "sunlit"
+  ],
+  "climate": "Tropical, 24–30°C",
+  "rainfall": "2,000–3,000 mm/yr",
+  "drySeason": "None — wet year-round",
+  "canopy": "Kapok, Brazil nut, fig",
+  "slug": "canopy",
+  "imageUrl": "images/habitats/canopy.webp",
+  "published": true
+ },
+ {
+  "habitat": "Arboreal",
+  "category": "Tree-Dwelling Realm",
+  "name": "Borneo Lowland Treetops",
+  "description": "A vertical world lived entirely in the branches. Specialists here glide, swing, and grip rather than walk, with prehensile tails and hooked claws built for a life that never comes down.",
+  "features": [
+   "arboreal",
+   "prehensile",
+   "agile",
+   "evergreen"
+  ],
+  "climate": "Tropical, 25–32°C",
+  "rainfall": "2,500–4,000 mm/yr",
+  "drySeason": "None — wet year-round",
+  "canopy": "Dipterocarp, strangler fig",
+  "slug": "arboreal",
+  "imageUrl": "images/habitats/arboreal.webp",
+  "published": true
+ },
+ {
+  "habitat": "Forest",
+  "category": "Temperate Broadleaf Forest",
+  "name": "Białowieża Forest",
+  "description": "One of Europe's last primeval lowland forests, where old oaks and hornbeams fall and rot where they stand. Deep leaf litter and standing deadwood make it a stronghold for bison, lynx, and countless beetles.",
+  "features": [
+   "deciduous",
+   "temperate",
+   "old-growth",
+   "seasonal"
+  ],
+  "climate": "Temperate, -4–18°C",
+  "rainfall": "600–700 mm/yr",
+  "drySeason": "Late summer (Jul – Sep)",
+  "canopy": "Oak, hornbeam, spruce",
+  "slug": "forest",
+  "imageUrl": "images/habitats/forest.webp",
+  "published": true
+ },
+ {
+  "habitat": "Rainforest",
+  "category": "Tropical Rainforest",
+  "name": "Amazon Rainforest",
+  "description": "The largest rainforest on Earth and home to roughly one in ten known species. Warm and soaked all year, its towering canopy and dim, humid floor pack more life into each hectare than almost anywhere else.",
+  "features": [
+   "humid",
+   "biodiverse",
+   "evergreen",
+   "stratified"
+  ],
+  "climate": "Tropical, 26–34°C",
+  "rainfall": "2,000–3,500 mm/yr",
+  "drySeason": "None — wet year-round",
+  "canopy": "Kapok, rubber, palm",
+  "slug": "rainforest",
+  "imageUrl": "images/habitats/rainforest.webp",
+  "published": true
+ },
+ {
+  "habitat": "Woodland",
+  "category": "Mediterranean Woodland",
+  "name": "California Oak Woodland",
+  "description": "Open ground dotted with scattered, wide-crowned trees, halfway between forest and grassland. Hot dry summers and mild wet winters shape a savanna of oaks where sunlight reaches the grassy floor.",
+  "features": [
+   "open-canopy",
+   "drought-tolerant",
+   "seasonal",
+   "temperate"
+  ],
+  "climate": "Mediterranean, 5–35°C",
+  "rainfall": "300–900 mm/yr",
+  "drySeason": "May – October",
+  "canopy": "Valley oak, blue oak",
+  "slug": "woodland",
+  "imageUrl": "images/habitats/woodland.webp",
+  "published": true
+ },
+ {
+  "habitat": "Grassland",
+  "category": "Temperate Grassland",
+  "name": "North American Prairie",
+  "description": "A sea of grass with almost no trees, kept open by drought, fire, and grazing herds. Deep, fertile soils built over millennia of root growth once fed vast bison migrations.",
+  "features": [
+   "treeless",
+   "grazed",
+   "fire-adapted",
+   "seasonal"
+  ],
+  "climate": "Continental, -20–35°C",
+  "rainfall": "300–900 mm/yr",
+  "drySeason": "Mid–late summer",
+  "canopy": "Bluestem, grama, switchgrass",
+  "slug": "grassland",
+  "imageUrl": "images/habitats/grassland.webp",
+  "published": true
+ },
+ {
+  "habitat": "Savanna",
+  "category": "Tropical Savanna",
+  "name": "Serengeti Savanna",
+  "description": "Open grassland studded with flat-topped acacias and a strong wet–dry rhythm. Its seasonal rains drive one of the planet's great spectacles — the annual migration of over a million wildebeest and zebra.",
+  "features": [
+   "grassy",
+   "scattered-trees",
+   "migratory",
+   "seasonal"
+  ],
+  "climate": "Tropical, 20–35°C",
+  "rainfall": "500–1,200 mm/yr",
+  "drySeason": "June – October",
+  "canopy": "Acacia, baobab",
+  "slug": "savanna",
+  "imageUrl": "images/habitats/savanna.webp",
+  "published": true
+ },
+ {
+  "habitat": "Desert",
+  "category": "Hot Desert",
+  "name": "Sonoran Desert",
+  "description": "A blazing, arid land that bursts briefly into bloom after rare rains. Towering saguaro cacti store water through months of drought, while most animals shelter underground and move only by night.",
+  "features": [
+   "arid",
+   "nocturnal",
+   "succulent",
+   "extreme-heat"
+  ],
+  "climate": "Arid, 5–48°C",
+  "rainfall": "75–300 mm/yr",
+  "drySeason": "Most of the year",
+  "canopy": "Saguaro, cholla, creosote",
+  "slug": "desert",
+  "imageUrl": "images/habitats/desert.webp",
+  "published": true
+ },
+ {
+  "habitat": "Tundra",
+  "category": "Arctic Tundra",
+  "name": "Siberian Arctic Tundra",
+  "description": "A frozen, treeless plain underlain by permafrost where the ground thaws only a few centimetres each summer. Life crowds into a brief burst of warmth before the long, dark winter returns.",
+  "features": [
+   "frozen",
+   "treeless",
+   "permafrost",
+   "windswept"
+  ],
+  "climate": "Polar, -40–12°C",
+  "rainfall": "150–250 mm/yr",
+  "drySeason": "Long winter (Sep – May)",
+  "canopy": "Moss, lichen, dwarf shrub",
+  "slug": "tundra",
+  "imageUrl": "images/habitats/tundra.webp",
+  "published": true
+ },
+ {
+  "habitat": "Mountain",
+  "category": "Alpine Highland",
+  "name": "Himalayan Alpine Zone",
+  "description": "The thin-aired world above the treeline, where temperature, oxygen, and vegetation drop with every hundred metres climbed. Specialists here endure cold, wind, and ferocious sun on rock and snow.",
+  "features": [
+   "high-altitude",
+   "rocky",
+   "cold",
+   "windswept"
+  ],
+  "climate": "Alpine, -25–15°C",
+  "rainfall": "400–1,500 mm/yr",
+  "drySeason": "Winter (Nov – Mar)",
+  "canopy": "Rhododendron, juniper, cushion plant",
+  "slug": "mountain",
+  "imageUrl": "images/habitats/mountain.webp",
+  "published": true
+ },
+ {
+  "habitat": "Cave",
+  "category": "Subterranean Karst",
+  "name": "Carlsbad Cavern System",
+  "description": "A lightless, near-constant world hollowed from limestone over millions of years. With no plants and little food, its blind, pale residents have traded sight and pigment for extreme energy efficiency.",
+  "features": [
+   "lightless",
+   "constant-temperature",
+   "blind",
+   "humid"
+  ],
+  "climate": "Stable, 12–16°C",
+  "rainfall": "Seepage only",
+  "drySeason": "None — buffered year-round",
+  "canopy": "None — fungi, bacterial mats",
+  "slug": "cave",
+  "imageUrl": "images/habitats/cave.webp",
+  "published": true
+ },
+ {
+  "habitat": "Wetland",
+  "category": "Tropical Floodplain",
+  "name": "Pantanal Wetland",
+  "description": "The world's largest tropical wetland, drowned and drained each year by seasonal floods. The pulse of rising and falling water concentrates fish, caiman, and wading birds into spectacular densities.",
+  "features": [
+   "flooded",
+   "marshy",
+   "seasonal",
+   "biodiverse"
+  ],
+  "climate": "Tropical, 17–34°C",
+  "rainfall": "1,000–1,400 mm/yr",
+  "drySeason": "May – September",
+  "canopy": "Reed, water hyacinth, palm",
+  "slug": "wetland",
+  "imageUrl": "images/habitats/wetland.webp",
+  "published": true
+ },
+ {
+  "habitat": "Freshwater",
+  "category": "Inland Freshwater",
+  "name": "Okavango Delta",
+  "description": "An inland delta where a river spills into the desert and simply evaporates rather than reaching the sea. Its clear, low-nutrient channels and lily-choked lagoons draw wildlife from across the dry Kalahari.",
+  "features": [
+   "aquatic",
+   "low-salinity",
+   "seasonal",
+   "clear-water"
+  ],
+  "climate": "Semi-arid, 5–38°C",
+  "rainfall": "450–550 mm/yr",
+  "drySeason": "April – October",
+  "canopy": "Papyrus, water lily, reed",
+  "slug": "freshwater",
+  "imageUrl": "images/habitats/freshwater.webp",
+  "published": true
+ },
+ {
+  "habitat": "River",
+  "category": "Lowland River",
+  "name": "Mekong River",
+  "description": "A vast, sediment-rich river that swells and shrinks with the monsoon, reversing the flow of its own tributaries. Among the most biodiverse rivers on Earth, it shelters giant catfish, stingrays, and freshwater dolphins.",
+  "features": [
+   "flowing",
+   "freshwater",
+   "migratory",
+   "sediment-rich"
+  ],
+  "climate": "Tropical, 20–35°C",
+  "rainfall": "1,000–2,000 mm/yr",
+  "drySeason": "November – April",
+  "canopy": "Riverine forest, reed bank",
+  "slug": "river",
+  "imageUrl": "images/habitats/river.webp",
+  "published": true
+ },
+ {
+  "habitat": "Lake",
+  "category": "Ancient Rift Lake",
+  "name": "Lake Baikal",
+  "description": "The oldest and deepest lake on Earth, holding a fifth of the world's unfrozen freshwater. Its cold, oxygen-rich depths have evolved hundreds of species — including the only truly freshwater seal — found nowhere else.",
+  "features": [
+   "deep",
+   "freshwater",
+   "ancient",
+   "endemic"
+  ],
+  "climate": "Continental, -19–14°C",
+  "rainfall": "200–450 mm/yr",
+  "drySeason": "Frozen Jan – May",
+  "canopy": "Sponge beds, submerged algae",
+  "slug": "lake",
+  "imageUrl": "images/habitats/lake.webp",
+  "published": true
+ },
+ {
+  "habitat": "Coral Reef",
+  "category": "Tropical Coral Reef",
+  "name": "Great Barrier Reef",
+  "description": "A living structure built by billions of tiny coral polyps, visible from space and packed with colour and life. Warm, clear, sunlit water lets reef-building corals thrive — and makes them acutely vulnerable to heat.",
+  "features": [
+   "saltwater",
+   "biodiverse",
+   "sunlit",
+   "threatened"
+  ],
+  "climate": "Tropical, 23–29°C",
+  "rainfall": "Oceanic — not applicable",
+  "drySeason": "None — submerged year-round",
+  "canopy": "Hard & soft coral, sea fan",
+  "slug": "coral-reef",
+  "imageUrl": "images/habitats/coral-reef.webp",
+  "published": true
+ },
+ {
+  "habitat": "Abyss",
+  "category": "Abyssal & Hadal Zone",
+  "name": "Mariana Hadal Zone",
+  "description": "The crushing, lightless world below 1,000 metres, the largest and least-explored habitat on the planet. Under immense pressure and near-freezing dark, life runs on marine snow and chemosynthesis rather than sunlight.",
+  "features": [
+   "lightless",
+   "high-pressure",
+   "cold",
+   "bioluminescent"
+  ],
+  "climate": "Stable, 1–4°C",
+  "rainfall": "Marine snow only",
+  "drySeason": "None — abyssal dark",
+  "canopy": "None — chemosynthetic mats",
+  "slug": "deep-sea",
+  "imageUrl": "images/habitats/deep-sea.webp",
+  "published": true
+ },
+ {
+  "habitat": "Coastal",
+  "category": "Intertidal Shoreline",
+  "name": "Pacific Rocky Coast",
+  "description": "The contested edge where land meets sea, drowned and exposed twice a day by the tides. Residents must endure pounding waves, shifting salinity, and hours out of water, clinging tight between high and low tide.",
+  "features": [
+   "intertidal",
+   "saltwater",
+   "tidal",
+   "rocky"
+  ],
+  "climate": "Temperate, 8–22°C",
+  "rainfall": "700–2,000 mm/yr",
+  "drySeason": "Tidal — twice daily",
+  "canopy": "Kelp, rockweed, eelgrass",
+  "slug": "coastal",
+  "imageUrl": "images/habitats/coastal.webp",
+  "published": true
+ },
+ {
+  "habitat": "Urban",
+  "category": "Built Environment",
+  "name": "Tokyo Metropolis",
+  "description": "A human-made habitat of concrete, glass, and artificial light where bold generalists thrive. Warmer than its surroundings and lit all night, the city rewards animals clever and adaptable enough to live alongside people.",
+  "features": [
+   "human-made",
+   "adaptable",
+   "nocturnal",
+   "generalist"
+  ],
+  "climate": "Urban, 2–35°C",
+  "rainfall": "1,200–1,600 mm/yr",
+  "drySeason": "Mild winter (Dec – Feb)",
+  "canopy": "Street trees, parks, green roofs",
+  "slug": "urban",
+  "imageUrl": "images/habitats/urban.webp",
+  "published": true
+ }
+]
