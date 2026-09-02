@@ -17,3 +17,10 @@ effect on the next round, nothing to restart.
 
 Each carries a `description`: that is what Thamyr reads to decide whether the
 block fits the question. Change the description and you change when it appears.
+
+## `pinned/`
+
+The same answer and comparison, with one difference: their `condition` names the
+`comparison` receptor label from part 4 instead of leaving the choice to Thamyr.
+Save these two after creating the label, and a comparison question gets the same
+two blocks in the same order every time.
