@@ -1,0 +1,65 @@
+{
+  "key": "animalDetail",
+  "name": "Animal Detail",
+  "prompt": "One animal in depth — its record, a definition and a curiosity. Use only when the visitor names one specific species and asks about it ('tell me about the jaguar', 'how big is a blue whale'). Not for 'which animal is the fastest or biggest' — that is a ranking, not a species. Not for comparing two named animals, and not for places.",
+  "description": "One animal in depth — its record, a definition and a curiosity. Use only when the visitor names one specific species and asks about it ('tell me about the jaguar', 'how big is a blue whale'). Not for 'which animal is the fastest or biggest' — that is a ranking, not a species. Not for comparing two named animals, and not for places.",
+  "node": {
+    "display": "augment",
+    "block": {
+      "type": "animalDetail",
+      "data": {
+        "animal": [],
+        "curiosity": {
+          "title": "",
+          "text": ""
+        },
+        "definition": {
+          "title": "",
+          "text": ""
+        }
+      }
+    },
+    "contents": [
+      {
+        "id": "animal",
+        "kind": "skesis",
+        "kinds": [
+          "animal"
+        ],
+        "minK": 1,
+        "topK": 1,
+        "queryTemplate": "{{input.value}}"
+      },
+      {
+        "id": "curiosity",
+        "kind": "llm",
+        "useKb": true,
+        "applyStyle": false,
+        "systemPrompt": "You write one arresting fact about an animal — the kind a visitor repeats to someone else. Concrete and verifiable; never invent a statistic.",
+        "creatorInfo": "A naturalist who remembers the detail that made each animal strange.",
+        "output": {
+          "kind": "json",
+          "schemaJson": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"},\"text\":{\"type\":\"string\"}},\"required\":[\"title\",\"text\"],\"additionalProperties\":false}"
+        },
+        "promptTemplate": "The visitor is looking at: {{input.value}}\n\nReturn JSON with `title` (at most 5 words) and `text` (2-3 sentences) covering the single most surprising thing about it."
+      },
+      {
+        "id": "definition",
+        "kind": "llm",
+        "useKb": true,
+        "applyStyle": false,
+        "systemPrompt": "You write the plain-language definition of what an animal is: its classification, where it lives, and how it makes its living. Factual and unhurried.",
+        "creatorInfo": "A naturalist writing the opening paragraph of an encyclopedia entry.",
+        "output": {
+          "kind": "json",
+          "schemaJson": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"},\"text\":{\"type\":\"string\"}},\"required\":[\"title\",\"text\"],\"additionalProperties\":false}"
+        },
+        "promptTemplate": "The visitor is looking at: {{input.value}}\n\nReturn JSON with `title` (a question like \"What is a jaguar?\") and `text` (3-4 sentences)."
+      }
+    ],
+    "condition": {
+      "type": "never"
+    },
+    "priority": 10
+  }
+}

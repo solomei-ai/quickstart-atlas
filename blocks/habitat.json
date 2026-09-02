@@ -1,0 +1,31 @@
+{
+  "key": "HabitatCard",
+  "name": "Habitat Card",
+  "prompt": "A card for one habitat, biome or place — climate, rainfall, canopy, description. Use when the visitor asks about a place or what lives there. Not for superlatives, not for a named species, not for comparisons.",
+  "description": "A card for one habitat, biome or place — climate, rainfall, canopy, description. Use when the visitor asks about a place or what lives there. Not for superlatives, not for a named species, not for comparisons.",
+  "node": {
+    "display": "augment",
+    "block": {
+      "type": "HabitatCard",
+      "data": {
+        "habitat": []
+      }
+    },
+    "contents": [
+      {
+        "id": "habitat",
+        "kind": "skesis",
+        "kinds": [
+          "habitat"
+        ],
+        "minK": 1,
+        "topK": 5,
+        "queryTemplate": "{{input.value}}"
+      }
+    ],
+    "condition": {
+      "type": "never"
+    },
+    "priority": 20
+  }
+}

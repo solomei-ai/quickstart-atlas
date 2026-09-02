@@ -1,0 +1,49 @@
+{
+  "key": "RankedList",
+  "name": "Ranked Scale",
+  "prompt": "Ranks three to five animals along one measurable dimension on a visual scale. This is the block for superlatives — 'which animal is the fastest on land', 'what are the heaviest animals in the ocean', 'the most dangerous predators'. Even when a single winner exists, the ranking is the answer. Not for two named animals (that is a comparison), and not for questions about a place or what lives somewhere.",
+  "description": "Ranks three to five animals along one measurable dimension on a visual scale. This is the block for superlatives — 'which animal is the fastest on land', 'what are the heaviest animals in the ocean', 'the most dangerous predators'. Even when a single winner exists, the ranking is the answer. Not for two named animals (that is a comparison), and not for questions about a place or what lives somewhere.",
+  "node": {
+    "display": "augment",
+    "block": {
+      "type": "RankedList",
+      "data": {
+        "ranked": {
+          "title": "",
+          "animals": [],
+          "variant": "",
+          "subtitle": ""
+        },
+        "candidates": []
+      }
+    },
+    "contents": [
+      {
+        "id": "candidates",
+        "kind": "skesis",
+        "minK": 3,
+        "topK": 8,
+        "kinds": [
+          "animal"
+        ]
+      },
+      {
+        "id": "ranked",
+        "kind": "llm",
+        "systemPrompt": "You rank animals along a single dimension a visitor asked about (ferocity, speed, size, danger, and so on) for a visual 'scale' component. You are given a shortlist of real animals retrieved from the knowledge base; you may ONLY choose from that shortlist, and you must copy each animal's id verbatim. Ground every judgement in real natural history. Never invent an animal or an id.",
+        "creatorInfo": "A knowledgeable naturalist voice — curious, precise, and warm; vivid and plainspoken, never dry.",
+        "output": {
+          "kind": "json",
+          "schemaJson": "{\"type\": \"object\", \"properties\": {\"title\": {\"type\": \"string\"}, \"subtitle\": {\"type\": \"string\"}, \"variant\": {\"type\": \"string\", \"enum\": [\"ascending\", \"descending\", \"plain\"]}, \"animals\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"id\": {\"type\": \"string\"}, \"value\": {\"type\": \"number\"}, \"label\": {\"type\": \"string\"}}, \"required\": [\"id\", \"value\", \"label\"], \"additionalProperties\": false}}}, \"required\": [\"title\", \"subtitle\", \"variant\", \"animals\"], \"additionalProperties\": false}"
+        },
+        "promptTemplate": "The visitor asked: \"{{input.value}}\"\n\nCandidate animals (full records — including each `id` — are in the Local context block): {{content.candidates}}.\n\nIdentify the dimension the visitor is asking to rank by. Then choose the 3 to 5 candidates that best answer the question and rank them along that dimension. Return a JSON object with:\n- `title` = a short, evocative headline for the ranking (max ~7 words, no ending punctuation; e.g. \"The Fastest Runners on Earth\").\n- `subtitle` = one atmospheric paragraph (roughly 40-75 words) framing the ranking and the extremes it spans; factual and specific to these animals.\n- `variant` = one of \"ascending\", \"descending\", or \"plain\": use \"descending\" when the question is about the MOST of something (biggest/fastest/most ferocious first), \"ascending\" when it is about the LEAST, and \"plain\" only when order does not matter.\n- `animals` = an array of 3 to 5 objects, each with: `id` (copied VERBATIM from a candidate — never invented), `value` (a positive number placing the animal on the dimension, higher = more; use real figures such as km/h or kg when the dimension has them, otherwise a consistent 0-100 score), and `label` (a short human-readable value such as \"112 km/h\", or \"\" if none fits). List them most-relevant first.",
+        "useKb": true,
+        "applyStyle": false
+      }
+    ],
+    "condition": {
+      "type": "never"
+    },
+    "priority": 40
+  }
+}

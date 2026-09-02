@@ -5,8 +5,11 @@ import AnimalProfile from "../components/AnimalProfile/AnimalProfile.tsx";
 import HabitatCard from "../components/HabitatCard/HabitatCard.tsx";
 import RelatedQuestions from "../components/RelatedQuestions/RelatedQuestions.tsx";
 import ThemedSection from "../components/ThemedSection/ThemedSection.tsx";
+import AnimalComparison from "../components/AnimalComparison/AnimalComparison.tsx";
+import AnimalScale from "../components/AnimalScale/AnimalScale.tsx";
 import { animalsGridFromBlock } from "./animalsGridFromBlock.ts";
 import { themedSectionFromBlock } from "./themedSectionFromBlock.ts";
+import { rankedListFromBlock } from "./rankedListFromBlock.ts";
 import { animalFromSkesisHit, habitatFromSkesisHit } from "./animalFromSkesis.ts";
 import { normalizeType, skesisAnimalHits, skesisHabitatHits, asFact, asFacts, listOf, type Fact } from "./blockData.ts";
 
@@ -42,6 +45,19 @@ function renderBlockContent(block: Block, isLatestRelatedQuestions?: boolean) {
 			// AnimatePresence survives to play the exit animation; visibility
 			// (and thus enter/exit) is driven by the `visible` prop.
 			return <RelatedQuestions questions={questions} visible={isLatestRelatedQuestions} />;
+		}
+		case 'comparativeCard': {
+			// Each subject is retrieved separately (one skesis hit each) so "tiger or
+			// lion" cannot collapse into two near-duplicate hits of the same animal.
+			const data = block.data as { first?: unknown; second?: unknown };
+			const first = skesisAnimalHits(data.first)[0];
+			const second = skesisAnimalHits(data.second)[0];
+			if (!first || !second) return null;
+			return <AnimalComparison first={animalFromSkesisHit(first)} second={animalFromSkesisHit(second)} />;
+		}
+		case 'RankedList': {
+			const props = rankedListFromBlock(block.data);
+			return props ? <AnimalScale {...props} /> : null;
 		}
 		case 'ThemedSection': {
 			const props = themedSectionFromBlock(block.data);
