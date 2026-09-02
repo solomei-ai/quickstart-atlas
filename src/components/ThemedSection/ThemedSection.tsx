@@ -61,9 +61,9 @@ function ThemedSection({animals, theme, description, title}: ThemedSectionProps)
 		<div data-theme={theme} className={styles.container}>
 			{scatterAssets && <ScatterField assets={scatterAssets} groups={SCATTER_GROUPS} seed={theme}/>}
 			<div data-theme={'light'} className={styles.header}>
-				<h4>
+				<h2>
 					<Markdown components={{p: ({children}) => <>{children}</>}}>{title}</Markdown>
-				</h4>
+				</h2>
 				<p>{description}</p>
 			</div>
 			{
