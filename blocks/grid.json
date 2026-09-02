@@ -1,0 +1,60 @@
+{
+  "key": "animalsGrid",
+  "name": "Animals Grid",
+  "prompt": "A grid of animals that share a place or a trait, each with its illustration. Use when the visitor asks what lives somewhere or about a group ('which animals live in the desert', 'nocturnal hunters'). Not for superlatives or rankings, not for one named species, not for two named animals.",
+  "description": "A grid of animals that share a place or a trait, each with its illustration. Use when the visitor asks what lives somewhere or about a group ('which animals live in the desert', 'nocturnal hunters'). Not for superlatives or rankings, not for one named species, not for two named animals.",
+  "node": {
+    "display": "augment",
+    "block": {
+      "type": "animalsGrid",
+      "data": {
+        "subject": [],
+        "header": {
+          "title": "",
+          "text": "",
+          "traitQuery": ""
+        },
+        "animals": []
+      }
+    },
+    "contents": [
+      {
+        "id": "subject",
+        "kind": "skesis",
+        "kinds": [
+          "animal"
+        ],
+        "minK": 1,
+        "topK": 1,
+        "queryTemplate": "{{input.value}}"
+      },
+      {
+        "id": "header",
+        "kind": "llm",
+        "useKb": false,
+        "applyStyle": false,
+        "systemPrompt": "You are the editorial voice of a natural-history answer engine. You name the trait that links a set of animals, write the opening title and intro, and phrase the search that retrieves them. Stay factual and grounded in real species — never invent one, and never promise a specific number of animals.",
+        "creatorInfo": "A knowledgeable naturalist voice — curious, precise, and warm; vivid and plainspoken, never dry.",
+        "output": {
+          "kind": "json",
+          "schemaJson": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"},\"text\":{\"type\":\"string\"},\"traitQuery\":{\"type\":\"string\"}},\"required\":[\"title\",\"text\",\"traitQuery\"],\"additionalProperties\":false}"
+        },
+        "promptTemplate": "The visitor asked: \"{{input.value}}\"\n\nReturn a JSON object with:\n- `title` — short and evocative, sentence case, at most 6 words, no ending punctuation.\n- `text` — one atmospheric paragraph of 40-70 words introducing what unites these animals.\n- `traitQuery` — a retrieval phrase of 5-12 words naming the defining trait and setting plainly."
+      },
+      {
+        "id": "animals",
+        "kind": "skesis",
+        "kinds": [
+          "animal"
+        ],
+        "minK": 3,
+        "topK": 9,
+        "queryTemplate": "{{content.header.traitQuery}}"
+      }
+    ],
+    "condition": {
+      "type": "never"
+    },
+    "priority": 50
+  }
+}

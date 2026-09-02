@@ -1,0 +1,68 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+  // Mobile-first: first card, stat list, second card stacked in one column.
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-xs;
+  // Comparison cards are larger than the 356px default used everywhere else.
+  --animal-card-max-width: 480px;
+}
+
+.inline {
+  // Mobile: pairs don't fit side by side on a phone, so everything stacks
+  // in one centered column.
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var.$space-xs;
+  width: 100%;
+
+  @include respond-to('lg') {
+    // Desktop: side-by-side pairs at their natural widths.
+    flex-direction: row;
+    width: auto;
+  }
+}
+
+// AnimalCards fill the mobile column (capped by their own max-width) and
+// return to content width in the desktop row. StatCards need no override —
+// they already cap themselves at 20rem.
+.cards > * {
+  width: 100%;
+
+  @include respond-to('lg') {
+    width: auto;
+  }
+}
+
+// Mirrors StatCard's own sizing (fill the row, cap at 20rem) so the wrapper
+// is invisible in the desktop layout.
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-2xs;
+  width: 100%;
+  max-width: 20rem;
+}
+
+.owner {
+  font-size: var.$font-size-sm;
+  font-weight: var.$font-weight-medium;
+  text-transform: uppercase;
+  opacity: 0.7;
+
+  @include respond-to('lg') {
+    // Desktop pairs sit under their animal's card — no label needed.
+    display: none;
+  }
+}
+
+.comparative {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var.$space-xs;
+}
