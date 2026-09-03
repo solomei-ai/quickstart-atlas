@@ -11,7 +11,7 @@ effect on the next round, nothing to restart.
 | `ranking.json` | `RankedList` | three to five animals on a scale |
 | `profile.json` | `animalDetail` | one animal in depth |
 | `habitat.json` | `HabitatCard` | one habitat as a card |
-| `grid.json` | `animalsGrid` | a grid of animals sharing a place or trait |
+| `spread.json` | `ThemedSection` | a magazine-style spread of the animals of a place, each with a caption |
 | `follow-ups.json` | `relQuestions` | three follow-up questions |
 | `discovery-feed.json` | `discoveryFeed` | the animals on the entrance map (part 5) |
 

@@ -1,0 +1,80 @@
+{
+  "key": "ThemedSection",
+  "name": "Themed Section",
+  "prompt": "A magazine-style spread of four to eight animals that share a place, gathered under one evocative theme — each with its own caption, over art for the habitat they share. Use when the visitor asks what lives somewhere or about a place or a group ('what lives on a coral reef', 'animals of the savanna'). Not for one named species, not for two named animals, and not for superlatives or rankings.",
+  "description": "A magazine-style spread of four to eight animals that share a place, gathered under one evocative theme — each with its own caption, over art for the habitat they share. Use when the visitor asks what lives somewhere or about a place or a group ('what lives on a coral reef', 'animals of the savanna'). Not for one named species, not for two named animals, and not for superlatives or rankings.",
+  "node": {
+    "display": "augment",
+    "block": {
+      "type": "ThemedSection",
+      "data": {
+        "theme": {
+          "title": "",
+          "text": "",
+          "habitat": ""
+        },
+        "animals": [],
+        "habitatRecord": []
+      }
+    },
+    "contents": [
+      {
+        "id": "animals",
+        "kind": "skesis",
+        "kinds": [
+          "animal"
+        ],
+        "minK": 4,
+        "topK": 8,
+        "queryTemplate": "{{input.value}}"
+      },
+      {
+        "id": "habitatRecord",
+        "kind": "skesis",
+        "kinds": [
+          "habitat"
+        ],
+        "minK": 1,
+        "topK": 5,
+        "queryTemplate": "{{input.value}}"
+      },
+      {
+        "id": "animalCopy",
+        "kind": "llm",
+        "useKb": true,
+        "applyStyle": false,
+        "systemPrompt": "You write ONE short, vivid caption for a single animal inside a magazine-style themed collection. Prefer the reference note when it has substance; when it is thin, draw on your own well-established knowledge of the species. Always produce a complete caption; never say the information is insufficient. Evocative but accurate, never generic, and about THIS animal only.",
+        "creatorInfo": "A knowledgeable naturalist voice — curious, precise, and warm; vivid and plainspoken, never dry.",
+        "output": {
+          "kind": "json",
+          "schemaJson": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"},\"text\":{\"type\":\"string\"}},\"required\":[\"title\",\"text\"],\"additionalProperties\":false}"
+        },
+        "promptTemplate": "The animal is \"{{item.fields.name}}\" ({{item.fields.scientificName}}). Reference note (may be thin — if so, rely on your own knowledge of the species): {{item.fields.description}}\n\nReturn a JSON object: `title` = a short, punchy headline evoking the animal (max ~6 words, no ending punctuation); `text` = 1–2 sentences (roughly 20–40 words) on what makes it remarkable in its habitat. No filler, no disclaimer about missing information.",
+        "forEach": {
+          "fromId": "animals",
+          "arrayPath": "animals",
+          "assignField": "copy",
+          "pick": "all",
+          "extend": false
+        }
+      },
+      {
+        "id": "theme",
+        "kind": "llm",
+        "useKb": true,
+        "applyStyle": false,
+        "systemPrompt": "You are an editorial writer for a natural-history answer engine. You write the opening title and intro for a magazine-style section that collects several animals around one evocative theme, and you tag the section with the single habitat those animals best share. The title is bold and cinematic; the intro is short and atmospheric. Stay grounded in the animals you are given — never invent a species.",
+        "creatorInfo": "A knowledgeable naturalist voice — curious, precise, and warm; vivid and plainspoken, never dry.",
+        "output": {
+          "kind": "json",
+          "schemaJson": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"},\"text\":{\"type\":\"string\"},\"habitat\":{\"type\":\"string\",\"enum\":[\"Coral Reef\",\"Desert\",\"Forest\",\"Mountain\",\"Rainforest\",\"River\",\"Savanna\",\"Tundra\"]}},\"required\":[\"title\",\"text\",\"habitat\"],\"additionalProperties\":false}"
+        },
+        "promptTemplate": "The visitor asked: \"{{input.value}}\"\n\nThe section collects these animals: {{content.animals}}.\n\nRetrieved habitat record for reference (may not match every animal — use it to ground your `habitat` pick rather than guessing): {{content.habitatRecord}}\n\nReturn a JSON object with:\n- `title` = a bold, evocative section title (max ~7 words, e.g. \"Hidden Kingdoms of the Reef\") — not a question, no ending punctuation.\n- `text` = one atmospheric paragraph (roughly 45–75 words) framing the theme these animals share.\n- `habitat` = the single habitat they best belong to, from the allowed values."
+      }
+    ],
+    "condition": {
+      "type": "never"
+    },
+    "priority": 50
+  }
+}
