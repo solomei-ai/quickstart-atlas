@@ -1,0 +1,142 @@
+{
+  "defaultLocale": "en",
+  "defaultCurrency": "USD",
+  "kinds": {
+    "animal": {
+      "records": {
+        "file": "animals.json",
+        "id": "slug"
+      },
+      "properties": {
+        "name": {
+          "type": "text",
+          "search": true,
+          "role": "title"
+        },
+        "description": {
+          "type": "text",
+          "search": true
+        },
+        "scientificName": {
+          "type": "text",
+          "search": true
+        },
+        "features": {
+          "type": "enum[]",
+          "filter": true
+        },
+        "status": {
+          "type": "enum",
+          "filter": true
+        },
+        "type": {
+          "type": "enum",
+          "filter": true
+        },
+        "epoch.from": {
+          "type": "enum",
+          "filter": true
+        },
+        "epoch.to": {
+          "type": "enum",
+          "filter": true
+        },
+        "habitats": {
+          "type": "enum[]",
+          "filter": true
+        },
+        "size.minHeightCm": {
+          "type": "number",
+          "filter": true,
+          "sort": true
+        },
+        "size.maxHeightCm": {
+          "type": "number",
+          "filter": true,
+          "sort": true
+        },
+        "weight.minWeightG": {
+          "type": "number",
+          "filter": true,
+          "sort": true
+        },
+        "weight.maxWeightG": {
+          "type": "number",
+          "filter": true,
+          "sort": true
+        },
+        "imageUrl": {
+          "type": "image",
+          "role": "image"
+        },
+        "coordinates.lat": {
+          "type": "number",
+          "filter": true,
+          "sort": true
+        },
+        "coordinates.lng": {
+          "type": "number",
+          "filter": true,
+          "sort": true
+        },
+        "published": {
+          "type": "boolean",
+          "filter": true
+        }
+      }
+    },
+    "habitat": {
+      "records": {
+        "file": "habitats.json",
+        "id": "slug"
+      },
+      "properties": {
+        "habitat": {
+          "type": "text",
+          "search": true
+        },
+        "category": {
+          "type": "text",
+          "search": true
+        },
+        "name": {
+          "type": "text",
+          "search": true,
+          "role": "title"
+        },
+        "description": {
+          "type": "text",
+          "search": true
+        },
+        "features": {
+          "type": "enum[]",
+          "filter": true
+        },
+        "climate": {
+          "type": "text",
+          "search": true
+        },
+        "rainfall": {
+          "type": "text",
+          "search": true
+        },
+        "drySeason": {
+          "type": "text",
+          "search": true
+        },
+        "canopy": {
+          "type": "text",
+          "search": true
+        },
+        "imageUrl": {
+          "type": "image",
+          "role": "image"
+        },
+        "published": {
+          "type": "boolean",
+          "filter": true
+        }
+      }
+    }
+  }
+}

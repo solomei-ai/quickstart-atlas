@@ -15,7 +15,7 @@
   "drySeason": "None — wet year-round",
   "canopy": "Kapok, Brazil nut, fig",
   "slug": "canopy",
-  "imageUrl": "images/habitats/canopy.webp",
+  "imageUrl": {"$asset": "images/habitats/canopy.webp"},
   "published": true
  },
  {
@@ -34,7 +34,7 @@
   "drySeason": "None — wet year-round",
   "canopy": "Dipterocarp, strangler fig",
   "slug": "arboreal",
-  "imageUrl": "images/habitats/arboreal.webp",
+  "imageUrl": {"$asset": "images/habitats/arboreal.webp"},
   "published": true
  },
  {
@@ -53,7 +53,7 @@
   "drySeason": "Late summer (Jul – Sep)",
   "canopy": "Oak, hornbeam, spruce",
   "slug": "forest",
-  "imageUrl": "images/habitats/forest.webp",
+  "imageUrl": {"$asset": "images/habitats/forest.webp"},
   "published": true
  },
  {
@@ -72,7 +72,7 @@
   "drySeason": "None — wet year-round",
   "canopy": "Kapok, rubber, palm",
   "slug": "rainforest",
-  "imageUrl": "images/habitats/rainforest.webp",
+  "imageUrl": {"$asset": "images/habitats/rainforest.webp"},
   "published": true
  },
  {
@@ -91,7 +91,7 @@
   "drySeason": "May – October",
   "canopy": "Valley oak, blue oak",
   "slug": "woodland",
-  "imageUrl": "images/habitats/woodland.webp",
+  "imageUrl": {"$asset": "images/habitats/woodland.webp"},
   "published": true
  },
  {
@@ -110,7 +110,7 @@
   "drySeason": "Mid–late summer",
   "canopy": "Bluestem, grama, switchgrass",
   "slug": "grassland",
-  "imageUrl": "images/habitats/grassland.webp",
+  "imageUrl": {"$asset": "images/habitats/grassland.webp"},
   "published": true
  },
  {
@@ -129,7 +129,7 @@
   "drySeason": "June – October",
   "canopy": "Acacia, baobab",
   "slug": "savanna",
-  "imageUrl": "images/habitats/savanna.webp",
+  "imageUrl": {"$asset": "images/habitats/savanna.webp"},
   "published": true
  },
  {
@@ -148,7 +148,7 @@
   "drySeason": "Most of the year",
   "canopy": "Saguaro, cholla, creosote",
   "slug": "desert",
-  "imageUrl": "images/habitats/desert.webp",
+  "imageUrl": {"$asset": "images/habitats/desert.webp"},
   "published": true
  },
  {
@@ -167,7 +167,7 @@
   "drySeason": "Long winter (Sep – May)",
   "canopy": "Moss, lichen, dwarf shrub",
   "slug": "tundra",
-  "imageUrl": "images/habitats/tundra.webp",
+  "imageUrl": {"$asset": "images/habitats/tundra.webp"},
   "published": true
  },
  {
@@ -186,7 +186,7 @@
   "drySeason": "Winter (Nov – Mar)",
   "canopy": "Rhododendron, juniper, cushion plant",
   "slug": "mountain",
-  "imageUrl": "images/habitats/mountain.webp",
+  "imageUrl": {"$asset": "images/habitats/mountain.webp"},
   "published": true
  },
  {
@@ -205,7 +205,7 @@
   "drySeason": "None — buffered year-round",
   "canopy": "None — fungi, bacterial mats",
   "slug": "cave",
-  "imageUrl": "images/habitats/cave.webp",
+  "imageUrl": {"$asset": "images/habitats/cave.webp"},
   "published": true
  },
  {
@@ -224,7 +224,7 @@
   "drySeason": "May – September",
   "canopy": "Reed, water hyacinth, palm",
   "slug": "wetland",
-  "imageUrl": "images/habitats/wetland.webp",
+  "imageUrl": {"$asset": "images/habitats/wetland.webp"},
   "published": true
  },
  {
@@ -243,7 +243,7 @@
   "drySeason": "April – October",
   "canopy": "Papyrus, water lily, reed",
   "slug": "freshwater",
-  "imageUrl": "images/habitats/freshwater.webp",
+  "imageUrl": {"$asset": "images/habitats/freshwater.webp"},
   "published": true
  },
  {
@@ -262,7 +262,7 @@
   "drySeason": "November – April",
   "canopy": "Riverine forest, reed bank",
   "slug": "river",
-  "imageUrl": "images/habitats/river.webp",
+  "imageUrl": {"$asset": "images/habitats/river.webp"},
   "published": true
  },
  {
@@ -281,7 +281,7 @@
   "drySeason": "Frozen Jan – May",
   "canopy": "Sponge beds, submerged algae",
   "slug": "lake",
-  "imageUrl": "images/habitats/lake.webp",
+  "imageUrl": {"$asset": "images/habitats/lake.webp"},
   "published": true
  },
  {
@@ -300,7 +300,7 @@
   "drySeason": "None — submerged year-round",
   "canopy": "Hard & soft coral, sea fan",
   "slug": "coral-reef",
-  "imageUrl": "images/habitats/coral-reef.webp",
+  "imageUrl": {"$asset": "images/habitats/coral-reef.webp"},
   "published": true
  },
  {
@@ -319,7 +319,7 @@
   "drySeason": "None — abyssal dark",
   "canopy": "None — chemosynthetic mats",
   "slug": "deep-sea",
-  "imageUrl": "images/habitats/deep-sea.webp",
+  "imageUrl": {"$asset": "images/habitats/deep-sea.webp"},
   "published": true
  },
  {
@@ -338,7 +338,7 @@
   "drySeason": "Tidal — twice daily",
   "canopy": "Kelp, rockweed, eelgrass",
   "slug": "coastal",
-  "imageUrl": "images/habitats/coastal.webp",
+  "imageUrl": {"$asset": "images/habitats/coastal.webp"},
   "published": true
  },
  {
@@ -357,7 +357,7 @@
   "drySeason": "Mild winter (Dec – Feb)",
   "canopy": "Street trees, parks, green roofs",
   "slug": "urban",
-  "imageUrl": "images/habitats/urban.webp",
+  "imageUrl": {"$asset": "images/habitats/urban.webp"},
   "published": true
  }
 ]
