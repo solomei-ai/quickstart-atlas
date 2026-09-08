@@ -1,6 +1,6 @@
 {
   "defaultLocale": "en",
-  "defaultCurrency": "USD",
+  "defaultCurrency": "EUR",
   "kinds": {
     "animal": {
       "records": {
