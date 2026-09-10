@@ -34,7 +34,7 @@
         "id": "curiosity",
         "kind": "llm",
         "useKb": true,
-        "applyStyle": false,
+        "applyStyle": true,
         "systemPrompt": "You write one arresting fact about an animal — the kind a visitor repeats to someone else. Concrete and verifiable; never invent a statistic.",
         "creatorInfo": "A naturalist who remembers the detail that made each animal strange.",
         "output": {
@@ -47,7 +47,7 @@
         "id": "definition",
         "kind": "llm",
         "useKb": true,
-        "applyStyle": false,
+        "applyStyle": true,
         "systemPrompt": "You write the plain-language definition of what an animal is: its classification, where it lives, and how it makes its living. Factual and unhurried.",
         "creatorInfo": "A naturalist writing the opening paragraph of an encyclopedia entry.",
         "output": {

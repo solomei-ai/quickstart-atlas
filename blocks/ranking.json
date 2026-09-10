@@ -38,7 +38,7 @@
         },
         "promptTemplate": "The visitor asked: \"{{input.value}}\"\n\nCandidate animals (full records — including each `id` — are in the Local context block): {{content.candidates}}.\n\nIdentify the dimension the visitor is asking to rank by. Then choose the 3 to 5 candidates that best answer the question and rank them along that dimension. Return a JSON object with:\n- `title` = a short, evocative headline for the ranking (max ~7 words, no ending punctuation; e.g. \"The Fastest Runners on Earth\").\n- `subtitle` = one atmospheric paragraph (roughly 40-75 words) framing the ranking and the extremes it spans; factual and specific to these animals.\n- `variant` = one of \"ascending\", \"descending\", or \"plain\": use \"descending\" when the question is about the MOST of something (biggest/fastest/most ferocious first), \"ascending\" when it is about the LEAST, and \"plain\" only when order does not matter.\n- `animals` = an array of 3 to 5 objects, each with: `id` (copied VERBATIM from a candidate — never invented), `value` (a positive number placing the animal on the dimension, higher = more; use real figures such as km/h or kg when the dimension has them, otherwise a consistent 0-100 score), and `label` (a short human-readable value such as \"112 km/h\", or \"\" if none fits). List them most-relevant first.",
         "useKb": true,
-        "applyStyle": false
+        "applyStyle": true
       }
     ],
     "condition": {

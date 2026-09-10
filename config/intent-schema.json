@@ -29,7 +29,7 @@
           },
           "summary": {
             "type": "string",
-            "description": "One sentence describing what the visitor is curious about. Address the visitor as \"You\"."
+            "description": "One sentence describing what the visitor is curious about. If they have followed more than one distinct subject this session, name each of them in the order they were explored, rather than only the most recent. Address the visitor as \"You\"."
           }
         }
       }

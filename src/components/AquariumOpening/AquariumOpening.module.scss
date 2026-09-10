@@ -1,0 +1,139 @@
+@use '../../styles/abstracts/variables' as var;
+
+// The floating bar. Same treatment as the prompt bar's container: pinned to the
+// left edge at full width with the pill centred inside it, `pointer-events`
+// off so the page underneath stays clickable, and the same z-index so it sits
+// above the background's overlay.
+//
+// It floats at the TOP because the bottom is the prompt bar's. The offset
+// clears the header band (its own $space-xl of padding plus the logo), and the
+// header hides itself on scroll-down anyway.
+.bar {
+  position: fixed;
+  top: calc(var.$space-xl + 4rem);
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 0 var.$space-md;
+  box-sizing: border-box;
+  touch-action: none;
+  pointer-events: none;
+  z-index: 99;
+
+  @media (max-width: 679px) {
+    top: calc(var.$space-sm + 3.5rem);
+  }
+}
+
+// Themed Marine, so the deep blue is the project's own rather than a colour
+// invented here — and unlike the warm themes, Marine's native pairing
+// (pale `--color-text` on `--color-surface`) is the legible one, so the copy
+// needs no light-theme wrapper to sit on it.
+//
+// Opaque rather than translucent-with-blur like the prompt bar: at 70% over a
+// pale page this blue lands around #456D9D, where the pale text drops to about
+// 4.6:1. Solid keeps it near 9:1, which is what lets the bar be both blue and
+// readable.
+.pill {
+  position: relative;
+  overflow: hidden;
+  max-width: 680px;
+  padding: var.$space-sm var.$space-md;
+  box-sizing: border-box;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border-muted);
+  border-radius: var.$radius-lg;
+  box-shadow: var.$box-shadow-base;
+  touch-action: auto;
+  pointer-events: auto;
+}
+
+// The seabed, bleeding in from the right end of the bar — the same plate the
+// page background uses for its marine variant, so the banner is drawn from the
+// site's own art rather than a stock image. It is pale line-work on a deep
+// blue, which is why it reads at this size at all.
+//
+// Kept to the right of the copy rather than behind it: the art's own tones are
+// close to the pale text, and text over it stops being readable.
+.pill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  background-image: url('../../assets/assets/marine.png');
+  background-size: auto 190%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  pointer-events: none;
+  // Feathered on its left edge so the seabed emerges out of the blue instead of
+  // ending on a hard vertical seam that reads as a pasted rectangle. One mask
+  // layer with a two-value gradient — the notch lesson from the ticket applies
+  // here too: keep the syntax simple enough that it cannot be silently dropped.
+  mask-image: linear-gradient(to right, transparent, #000 45%);
+
+  // The pill is down to a tag and a headline here; a sliver of seabed behind
+  // them would only crowd it.
+  @media (max-width: 679px) {
+    display: none;
+  }
+}
+
+.inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var.$space-md;
+  // Clear of the art, so the two never meet.
+  padding-right: 30%;
+
+  @media (max-width: 679px) {
+    padding-right: 0;
+  }
+}
+
+// Inverted against the bar: the theme's `--color-surface-negative` is the pale
+// tone, so the label is a pale pill with deep-blue text.
+.tag {
+  display: flex;
+  align-items: center;
+  gap: var.$space-xs;
+  flex: none;
+  margin: 0;
+  padding: var.$space-2xs var.$space-sm;
+  border-radius: var.$radius-full;
+  background-color: var(--color-surface-negative);
+  color: var(--color-surface);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: var.$font-size-sm;
+  font-weight: var.$font-weight-bold;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: var.$space-2xs;
+  min-width: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: var.$font-size-lg;
+  font-weight: var.$font-weight-bold;
+  line-height: var.$line-height-tight;
+}
+
+.text {
+  margin: 0;
+
+  // A floating bar has to stay a bar: on a phone the headline alone carries it,
+  // and the sentence would grow the pill into a panel over the content.
+  @media (max-width: 679px) {
+    display: none;
+  }
+}

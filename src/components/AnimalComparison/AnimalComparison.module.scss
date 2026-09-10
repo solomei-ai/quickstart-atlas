@@ -9,6 +9,18 @@
   --animal-card-max-width: 480px;
 }
 
+// The block's own title, generated per question. Same treatment the profile
+// gives its h2 — display face, tight leading — so a comparison round is headed
+// the way every other block's round is.
+.title {
+  font-family: var.$font-display;
+  font-size: var.$font-size-2xl;
+  line-height: var.$line-height-tight;
+  text-align: center;
+  margin: 0 auto var.$space-md;
+  max-width: min(90%, 900px);
+}
+
 .inline {
   // Mobile: pairs don't fit side by side on a phone, so everything stacks
   // in one centered column.

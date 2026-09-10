@@ -11,6 +11,8 @@ import WeightBody from '../StatCard/WeightBody.tsx';
 type AnimalComparisonProps = {
 	readonly first: Animal;
 	readonly second: Animal;
+	/** The generated title for the round. Absent if the generation failed. */
+	readonly title?: string;
 }
 type OwnedStatProps = {
 	readonly animal: Animal;
@@ -29,9 +31,10 @@ function OwnedStat({animal, title, content}: OwnedStatProps) {
 	);
 }
 
-function AnimalComparison({first, second}: AnimalComparisonProps) {
+function AnimalComparison({first, second, title}: AnimalComparisonProps) {
 	return (
 		<div className={styles.container}>
+			{title && <h2 className={styles.title}>{title}</h2>}
 			<div className={`${styles.inline} ${styles.cards}`}>
 				<AnimalCard animal={first}/>
 				<AnimalCard animal={second}/>
