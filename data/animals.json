@@ -252,8 +252,8 @@
    "maxHeightCm": 110
   },
   "weight": {
-   "minWeightG": 65000000,
-   "maxWeightG": 306000000
+   "minWeightG": 65000,
+   "maxWeightG": 306000
   },
   "imageUrl": "images/animals/tiger.webp",
   "slug": "tiger",
@@ -410,8 +410,8 @@
    "maxHeightCm": 90
   },
   "weight": {
-   "minWeightG": 30000000,
-   "maxWeightG": 100000000
+   "minWeightG": 30000,
+   "maxWeightG": 100000
   },
   "imageUrl": "images/animals/cougar.webp",
   "slug": "cougar",
@@ -680,8 +680,8 @@
    "maxHeightCm": 150
   },
   "weight": {
-   "minWeightG": 110000000,
-   "maxWeightG": 682000000
+   "minWeightG": 110000,
+   "maxWeightG": 682000
   },
   "imageUrl": "images/animals/brown-bear.webp",
   "slug": "brown-bear",
@@ -710,7 +710,8 @@
   },
   "habitats": [
    "Marine",
-   "Coastal"
+   "Coastal",
+   "Tundra"
   ],
   "size": {
    "minHeightCm": 120,
@@ -792,8 +793,8 @@
    "maxHeightCm": 115
   },
   "weight": {
-   "minWeightG": 80000000,
-   "maxWeightG": 200000000
+   "minWeightG": 80000,
+   "maxWeightG": 200000
   },
   "imageUrl": "images/animals/marsican-brown-bear.webp",
   "slug": "marsican-brown-bear",
@@ -863,8 +864,8 @@
    "maxHeightCm": 90
   },
   "weight": {
-   "minWeightG": 70000000,
-   "maxWeightG": 125000000
+   "minWeightG": 70000,
+   "maxWeightG": 125000
   },
   "imageUrl": "images/animals/giant-panda.webp",
   "slug": "giant-panda",
@@ -1238,7 +1239,8 @@
    "Woodland",
    "Grassland",
    "Savanna",
-   "Desert"
+   "Desert",
+   "Urban"
   ],
   "size": {
    "minHeightCm": 58,
@@ -1697,8 +1699,8 @@
    "maxHeightCm": 114
   },
   "weight": {
-   "minWeightG": 10000000,
-   "maxWeightG": 37000000
+   "minWeightG": 10000,
+   "maxWeightG": 37000
   },
   "imageUrl": "images/animals/olive-baboon.webp",
   "slug": "olive-baboon",
@@ -2062,7 +2064,8 @@
   },
   "habitats": [
    "Rainforest",
-   "Forest"
+   "Forest",
+   "Arboreal"
   ],
   "size": {
    "minHeightCm": 26,
@@ -2292,8 +2295,8 @@
    "maxHeightCm": 165
   },
   "weight": {
-   "minWeightG": 1300000000,
-   "maxWeightG": 3200000000
+   "minWeightG": 1300000,
+   "maxWeightG": 3200000
   },
   "imageUrl": "images/animals/hippopotamus.webp",
   "slug": "hippopotamus",
@@ -2442,8 +2445,8 @@
    "maxHeightCm": 140
   },
   "weight": {
-   "minWeightG": 175000000,
-   "maxWeightG": 385000000
+   "minWeightG": 175000,
+   "maxWeightG": 385000
   },
   "imageUrl": "images/animals/plains-zebra.webp",
   "slug": "plains-zebra",
@@ -3410,8 +3413,8 @@
    "maxHeightCm": 100
   },
   "weight": {
-   "minWeightG": 45000000,
-   "maxWeightG": 90000000
+   "minWeightG": 45000,
+   "maxWeightG": 90000
   },
   "imageUrl": "images/animals/alpaca.webp",
   "slug": "alpaca",
@@ -3744,8 +3747,8 @@
    "maxHeightCm": 45
   },
   "weight": {
-   "minWeightG": 80000000,
-   "maxWeightG": 140000000
+   "minWeightG": 80000,
+   "maxWeightG": 140000
   },
   "imageUrl": "images/animals/common-dolphin.webp",
   "slug": "common-dolphin",
@@ -3886,7 +3889,8 @@
   },
   "habitats": [
    "Marine",
-   "Coastal"
+   "Coastal",
+   "Cave"
   ],
   "size": {
    "minHeightCm": 45,
@@ -4043,8 +4047,8 @@
    "maxHeightCm": 100
   },
   "weight": {
-   "minWeightG": 200000000,
-   "maxWeightG": 600000000
+   "minWeightG": 200000,
+   "maxWeightG": 600000
   },
   "imageUrl": "images/animals/west-indian-manatee.webp",
   "slug": "west-indian-manatee",
@@ -4722,8 +4726,8 @@
    "maxHeightCm": 160
   },
   "weight": {
-   "minWeightG": 18000000,
-   "maxWeightG": 92000000
+   "minWeightG": 18000,
+   "maxWeightG": 92000
   },
   "imageUrl": "images/animals/red-kangaroo.webp",
   "slug": "red-kangaroo",
@@ -5896,8 +5900,8 @@
    "maxHeightCm": 280
   },
   "weight": {
-   "minWeightG": 90000000,
-   "maxWeightG": 156000000
+   "minWeightG": 90000,
+   "maxWeightG": 156000
   },
   "imageUrl": "images/animals/common-ostrich.webp",
   "slug": "common-ostrich",
@@ -8155,8 +8159,7 @@
    "to": "Present"
   },
   "habitats": [
-   "Grassland",
-   "Woodland"
+   "Grassland"
   ],
   "size": {
    "minHeightCm": 15,
@@ -8358,8 +8361,8 @@
    "maxHeightCm": 45
   },
   "weight": {
-   "minWeightG": 9000000,
-   "maxWeightG": 360000000
+   "minWeightG": 9000,
+   "maxWeightG": 360000
   },
   "imageUrl": "images/animals/american-alligator.webp",
   "slug": "american-alligator",
@@ -8966,7 +8969,9 @@
    "Rainforest",
    "Forest",
    "Coastal",
-   "River"
+   "River",
+   "Arboreal",
+   "Canopy"
   ],
   "size": {
    "minHeightCm": 10,
@@ -9463,8 +9468,8 @@
    "maxHeightCm": 45
   },
   "weight": {
-   "minWeightG": 110000000,
-   "maxWeightG": 190000000
+   "minWeightG": 110000,
+   "maxWeightG": 190000
   },
   "imageUrl": "images/animals/green-sea-turtle.webp",
   "slug": "green-sea-turtle",
@@ -9575,8 +9580,8 @@
    "maxHeightCm": 42
   },
   "weight": {
-   "minWeightG": 77000000,
-   "maxWeightG": 200000000
+   "minWeightG": 77000,
+   "maxWeightG": 200000
   },
   "imageUrl": "images/animals/loggerhead-sea-turtle.webp",
   "slug": "loggerhead-sea-turtle",
@@ -11080,8 +11085,7 @@
   },
   "habitats": [
    "Coastal",
-   "Marine",
-   "Coral Reef"
+   "Marine"
   ],
   "size": {
    "minHeightCm": 12,
@@ -15096,8 +15100,7 @@
   },
   "habitats": [
    "Marine",
-   "Coastal",
-   "Coral Reef"
+   "Coastal"
   ],
   "size": {
    "minHeightCm": 3,
@@ -15279,8 +15282,7 @@
   },
   "habitats": [
    "Marine",
-   "Coastal",
-   "Coral Reef"
+   "Coastal"
   ],
   "size": {
    "minHeightCm": 3,
@@ -16165,8 +16167,8 @@
    "maxHeightCm": 60
   },
   "weight": {
-   "minWeightG": 70000000,
-   "maxWeightG": 140000000
+   "minWeightG": 70000,
+   "maxWeightG": 140000
   },
   "imageUrl": "images/animals/caribbean-monk-seal.webp",
   "slug": "caribbean-monk-seal",
@@ -16886,8 +16888,8 @@
    "maxHeightCm": 1300
   },
   "weight": {
-   "minWeightG": 28000000000,
-   "maxWeightG": 56000000000
+   "minWeightG": 28000000,
+   "maxWeightG": 56000000
   },
   "imageUrl": "images/animals/brachiosaurus.webp",
   "slug": "brachiosaurus",
@@ -17634,8 +17636,8 @@
    "maxHeightCm": 150
   },
   "weight": {
-   "minWeightG": 200000000,
-   "maxWeightG": 250000000
+   "minWeightG": 200000,
+   "maxWeightG": 250000
   },
   "imageUrl": "images/animals/dimetrodon.webp",
   "slug": "dimetrodon",
