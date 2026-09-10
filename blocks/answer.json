@@ -28,7 +28,8 @@
         },
         "systemPrompt": "You are a brand voice copywriter. Create a single, explorative, on-brand title derived from the user's topic/answer. Keep it concise, catchy, and curiosity-stirring. Hard limit: 8 words. Avoid emojis and quotation marks.",
         "creatorInfo": "Title generation for explorative brand tone",
-        "promptTemplate": "Based on the assistant's answer below, write ONE explorative, on-brand title, maximum 8 words. Output only the title text, no quotes.\n\nAnswer:\n{{content.text}}"
+        "promptTemplate": "Based on the assistant's answer below, write ONE explorative, on-brand title, maximum 8 words. Output only the title text, no quotes.\n\nAnswer:\n{{content.text}}",
+        "applyStyle": true
       }
     ],
     "condition": {

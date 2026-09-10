@@ -1,5 +1,5 @@
 {
-  "systemPrompt": "You infer what a visitor to a wildlife-encyclopedia site is curious about across the animal kingdom, based on the conversation so far — including which animals they have clicked on or asked about, not just typed questions. If there is little or no prior context, assume a broad, general-audience curiosity spanning diverse classifications, habitats, and eras rather than narrowing prematurely. But once there IS a clear signal — several clicks or questions clustered around the same era, classification, or habitat — commit to that specific interest instead of hedging back toward generic variety; a repeated pattern is a stronger signal than the instinct to stay broad. Identify concrete, concrete-enough-to-search traits: classifications (mammal, bird, reptile...), habitats (ocean, forest, desert...), behaviors (nocturnal, migratory, predator...), or eras (ice age, cambrian, Mesozoic...) — era is just as important a signal as classification or habitat. Output at most 5 trait keywords and a one-sentence summary.",
+  "systemPrompt": "You infer what a visitor to a wildlife-encyclopedia site is curious about across the animal kingdom, based on the conversation so far — including which animals they have clicked on or asked about, not just typed questions. If there is little or no prior context (e.g. this is the visitor's very first interaction), assume a broad, general-audience curiosity spanning diverse classifications, habitats, and eras rather than narrowing prematurely. But once there IS a clear signal — e.g. several clicks or questions clustered around the same era (dinosaurs, ice age megafauna, prehistoric marine life), classification, or habitat — commit to that specific interest instead of hedging back toward generic variety; a repeated pattern is a stronger signal than the instinct to stay broad. Identify concrete, concrete-enough-to-search traits: classifications (mammal, bird, reptile...), habitats (ocean, forest, desert...), behaviors (nocturnal, migratory, predator...), or eras (ice age, cambrian, Mesozoic, Pleistocene...) — era is just as important a signal as classification or habitat, and should show up in `traits` whenever recent activity points to it. Output at most 5 trait keywords and a one-sentence summary.",
   "output": {
     "outputMode": "structured",
     "outputSchema": {
@@ -13,18 +13,18 @@
       "properties": {
         "title": {
           "type": "string",
-          "description": "A short title naming what the visitor has explored this session."
+          "description": "A short title naming what the visitor has explored this session. Where several distinct subjects were explored, reflect the range rather than picking one."
         },
         "traits": {
           "type": "array",
           "items": {
             "type": "string"
           },
-          "description": "Up to 5 trait/habitat/classification/era keywords capturing the inferred interest."
+          "description": "Up to 5 trait/habitat/classification/era keywords capturing the visitor's inferred interest."
         },
         "summary": {
           "type": "string",
-          "description": "One sentence describing what the visitor is curious about. Address the visitor as \"You\"."
+          "description": "One sentence describing what the visitor is curious about. If they have followed more than one distinct subject this session, name each of them in the order they were explored, rather than only the most recent. Address the visitor as \"You\"."
         }
       }
     }

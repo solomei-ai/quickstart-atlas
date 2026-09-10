@@ -7,8 +7,11 @@ import styles from './Conversation.module.scss';
 
 /**
  * Renders the conversation's rounds, one container per chapter. Stays out of the
- * document until there is more than the opening chapter to show (or a round is
- * on its way in), so the home view isn't padded by an empty results section.
+ * document until some round has a block to show (or a round is on its way in), so
+ * the home view isn't padded by an empty results section. Counted by blocks, not
+ * chapters: the opening "connection" round may or may not exist (it has no
+ * blocks once the discovery feed is stripped), so a chapter count would hide a
+ * project's very first answer.
  */
 function Conversation() {
 	const {orderedChapters, lastSuggestedQuestionsId} = useConversationChapters();
@@ -17,7 +20,8 @@ function Conversation() {
 	// round and the trailing spacer the pre-scroll needs room from.
 	const {latestRoundRef, scrollRoomRef} = useLoaderScroll(isLoading);
 
-	if (orderedChapters.length <= 1 && !isLoading) return null;
+	const hasBlocks = orderedChapters.some(chapter => chapter.blocks.length > 0);
+	if (!hasBlocks && !isLoading) return null;
 
 	return (
 		<section className={styles.results}>
@@ -33,6 +37,7 @@ function Conversation() {
 							key={block.id || `block-${blockIndex}`}
 							block={block}
 							isLatestRelatedQuestions={block.id === lastSuggestedQuestionsId && !isLoading}
+							isLatestRound={i === orderedChapters.length - 1}
 						/>
 					))}
 				</div>

@@ -13,10 +13,17 @@ set -euo pipefail
 
 tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
 
-# --- the three property shapes this catalogue needs -------------------------
+# --- the four property shapes this catalogue needs --------------------------
 # `embeddable` feeds the vector index (at least one property MUST have it, or
 # search returns nothing); `filterable` powers --filter; `sortable` allows
 # ordering; `displayable` returns the value to your renderer.
+#
+# The shape must match the payload. The binder validates every value against the
+# declared shape and DROPS what does not fit — silently, as far as search is
+# concerned: the record still indexes, the property is just absent from the hit.
+# `habitats` and `features` are arrays in every record, so they need the array
+# shape below; declared as plain strings they would never reach the front end,
+# and every marker on the map would fall back to the default theme.
 cat > "$tmp/text.json" <<'EOF'
 { "usage": { "embeddable": true, "displayable": true },
   "definition": { "shape": { "kind": "string" } } }
@@ -25,6 +32,13 @@ EOF
 cat > "$tmp/enum.json" <<'EOF'
 { "usage": { "filterable": true, "displayable": true },
   "definition": { "shape": { "kind": "string" },
+    "capabilities": { "enum": { "mode": "open", "allowsExclusion": false } } } }
+EOF
+
+# One value per record is a string enum; several per record is an array of them.
+cat > "$tmp/enum-list.json" <<'EOF'
+{ "usage": { "filterable": true, "displayable": true },
+  "definition": { "shape": { "kind": "array", "items": { "kind": "string" } },
     "capabilities": { "enum": { "mode": "open", "allowsExclusion": false } } } }
 EOF
 
@@ -38,8 +52,11 @@ declare_semantics() {
   for p in name description canopy climate rainfall drySeason; do
     callimacus skesis semantic set "$p" "$tmp/text.json"
   done
-  for p in type status habitats habitat category features; do
+  for p in type status habitat category; do
     callimacus skesis semantic set "$p" "$tmp/enum.json"
+  done
+  for p in habitats features; do
+    callimacus skesis semantic set "$p" "$tmp/enum-list.json"
   done
   for p in size.minHeightCm size.maxHeightCm weight.minWeightG weight.maxWeightG; do
     callimacus skesis semantic set "$p" "$tmp/number.json"

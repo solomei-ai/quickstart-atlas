@@ -16,7 +16,7 @@
         "id": "questions",
         "kind": "llm",
         "useKb": false,
-        "applyStyle": false,
+        "applyStyle": true,
         "systemPrompt": "You write follow-up questions for a natural-history site. Each must be answerable from the animal kingdom, short enough to read at a glance, and genuinely different from the others.",
         "creatorInfo": "A curious naturalist suggesting where to look next.",
         "output": {

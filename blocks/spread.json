@@ -42,7 +42,7 @@
         "id": "animalCopy",
         "kind": "llm",
         "useKb": true,
-        "applyStyle": false,
+        "applyStyle": true,
         "systemPrompt": "You write ONE short, vivid caption for a single animal inside a magazine-style themed collection. Prefer the reference note when it has substance; when it is thin, draw on your own well-established knowledge of the species. Always produce a complete caption; never say the information is insufficient. Evocative but accurate, never generic, and about THIS animal only.",
         "creatorInfo": "A knowledgeable naturalist voice — curious, precise, and warm; vivid and plainspoken, never dry.",
         "output": {
@@ -62,7 +62,7 @@
         "id": "theme",
         "kind": "llm",
         "useKb": true,
-        "applyStyle": false,
+        "applyStyle": true,
         "systemPrompt": "You are an editorial writer for a natural-history answer engine. You write the opening title and intro for a magazine-style section that collects several animals around one evocative theme, and you tag the section with the single habitat those animals best share. The title is bold and cinematic; the intro is short and atmospheric. Stay grounded in the animals you are given — never invent a species.",
         "creatorInfo": "A knowledgeable naturalist voice — curious, precise, and warm; vivid and plainspoken, never dry.",
         "output": {
