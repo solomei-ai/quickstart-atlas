@@ -1,0 +1,71 @@
+{
+  "key": "comparativeCard",
+  "name": "Animal Comparison",
+  "prompt": "Two specific animals side by side — size, weight, habitats, era. Use only when the visitor names two animals and asks how they differ or which is better at something. Not for a single animal, and not for open 'which animal is the fastest' questions with no two names.",
+  "description": "Two specific animals side by side — size, weight, habitats, era. Use only when the visitor names two animals and asks how they differ or which is better at something. Not for a single animal, and not for open 'which animal is the fastest' questions with no two names.",
+  "node": {
+    "display": "augment",
+    "block": {
+      "type": "comparativeCard",
+      "data": {
+        "header": {
+          "title": ""
+        },
+        "first": [],
+        "second": []
+      }
+    },
+    "contents": [
+      {
+        "id": "header",
+        "kind": "llm",
+        "systemPrompt": "You write the short title that sits above a side-by-side comparison of two animals. Name what the visitor is actually weighing — the trait they asked about, not just the two species — and stay factual: never declare a winner, never state a figure, and never add a claim the cards beneath you do not carry.",
+        "creatorInfo": "The editorial voice of a natural-history answer engine — curious and precise, plainspoken rather than dry.",
+        "output": {
+          "kind": "json",
+          "schemaJson": "{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"}},\"required\":[\"title\"],\"additionalProperties\":false}"
+        },
+        "promptTemplate": "The visitor asked: \"{{input.value}}\"\n\nReturn a JSON object with `title` — the question reformulated as a title, sentence case, at most 8 words, no ending punctuation and no question mark (e.g. \"Jaguar and cheetah, matched on speed\"). Name both subjects where the visitor named two, and the trait being compared where they named one.",
+        "useKb": false,
+        "applyStyle": true
+      },
+      {
+        "id": "entities",
+        "kind": "llm",
+        "systemPrompt": "You extract the two subjects a visitor wants compared in a natural-history question. Return each as the shortest, most searchable STANDARD common species name — prefer the standard name over a colloquial or regional alias (e.g. \"leopard\" or \"jaguar\", not \"panther\"; \"cougar\", not \"mountain lion\" or \"puma\"), because an alias can silently name the very same species as the other subject. `first` and `second` must always be two genuinely different species — never the same species twice, whether under the same name or a different alias for it. Never invent a subject that is not implied by the question.",
+        "creatorInfo": "A precise entity extractor for a natural-history answer engine.",
+        "output": {
+          "kind": "json",
+          "schemaJson": "{\"type\": \"object\", \"properties\": {\"first\": {\"type\": \"string\"}, \"second\": {\"type\": \"string\"}}, \"required\": [\"first\", \"second\"], \"additionalProperties\": false}"
+        },
+        "promptTemplate": "The visitor asked: \"{{input.value}}\"\n\nIdentify the two animals being compared. Return a JSON object with `first` and `second`, each the shortest STANDARD common name of one subject (e.g. \"lion\", \"great white shark\") — no articles, no extra words, and no colloquial/regional alias that might secretly name the other subject's species (e.g. don't return \"panther\" for one side and \"leopard\" for the other — they can be the same animal; \"grey wolf\" and \"gray wolf\" are the same species too, just a spelling difference, not two subjects). Keep the order they appear in the question. `first` and `second` must never resolve to the same species. If only one subject is explicit, put it in `first` and pick a real, clearly DIFFERENT species as the most likely implied counterpart for `second` — never repeat `first`.",
+        "useKb": false,
+        "applyStyle": true
+      },
+      {
+        "id": "first",
+        "kind": "skesis",
+        "minK": 0,
+        "topK": 1,
+        "kinds": [
+          "animal"
+        ],
+        "queryTemplate": "{{content.entities.first}}"
+      },
+      {
+        "id": "second",
+        "kind": "skesis",
+        "minK": 0,
+        "topK": 1,
+        "kinds": [
+          "animal"
+        ],
+        "queryTemplate": "{{content.entities.second}}"
+      }
+    ],
+    "condition": {
+      "type": "never"
+    },
+    "priority": 30
+  }
+}

@@ -1,12 +1,7 @@
 @use '../../styles/abstracts/variables' as var;
 
-// The ScatterField is an absolutely-positioned child filling the section, so the section has to be
-// the containing block. `overflow: hidden` both crops the pattern at the section's edges — the way
-// the reference print is cropped at the paper's edge — and stops the 100vw strip adding horizontal
-// scroll.
 .container {
-  position: relative;
-  overflow: visible;
+  background: var(--background-themed-gradient);
   display: flex;
   flex-direction: column;
   gap: var.$space-4xl;
@@ -14,20 +9,6 @@
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   box-sizing: border-box;
-}
-
-// Content sits above the field. Both are positioned, so a z-index is what decides the order: the
-// field would otherwise paint over the text purely for being absolutely positioned.
-.header,
-.animalSection {
-  position: relative;
-  z-index: 1;
-}
-
-.animalSection {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
 }
 
 .header {
@@ -86,15 +67,9 @@
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
-    background-color: var(--color-surface-base-70);
-    backdrop-filter: blur(var.$blur-lg);
-    border-radius: var.$radius-md;
-    padding: var.$space-md;
-    height: fit-content;
-    box-shadow: var.$box-shadow-base;
 
     @include respond-to('lg') {
-      text-align: center;
+      text-align: left;
     }
   }
 }
@@ -111,3 +86,33 @@
   }
 }
 
+// Reserves the space a top background would otherwise take out of the section's flow, so a
+// canopy-style theme keeps the same overall height as a horizon-style one.
+.placeholder {
+  height: 15vh;
+}
+
+// The habitat scene: a 100vw strip that sticks to the viewport edge while the section scrolls
+// past it, so the art reads as a horizon the animals stand on rather than a band in the flow.
+.background-top,
+.background-bottom {
+  height: 50vh;
+  width: 100vw;
+  position: sticky;
+  touch-action: none;
+  pointer-events: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  z-index: 50;
+
+  &.background-bottom {
+    bottom: 0;
+    background-position: center;
+  }
+
+  &.background-top {
+    top: 0;
+    background-position: center;
+  }
+}

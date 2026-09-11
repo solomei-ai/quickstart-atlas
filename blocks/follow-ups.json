@@ -1,0 +1,34 @@
+{
+  "key": "relQuestions",
+  "name": "Related Questions",
+  "prompt": "Three short follow-up questions drawn from what the round just covered. Always appropriate — it is how a visitor keeps going without typing.",
+  "description": "Three short follow-up questions drawn from what the round just covered. Always appropriate — it is how a visitor keeps going without typing.",
+  "node": {
+    "display": "augment",
+    "block": {
+      "type": "relQuestions",
+      "data": {
+        "questions": []
+      }
+    },
+    "contents": [
+      {
+        "id": "questions",
+        "kind": "llm",
+        "useKb": false,
+        "applyStyle": true,
+        "systemPrompt": "You write follow-up questions for a natural-history site. Each must be answerable from the animal kingdom, short enough to read at a glance, and genuinely different from the others.",
+        "creatorInfo": "A curious naturalist suggesting where to look next.",
+        "output": {
+          "kind": "json",
+          "schemaJson": "{\"type\":\"object\",\"properties\":{\"questions\":{\"type\":\"array\",\"minItems\":3,\"maxItems\":3,\"items\":{\"type\":\"object\",\"properties\":{\"title\":{\"type\":\"string\"},\"text\":{\"type\":\"string\"}},\"required\":[\"title\",\"text\"],\"additionalProperties\":false}}},\"required\":[\"questions\"],\"additionalProperties\":false}"
+        },
+        "promptTemplate": "The visitor asked: \"{{input.value}}\"\n\nWrite exactly three follow-up questions. Each has a `title` of at most 4 words naming the angle, and a `text` holding the question itself."
+      }
+    ],
+    "condition": {
+      "type": "never"
+    },
+    "priority": 1000
+  }
+}
