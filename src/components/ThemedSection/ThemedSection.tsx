@@ -4,16 +4,14 @@ import type {Fact} from "../../thamyr/blockData.ts";
 import AnimalEntry from "../AnimalEntry/AnimalEntry.tsx";
 import FactSection from "../FactSection/FactSection.tsx";
 import Markdown from "react-markdown";
-import ScatterField from "../ScatterField/ScatterField.tsx";
-import type {ThemeAsset} from "../../assets/themeAssets/themeAsset.ts";
-import {coralReefAssets} from "../../assets/themeAssets/coralreef/coralreefAssets.ts";
-import {desertAssets} from "../../assets/themeAssets/desert/desertAssets.ts";
-import {forestAssets} from "../../assets/themeAssets/forest/forestAssets.ts";
-import {mountainAssets} from "../../assets/themeAssets/mountain/mountainAssets.ts";
-import {rainForestAssets} from "../../assets/themeAssets/rainforest/rainforestAssets.ts";
-import {riverAssets} from "../../assets/themeAssets/river/riverAssets.ts";
-import {savannaAssets} from "../../assets/themeAssets/savanna/savannaAssets.ts";
-import {tundraAssets} from "../../assets/themeAssets/tundra/tundraAssets.ts";
+import CoralReef from "../../assets/assets/coral-reef.png";
+import Desert from "../../assets/assets/desert.png";
+import Forest from "../../assets/assets/forest.png";
+import Mountain from "../../assets/assets/mountain.png";
+import Rainforest from "../../assets/assets/rainforest.png";
+import River from "../../assets/assets/river.png";
+import Savanna from "../../assets/assets/savanna.png";
+import Tundra from "../../assets/assets/tundra.png";
 
 /** One animal in the section: its profile plus the LLM-generated caption (may be absent if generation failed). */
 export type ThemedAnimal = {
@@ -28,38 +26,36 @@ type ThemedSectionProps = {
 	readonly theme: string;
 };
 
+// Themes whose habitat art sits overhead (a canopy, a cave ceiling) render their background at the
+// top of the section; every other theme renders it at the bottom, as a horizon.
+const TOP_BACKGROUND_THEMES = new Set(['Rainforest']);
 
 // Keyed by habitat, and the keys must match the `habitat` enum in the block's
 // `theme` item exactly — a key that misses (`Coral reef` for `Coral Reef`)
-// silently drops the scatter field rather than failing. These are the eight
+// silently drops the background rather than failing. These are the eight
 // habitats this project loads; the reference project covers twenty.
-const SCATTER_ASSETS: Record<string, ThemeAsset> = {
-	'Coral Reef': coralReefAssets,
-	Desert: desertAssets,
-	Forest: forestAssets,
-	Mountain: mountainAssets,
-	Rainforest: rainForestAssets,
-	River: riverAssets,
-	Savanna: savannaAssets,
-	Tundra: tundraAssets,
+const THEME_BACKGROUND_IMAGES: Record<string, string> = {
+	'Coral Reef': CoralReef,
+	Desert,
+	Forest,
+	Mountain,
+	Rainforest,
+	River,
+	Savanna,
+	Tundra,
 };
 
-// Every theme bundle exports the same three group keys, so the groups are a
-// constant here rather than an import from one particular habitat's bundle.
-const SCATTER_GROUPS = [
-	{key: 'monstera'},
-	{key: 'broadleaf'},
-	{key: 'bloom', scale: 0.65},
-] as const;
-
 function ThemedSection({animals, theme, description, title}: ThemedSectionProps) {
-	// A theme whose art has not landed yet renders the section without a field
-	// rather than dealing from an undefined pool.
-	const scatterAssets = SCATTER_ASSETS[theme] as ThemeAsset | undefined;
+	// A theme whose art has not landed yet renders the section on the gradient
+	// alone rather than an element with no image in it.
+	const backgroundImage = THEME_BACKGROUND_IMAGES[theme] as string | undefined;
+	const isTopBackground = TOP_BACKGROUND_THEMES.has(theme);
 
 	return (
 		<div data-theme={theme} className={styles.container}>
-			{scatterAssets && <ScatterField assets={scatterAssets} groups={SCATTER_GROUPS} seed={theme}/>}
+			{backgroundImage && isTopBackground && (
+				<div className={styles['background-top']} style={{backgroundImage: `url(${backgroundImage})`}}/>
+			)}
 			<div data-theme={'light'} className={styles.header}>
 				<h2>
 					<Markdown components={{p: ({children}) => <>{children}</>}}>{title}</Markdown>
@@ -87,6 +83,11 @@ function ThemedSection({animals, theme, description, title}: ThemedSectionProps)
 					)
 				})
 			}
+			{backgroundImage && (
+				isTopBackground
+					? <div className={styles.placeholder}/>
+					: <div className={styles['background-bottom']} style={{backgroundImage: `url(${backgroundImage})`}}/>
+			)}
 		</div>
 	)
 }

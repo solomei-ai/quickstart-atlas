@@ -1,0 +1,53 @@
+{
+  "key": "discoveryFeed",
+  "name": "Animal Discovery Feed",
+  "prompt": "The entrance feed — a spread of records chosen from what this visitor has shown curiosity about. The Landing's own block; not an answer to a question.",
+  "description": "The entrance feed — a spread of records chosen from what this visitor has shown curiosity about. The Landing's own block; not an answer to a question.",
+  "node": {
+    "display": "augment",
+    "block": {
+      "type": "discoveryFeed",
+      "data": {
+        "title": "",
+        "intent": "",
+        "animals": []
+      }
+    },
+    "contents": [
+      {
+        "id": "title",
+        "kind": "static",
+        "value": "{{ctx.useIntents.wildlife_discovery_intent.title}}"
+      },
+      {
+        "id": "intent",
+        "kind": "static",
+        "value": "{{ctx.useIntents.wildlife_discovery_intent.summary}}"
+      },
+      {
+        "id": "animals",
+        "kind": "skesis",
+        "kinds": [
+          "animal"
+        ],
+        "minK": 1,
+        "topK": 50,
+        "queryTemplate": "{{ctx.useIntents.wildlife_discovery_intent.traits}}: {{ctx.useIntents.wildlife_discovery_intent.summary}} — prioritize animals matching these specific traits (classification, habitat, era) over generic variety; only when no clear traits are present, show diverse wildlife spanning habitats, classifications, and eras instead."
+      }
+    ],
+    "condition": {
+      "type": "anyOf",
+      "value": [
+        {
+          "type": "inputTypeIs",
+          "value": "customPage"
+        },
+        {
+          "type": "interactionIs",
+          "id": "connection"
+        }
+      ]
+    },
+    "priority": 100
+  }
+}

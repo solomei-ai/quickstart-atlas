@@ -15,7 +15,7 @@
   "drySeason": "None — wet year-round",
   "canopy": "Kapok, Brazil nut, fig",
   "slug": "canopy",
-  "imageUrl": "images/habitats/canopy.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/WIWsrsJzW3Pmx-u_fWhUW",
   "published": true
  },
  {
@@ -34,7 +34,7 @@
   "drySeason": "None — wet year-round",
   "canopy": "Dipterocarp, strangler fig",
   "slug": "arboreal",
-  "imageUrl": "images/habitats/arboreal.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/lgG6S5_P7AKSJgT21YULE",
   "published": true
  },
  {
@@ -53,7 +53,7 @@
   "drySeason": "Late summer (Jul – Sep)",
   "canopy": "Oak, hornbeam, spruce",
   "slug": "forest",
-  "imageUrl": "images/habitats/forest.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sPgbQAdvBaacsPUwEQe09",
   "published": true
  },
  {
@@ -72,7 +72,7 @@
   "drySeason": "None — wet year-round",
   "canopy": "Kapok, rubber, palm",
   "slug": "rainforest",
-  "imageUrl": "images/habitats/rainforest.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Qr2z5YBmF8Cw0qGyMVG--",
   "published": true
  },
  {
@@ -91,7 +91,7 @@
   "drySeason": "May – October",
   "canopy": "Valley oak, blue oak",
   "slug": "woodland",
-  "imageUrl": "images/habitats/woodland.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/19nMAP7g3l0lTtzYD_bzi",
   "published": true
  },
  {
@@ -110,7 +110,7 @@
   "drySeason": "Mid–late summer",
   "canopy": "Bluestem, grama, switchgrass",
   "slug": "grassland",
-  "imageUrl": "images/habitats/grassland.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/GpvRgv1u4PMKsSP71WhnT",
   "published": true
  },
  {
@@ -129,7 +129,7 @@
   "drySeason": "June – October",
   "canopy": "Acacia, baobab",
   "slug": "savanna",
-  "imageUrl": "images/habitats/savanna.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/GN1uh3AIXfhrcfKAMp0lj",
   "published": true
  },
  {
@@ -148,7 +148,7 @@
   "drySeason": "Most of the year",
   "canopy": "Saguaro, cholla, creosote",
   "slug": "desert",
-  "imageUrl": "images/habitats/desert.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/zyUR4VvqLJCT8U6bRDwMj",
   "published": true
  },
  {
@@ -167,7 +167,7 @@
   "drySeason": "Long winter (Sep – May)",
   "canopy": "Moss, lichen, dwarf shrub",
   "slug": "tundra",
-  "imageUrl": "images/habitats/tundra.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/07ktTuJjYWvwkwE2SSQsq",
   "published": true
  },
  {
@@ -186,7 +186,7 @@
   "drySeason": "Winter (Nov – Mar)",
   "canopy": "Rhododendron, juniper, cushion plant",
   "slug": "mountain",
-  "imageUrl": "images/habitats/mountain.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/NFOyWPd4BYV9tu616_N9S",
   "published": true
  },
  {
@@ -205,7 +205,7 @@
   "drySeason": "None — buffered year-round",
   "canopy": "None — fungi, bacterial mats",
   "slug": "cave",
-  "imageUrl": "images/habitats/cave.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/rAsJU-F-408GIonLjL1Qh",
   "published": true
  },
  {
@@ -224,7 +224,7 @@
   "drySeason": "May – September",
   "canopy": "Reed, water hyacinth, palm",
   "slug": "wetland",
-  "imageUrl": "images/habitats/wetland.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/6K1i2pqbYoz6IwzlmYXJm",
   "published": true
  },
  {
@@ -243,7 +243,7 @@
   "drySeason": "April – October",
   "canopy": "Papyrus, water lily, reed",
   "slug": "freshwater",
-  "imageUrl": "images/habitats/freshwater.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/VquyVdCuie17DMwXz3dqm",
   "published": true
  },
  {
@@ -262,7 +262,7 @@
   "drySeason": "November – April",
   "canopy": "Riverine forest, reed bank",
   "slug": "river",
-  "imageUrl": "images/habitats/river.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/STLDbNpu8V3HJuGaemIku",
   "published": true
  },
  {
@@ -281,7 +281,7 @@
   "drySeason": "Frozen Jan – May",
   "canopy": "Sponge beds, submerged algae",
   "slug": "lake",
-  "imageUrl": "images/habitats/lake.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ieEQDvne8Z5tHXKhXKrNJ",
   "published": true
  },
  {
@@ -300,7 +300,7 @@
   "drySeason": "None — submerged year-round",
   "canopy": "Hard & soft coral, sea fan",
   "slug": "coral-reef",
-  "imageUrl": "images/habitats/coral-reef.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/KpUzwrVrDUAhAxXz83MlO",
   "published": true
  },
  {
@@ -319,7 +319,7 @@
   "drySeason": "None — abyssal dark",
   "canopy": "None — chemosynthetic mats",
   "slug": "deep-sea",
-  "imageUrl": "images/habitats/deep-sea.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/bAEZOiiL4PP9-1MKoC9BA",
   "published": true
  },
  {
@@ -338,7 +338,7 @@
   "drySeason": "Tidal — twice daily",
   "canopy": "Kelp, rockweed, eelgrass",
   "slug": "coastal",
-  "imageUrl": "images/habitats/coastal.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/XrDMlmqXKMWl8PDZSYu6L",
   "published": true
  },
  {
@@ -357,7 +357,7 @@
   "drySeason": "Mild winter (Dec – Feb)",
   "canopy": "Street trees, parks, green roofs",
   "slug": "urban",
-  "imageUrl": "images/habitats/urban.webp",
+  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/cn15E9QmAG5OQl22Q-F3z",
   "published": true
  }
 ]

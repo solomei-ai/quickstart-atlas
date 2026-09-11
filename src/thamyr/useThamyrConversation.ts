@@ -105,7 +105,13 @@ export function useThamyrConversation() {
 				return next;
 			});
 
-			if ((message.chapter.blocks ?? []).length > 1) {
+			// Hold the loader until the round has more than one block, so a multi-block
+			// round reveals itself settled rather than one block at a time. A round
+			// cannot be relied on to ever reach two blocks though — the Quickstart's
+			// first round is the written answer alone, and a round no block fits ends
+			// empty — so `done` is the fallback that always lets the loader go.
+			const blockCount = (conversationBlocks ?? []).length;
+			if (blockCount > 1 || message.chapter.status === ChapterStatus.done) {
 				setIsLoading(false);
 			}
 
