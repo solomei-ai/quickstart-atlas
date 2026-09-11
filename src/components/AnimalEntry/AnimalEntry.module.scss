@@ -1,0 +1,65 @@
+@use '../../styles/abstracts/variables' as var;
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+
+	&:disabled {
+		cursor: default;
+	}
+}
+
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.imageContainer img {
+  height: 100%;
+  object-fit: cover;
+  @media (max-width: 679px) {
+    object-fit: contain;
+  }
+}
+
+.content-xl {
+  height: 26rem;
+  margin: -5rem 0;
+}
+
+.content-lg {
+  height: 12rem;
+}
+
+.content-md {
+  height: 9rem;
+}
+
+.content-sm {
+  height: 7rem;
+}
+
+.nameContainer {
+  box-shadow: var.$box-shadow-base;
+  position: relative;
+  padding: var.$space-sm;
+  border-radius: var.$radius-md;
+  background-color: var(--color-surface-70);
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  backdrop-filter: blur(var.$blur-base);
+}

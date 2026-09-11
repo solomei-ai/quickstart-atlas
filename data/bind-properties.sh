@@ -54,8 +54,9 @@ bind_kind() {
   local kind=$1; shift
   for p in "$@"; do
     local rev
-    rev=$(callimacus skesis mapping show --kind "$kind" \
-          | tail -n +2 \
+    # The CLI prints the ETag line on stderr and pure JSON on stdout, so read
+    # stdout alone — do NOT strip a line, or you strip the JSON's opening brace.
+    rev=$(callimacus skesis mapping show --kind "$kind" 2>/dev/null \
           | python3 -c 'import json,sys; print(json.load(sys.stdin)["rev"])')
     callimacus skesis mapping bind "$p" --kind "$kind" --from "$p" --if-match "$rev"
   done
