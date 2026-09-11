@@ -27,7 +27,7 @@
    "minWeightG": 10600,
    "maxWeightG": 17500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/YZmzbVw_qkUBgEdj-Emta",
+  "imageUrl": "images/animals/dodo.webp",
   "slug": "dodo",
   "coordinates": {
    "lat": -20.3,
@@ -64,7 +64,7 @@
    "minWeightG": 5000000,
    "maxWeightG": 9000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/61I6xz9600wH-0XA44Gmu",
+  "imageUrl": "images/animals/t-rex.webp",
   "slug": "t-rex",
   "coordinates": {
    "lat": 45.0,
@@ -101,7 +101,7 @@
    "minWeightG": 1800000,
    "maxWeightG": 2700000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vR1Fi1PyLyWtSZjrd7o3V",
+  "imageUrl": "images/animals/white-rhino.webp",
   "slug": "white-rhino",
   "coordinates": {
    "lat": -25.5,
@@ -139,7 +139,7 @@
    "minWeightG": 135000,
    "maxWeightG": 230000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/nlTuW1ClUNwXEIBl-R_Vk",
+  "imageUrl": "images/animals/begala-tiger.webp",
   "slug": "begala-tiger",
   "coordinates": {
    "lat": 23.0,
@@ -179,7 +179,7 @@
    "minWeightG": 2,
    "maxWeightG": 24
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/6MSVvSAZHP2WTNyVoQBDS",
+  "imageUrl": "images/animals/colibri.webp",
   "slug": "colibri",
   "coordinates": {
    "lat": 4.6,
@@ -215,7 +215,7 @@
    "minWeightG": 120000,
    "maxWeightG": 250000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/OTzgV8a3eMGnIW8Pj16C2",
+  "imageUrl": "images/animals/lion.webp",
   "slug": "lion",
   "coordinates": {
    "lat": -2.3,
@@ -255,7 +255,7 @@
    "minWeightG": 65000,
    "maxWeightG": 306000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/F1B50AesaUIQ3nINJ_se9",
+  "imageUrl": "images/animals/tiger.webp",
   "slug": "tiger",
   "coordinates": {
    "lat": 21.0,
@@ -295,7 +295,7 @@
    "minWeightG": 17000,
    "maxWeightG": 90000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/TgGPCAbyggUGSIY7rjUn-",
+  "imageUrl": "images/animals/leopard.webp",
   "slug": "leopard",
   "coordinates": {
    "lat": -1.5,
@@ -332,7 +332,7 @@
    "minWeightG": 21000,
    "maxWeightG": 72000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Yy3AqWV0sRgJ5ko90GtFx",
+  "imageUrl": "images/animals/cheetah.webp",
   "slug": "cheetah",
   "coordinates": {
    "lat": -22.0,
@@ -373,7 +373,7 @@
    "minWeightG": 36000,
    "maxWeightG": 158000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/QaxNQRbV9doknz5n72hnT",
+  "imageUrl": "images/animals/jaguar.webp",
   "slug": "jaguar",
   "coordinates": {
    "lat": -10.0,
@@ -413,7 +413,7 @@
    "minWeightG": 30000,
    "maxWeightG": 100000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/eCWvDm5T8UYQrqpAw_76n",
+  "imageUrl": "images/animals/cougar.webp",
   "slug": "cougar",
   "coordinates": {
    "lat": 39.5,
@@ -451,7 +451,7 @@
    "minWeightG": 15000,
    "maxWeightG": 29000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/RKaxY8qiIt7lpOiK2Jg9F",
+  "imageUrl": "images/animals/eurasian-lynx.webp",
   "slug": "eurasian-lynx",
   "coordinates": {
    "lat": 61.0,
@@ -491,7 +491,7 @@
    "minWeightG": 5000,
    "maxWeightG": 15000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/85b9UVWQytEbzu9LEwKZe",
+  "imageUrl": "images/animals/bobcat.webp",
   "slug": "bobcat",
   "coordinates": {
    "lat": 37.0,
@@ -530,7 +530,7 @@
    "minWeightG": 8000,
    "maxWeightG": 19000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/54roZQypms-bVCyDj888j",
+  "imageUrl": "images/animals/caracal.webp",
   "slug": "caracal",
   "coordinates": {
    "lat": 22.0,
@@ -568,7 +568,7 @@
    "minWeightG": 7000,
    "maxWeightG": 18000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/rZyAH8xsMzBNLZ2dVOyon",
+  "imageUrl": "images/animals/serval.webp",
   "slug": "serval",
   "coordinates": {
    "lat": -1.0,
@@ -605,7 +605,7 @@
    "minWeightG": 25000,
    "maxWeightG": 55000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_Zq_JWW36sIHmyqnif4a8",
+  "imageUrl": "images/animals/snow-leopard.webp",
   "slug": "snow-leopard",
   "coordinates": {
    "lat": 34.0,
@@ -643,7 +643,7 @@
    "minWeightG": 11000,
    "maxWeightG": 23000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/uWA9St1q2CcSsCisEXPUE",
+  "imageUrl": "images/animals/clouded-leopard.webp",
   "slug": "clouded-leopard",
   "coordinates": {
    "lat": 4.5,
@@ -683,7 +683,7 @@
    "minWeightG": 110000,
    "maxWeightG": 682000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/eg1qc5ewMZXxY7GCALWkE",
+  "imageUrl": "images/animals/brown-bear.webp",
   "slug": "brown-bear",
   "coordinates": {
    "lat": 61.0,
@@ -721,7 +721,7 @@
    "minWeightG": 150000,
    "maxWeightG": 800000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IA0B3LNc-wkwftR9woa8a",
+  "imageUrl": "images/animals/polar-bear.webp",
   "slug": "polar-bear",
   "coordinates": {
    "lat": 78.0,
@@ -759,7 +759,7 @@
    "minWeightG": 39000,
    "maxWeightG": 325000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/03AOAQ-3nwMgjNOx4ByvP",
+  "imageUrl": "images/animals/american-black-bear.webp",
   "slug": "american-black-bear",
   "coordinates": {
    "lat": 44.0,
@@ -796,7 +796,7 @@
    "minWeightG": 80000,
    "maxWeightG": 200000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IN-L5NG0q8f-tkx7mvxJ5",
+  "imageUrl": "images/animals/marsican-brown-bear.webp",
   "slug": "marsican-brown-bear",
   "coordinates": {
    "lat": 41.8,
@@ -832,7 +832,7 @@
    "minWeightG": 30000,
    "maxWeightG": 65000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/4-_-_ZE0RM5u__fpC9wlf",
+  "imageUrl": "images/animals/sun-bear.webp",
   "slug": "sun-bear",
   "coordinates": {
    "lat": 1.0,
@@ -867,7 +867,7 @@
    "minWeightG": 70000,
    "maxWeightG": 125000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/g4Temvdpv_fKNFy7bxPnl",
+  "imageUrl": "images/animals/giant-panda.webp",
   "slug": "giant-panda",
   "coordinates": {
    "lat": 31.0,
@@ -904,7 +904,7 @@
    "minWeightG": 3600,
    "maxWeightG": 7700
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/5kPpN9ugK1qpa0JN68wqU",
+  "imageUrl": "images/animals/red-panda.webp",
   "slug": "red-panda",
   "coordinates": {
    "lat": 27.5,
@@ -942,7 +942,7 @@
    "minWeightG": 6000,
    "maxWeightG": 27500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/5colotQVVlgxhL6rf9ZHA",
+  "imageUrl": "images/animals/wolverine.webp",
   "slug": "wolverine",
   "coordinates": {
    "lat": 65.0,
@@ -981,7 +981,7 @@
    "minWeightG": 8000,
    "maxWeightG": 12000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/J568i3Kw7Y2Gx8sCDoQU1",
+  "imageUrl": "images/animals/european-badger.webp",
   "slug": "european-badger",
   "coordinates": {
    "lat": 52.0,
@@ -1021,7 +1021,7 @@
    "minWeightG": 7000,
    "maxWeightG": 12000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/HrbRcp9lf0xMjuukH3pcx",
+  "imageUrl": "images/animals/eurasian-otter.webp",
   "slug": "eurasian-otter",
   "coordinates": {
    "lat": 54.0,
@@ -1058,7 +1058,7 @@
    "minWeightG": 14000,
    "maxWeightG": 45000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/1QSi5ZyxsaD7Xdt6vGc8g",
+  "imageUrl": "images/animals/sea-otter.webp",
   "slug": "sea-otter",
   "coordinates": {
    "lat": 55.5,
@@ -1097,7 +1097,7 @@
    "minWeightG": 6000,
    "maxWeightG": 14000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/xywO4Lfj-JdZXip5APObP",
+  "imageUrl": "images/animals/honey-badger.webp",
   "slug": "honey-badger",
   "coordinates": {
    "lat": 5.0,
@@ -1135,7 +1135,7 @@
    "minWeightG": 620,
    "maxWeightG": 970
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/jQrO3vCxPuDdCSwsQCY0r",
+  "imageUrl": "images/animals/meerkat.webp",
   "slug": "meerkat",
   "coordinates": {
    "lat": -24.0,
@@ -1173,7 +1173,7 @@
    "minWeightG": 18000,
    "maxWeightG": 80000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/cTO3Xc2JXLo6i7b13iCLG",
+  "imageUrl": "images/animals/gray-wolf.webp",
   "slug": "gray-wolf",
   "coordinates": {
    "lat": 60.0,
@@ -1209,7 +1209,7 @@
    "minWeightG": 32000,
    "maxWeightG": 79000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_j7WvStox0yLRcc-cIpHI",
+  "imageUrl": "images/animals/arctic-wolf.webp",
   "slug": "arctic-wolf",
   "coordinates": {
    "lat": 78.0,
@@ -1250,7 +1250,7 @@
    "minWeightG": 6800,
    "maxWeightG": 20900
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/EE2aiBfg2O_BwIaga3ENH",
+  "imageUrl": "images/animals/coyote.webp",
   "slug": "coyote",
   "coordinates": {
    "lat": 38.0,
@@ -1290,7 +1290,7 @@
    "minWeightG": 2200,
    "maxWeightG": 14000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Sp5-AAaMAsoSfMsdY27I4",
+  "imageUrl": "images/animals/red-fox.webp",
   "slug": "red-fox",
   "coordinates": {
    "lat": 52.0,
@@ -1327,7 +1327,7 @@
    "minWeightG": 1400,
    "maxWeightG": 9400
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/nz29q8Bt-iwFxjS8DjMoX",
+  "imageUrl": "images/animals/arctic-fox.webp",
   "slug": "arctic-fox",
   "coordinates": {
    "lat": 71.0,
@@ -1362,7 +1362,7 @@
    "minWeightG": 900,
    "maxWeightG": 1600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/1tK-vjnOKit8UVRDpkLxA",
+  "imageUrl": "images/animals/fennec-fox.webp",
   "slug": "fennec-fox",
   "coordinates": {
    "lat": 24.0,
@@ -1402,7 +1402,7 @@
    "minWeightG": 8000,
    "maxWeightG": 16000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/pYeLRtSHxiDD5_ErF0Cc6",
+  "imageUrl": "images/animals/golden-jackal.webp",
   "slug": "golden-jackal",
   "coordinates": {
    "lat": 26.0,
@@ -1439,7 +1439,7 @@
    "minWeightG": 17000,
    "maxWeightG": 36000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Du10RANN_x7JgA_FLqeC7",
+  "imageUrl": "images/animals/african-wild-dog.webp",
   "slug": "african-wild-dog",
   "coordinates": {
    "lat": -19.0,
@@ -1477,7 +1477,7 @@
    "minWeightG": 12000,
    "maxWeightG": 24000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/xiRmMzuaO7CngRUg3r8MY",
+  "imageUrl": "images/animals/dingo.webp",
   "slug": "dingo",
   "coordinates": {
    "lat": -25.0,
@@ -1515,7 +1515,7 @@
    "minWeightG": 68000,
    "maxWeightG": 226800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/4Nj7PoUsId0zF_HGcQoH6",
+  "imageUrl": "images/animals/western-lowland-gorilla.webp",
   "slug": "western-lowland-gorilla",
   "coordinates": {
    "lat": 0.5,
@@ -1555,7 +1555,7 @@
    "minWeightG": 27000,
    "maxWeightG": 70000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/bntuQH6E0920FBpcB_G9i",
+  "imageUrl": "images/animals/chimpanzee.webp",
   "slug": "chimpanzee",
   "coordinates": {
    "lat": 1.0,
@@ -1592,7 +1592,7 @@
    "minWeightG": 26000,
    "maxWeightG": 43000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/U4PIRXRf_bCaHuZ8vshl_",
+  "imageUrl": "images/animals/bonobo.webp",
   "slug": "bonobo",
   "coordinates": {
    "lat": -2.0,
@@ -1628,7 +1628,7 @@
    "minWeightG": 37000,
    "maxWeightG": 90000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Gfls_MSzjkf9HtDfJ03uN",
+  "imageUrl": "images/animals/bornean-orangutan.webp",
   "slug": "bornean-orangutan",
   "coordinates": {
    "lat": 0.5,
@@ -1665,7 +1665,7 @@
    "minWeightG": 25000,
    "maxWeightG": 54000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/tW7JvmMX-Sq3nhnZJSVNh",
+  "imageUrl": "images/animals/mandrill.webp",
   "slug": "mandrill",
   "coordinates": {
    "lat": 0.0,
@@ -1702,7 +1702,7 @@
    "minWeightG": 10000,
    "maxWeightG": 37000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/k2RXe7dKFXFEbSvB_uauP",
+  "imageUrl": "images/animals/olive-baboon.webp",
   "slug": "olive-baboon",
   "coordinates": {
    "lat": 5.0,
@@ -1740,7 +1740,7 @@
    "minWeightG": 3900,
    "maxWeightG": 8000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Xm_dTOqPEbmeV0UHrq9bs",
+  "imageUrl": "images/animals/vervet-monkey.webp",
   "slug": "vervet-monkey",
   "coordinates": {
    "lat": -1.0,
@@ -1777,7 +1777,7 @@
    "minWeightG": 8400,
    "maxWeightG": 11300
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/k1XqHJKyWPp-IC_gQYQoT",
+  "imageUrl": "images/animals/japanese-macaque.webp",
   "slug": "japanese-macaque",
   "coordinates": {
    "lat": 36.5,
@@ -1814,7 +1814,7 @@
    "minWeightG": 3600,
    "maxWeightG": 7600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/RTl_gTmfzp413kpZj1wH4",
+  "imageUrl": "images/animals/howler-monkey.webp",
   "slug": "howler-monkey",
   "coordinates": {
    "lat": -3.0,
@@ -1852,7 +1852,7 @@
    "minWeightG": 6000,
    "maxWeightG": 9000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/OWaUdvPo4XCdj99p4WL9s",
+  "imageUrl": "images/animals/spider-monkey.webp",
   "slug": "spider-monkey",
   "coordinates": {
    "lat": 9.0,
@@ -1889,7 +1889,7 @@
    "minWeightG": 600,
    "maxWeightG": 800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Q0uXHPSXibP34Dg_5lsU8",
+  "imageUrl": "images/animals/golden-lion-tamarin.webp",
   "slug": "golden-lion-tamarin",
   "coordinates": {
    "lat": -22.5,
@@ -1927,7 +1927,7 @@
    "minWeightG": 2200,
    "maxWeightG": 3500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/AayTXaILJ3b5hWh6OL7Ry",
+  "imageUrl": "images/animals/ring-tailed-lemur.webp",
   "slug": "ring-tailed-lemur",
   "coordinates": {
    "lat": -22.5,
@@ -1964,7 +1964,7 @@
    "minWeightG": 6000,
    "maxWeightG": 9500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/eauKC1yPSTBVaMgpXtb5x",
+  "imageUrl": "images/animals/indri.webp",
   "slug": "indri",
   "coordinates": {
    "lat": -18.9,
@@ -2000,7 +2000,7 @@
    "minWeightG": 2570,
    "maxWeightG": 2615
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/hiwfdOu2gpjbZ4QvRJ8f_",
+  "imageUrl": "images/animals/aye-aye.webp",
   "slug": "aye-aye",
   "coordinates": {
    "lat": -15.7,
@@ -2036,7 +2036,7 @@
    "minWeightG": 80000,
    "maxWeightG": 165000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/T_Eif1D_wttJZaWjA5kFr",
+  "imageUrl": "images/animals/tarsier.webp",
   "slug": "tarsier",
   "coordinates": {
    "lat": 1.5,
@@ -2075,7 +2075,7 @@
    "minWeightG": 599,
    "maxWeightG": 685
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/qZGl1_xHjB63VKHAReuay",
+  "imageUrl": "images/animals/slow-loris.webp",
   "slug": "slow-loris",
   "coordinates": {
    "lat": 3.6,
@@ -2113,7 +2113,7 @@
    "minWeightG": 2000000,
    "maxWeightG": 6900000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_xs2BOyrBgrzgI2nNKFOa",
+  "imageUrl": "images/animals/african-bush-elephant.webp",
   "slug": "african-bush-elephant",
   "coordinates": {
    "lat": -19.0,
@@ -2150,7 +2150,7 @@
    "minWeightG": 2000000,
    "maxWeightG": 6000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/QoKoXIIHqLB1EwaIHT4P-",
+  "imageUrl": "images/animals/asian-elephant.webp",
   "slug": "asian-elephant",
   "coordinates": {
    "lat": 11.5,
@@ -2186,7 +2186,7 @@
    "minWeightG": 1800000,
    "maxWeightG": 2500000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/iwaKTfX0-ZRtFBppQOJOQ",
+  "imageUrl": "images/animals/white-rhinoceros.webp",
   "slug": "white-rhinoceros",
   "coordinates": {
    "lat": -25.5,
@@ -2223,7 +2223,7 @@
    "minWeightG": 800000,
    "maxWeightG": 1400000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/zn_5AGzbuLGd4SWeBVcDy",
+  "imageUrl": "images/animals/black-rhinoceros.webp",
   "slug": "black-rhinoceros",
   "coordinates": {
    "lat": -18.7,
@@ -2261,7 +2261,7 @@
    "minWeightG": 1600000,
    "maxWeightG": 2700000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/XaDgRN7CDVB_OtAEceWfz",
+  "imageUrl": "images/animals/indian-rhinoceros.webp",
   "slug": "indian-rhinoceros",
   "coordinates": {
    "lat": 26.6,
@@ -2298,7 +2298,7 @@
    "minWeightG": 1300000,
    "maxWeightG": 3200000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/7_C90TEo3VM_prRQJ6x9U",
+  "imageUrl": "images/animals/hippopotamus.webp",
   "slug": "hippopotamus",
   "coordinates": {
    "lat": -2.2,
@@ -2335,7 +2335,7 @@
    "minWeightG": 160000,
    "maxWeightG": 275000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ab2rjQAaZ3B977mLSPQG7",
+  "imageUrl": "images/animals/pygmy-hippopotamus.webp",
   "slug": "pygmy-hippopotamus",
   "coordinates": {
    "lat": 6.5,
@@ -2374,7 +2374,7 @@
    "minWeightG": 550000,
    "maxWeightG": 1930000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/PfQqxChkEAsnBAuuMnM72",
+  "imageUrl": "images/animals/giraffe.webp",
   "slug": "giraffe",
   "coordinates": {
    "lat": -2.5,
@@ -2411,7 +2411,7 @@
    "minWeightG": 180000,
    "maxWeightG": 317000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/VMIPp1kxdM-NcCqu-vuOk",
+  "imageUrl": "images/animals/okapi.webp",
   "slug": "okapi",
   "coordinates": {
    "lat": 1.5,
@@ -2448,7 +2448,7 @@
    "minWeightG": 175000,
    "maxWeightG": 385000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/3W6STA6K9fSWK5KLVy8UW",
+  "imageUrl": "images/animals/plains-zebra.webp",
   "slug": "plains-zebra",
   "coordinates": {
    "lat": -2.3,
@@ -2485,7 +2485,7 @@
    "minWeightG": 350000,
    "maxWeightG": 450000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/jOJGh2WznBooeRoF3aEEq",
+  "imageUrl": "images/animals/grevy-s-zebra.webp",
   "slug": "grevy-s-zebra",
   "coordinates": {
    "lat": 0.5,
@@ -2522,7 +2522,7 @@
    "minWeightG": 250000,
    "maxWeightG": 360000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/wTVMR4RSTEXYFIaDVQlOM",
+  "imageUrl": "images/animals/przewalski-s-horse.webp",
   "slug": "przewalski-s-horse",
   "coordinates": {
    "lat": 46.5,
@@ -2561,7 +2561,7 @@
    "minWeightG": 250000,
    "maxWeightG": 320000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/TGuDt4G1DNLFwsM5Ghgvt",
+  "imageUrl": "images/animals/malayan-tapir.webp",
   "slug": "malayan-tapir",
   "coordinates": {
    "lat": 3.2,
@@ -2600,7 +2600,7 @@
    "minWeightG": 45000,
    "maxWeightG": 230000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/HRC-g22SmHpzn54TBFT0w",
+  "imageUrl": "images/animals/wild-boar.webp",
   "slug": "wild-boar",
   "coordinates": {
    "lat": 48.0,
@@ -2637,7 +2637,7 @@
    "minWeightG": 50000,
    "maxWeightG": 150000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/d2SA1LW6hJFrT458cttQu",
+  "imageUrl": "images/animals/common-warthog.webp",
   "slug": "common-warthog",
   "coordinates": {
    "lat": -1.5,
@@ -2675,7 +2675,7 @@
    "minWeightG": 14000,
    "maxWeightG": 31000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/O9IHSm0zQG2_SFKxjV9vS",
+  "imageUrl": "images/animals/collared-peccary.webp",
   "slug": "collared-peccary",
   "coordinates": {
    "lat": 20.5,
@@ -2711,7 +2711,7 @@
    "minWeightG": 358000,
    "maxWeightG": 998000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vt01vbUD51m5ZIBVW2flk",
+  "imageUrl": "images/animals/american-bison.webp",
   "slug": "american-bison",
   "coordinates": {
    "lat": 44.5,
@@ -2746,7 +2746,7 @@
    "minWeightG": 800000,
    "maxWeightG": 1000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/W7-1AakQIjRH4Hx0OD0r8",
+  "imageUrl": "images/animals/european-bison.webp",
   "slug": "european-bison",
   "coordinates": {
    "lat": 52.7,
@@ -2784,7 +2784,7 @@
    "minWeightG": 300000,
    "maxWeightG": 900000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/UXCTkdw3iY9hHc_VH51HE",
+  "imageUrl": "images/animals/african-buffalo.webp",
   "slug": "african-buffalo",
   "coordinates": {
    "lat": -12.0,
@@ -2821,7 +2821,7 @@
    "minWeightG": 350000,
    "maxWeightG": 1200000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/EK-RmfZHAKzrXDloJVBCn",
+  "imageUrl": "images/animals/wild-yak.webp",
   "slug": "wild-yak",
   "coordinates": {
    "lat": 33.5,
@@ -2860,7 +2860,7 @@
    "minWeightG": 320000,
    "maxWeightG": 771000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_ZJ-w4r9D751t7q4MlqCJ",
+  "imageUrl": "images/animals/moose.webp",
   "slug": "moose",
   "coordinates": {
    "lat": 62.0,
@@ -2899,7 +2899,7 @@
    "minWeightG": 28000,
    "maxWeightG": 55000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/AbCoEZ--sHNeJes2Z6lrM",
+  "imageUrl": "images/animals/reindeer.webp",
   "slug": "reindeer",
   "coordinates": {
    "lat": 68.5,
@@ -2938,7 +2938,7 @@
    "minWeightG": 90000,
    "maxWeightG": 190000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/P3rscUuL82P3gDC2FszH8",
+  "imageUrl": "images/animals/red-deer.webp",
   "slug": "red-deer",
   "coordinates": {
    "lat": 57.0,
@@ -2976,7 +2976,7 @@
    "minWeightG": 10000,
    "maxWeightG": 25000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/oHOz98gTz_eZ7dzvQzBje",
+  "imageUrl": "images/animals/roe-deer.webp",
   "slug": "roe-deer",
   "coordinates": {
    "lat": 50.0,
@@ -3013,7 +3013,7 @@
    "minWeightG": 20000,
    "maxWeightG": 57000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/r3FsVvADm4jZO_bst6-cO",
+  "imageUrl": "images/animals/blackbuck.webp",
   "slug": "blackbuck",
   "coordinates": {
    "lat": 22.0,
@@ -3050,7 +3050,7 @@
    "minWeightG": 15000,
    "maxWeightG": 35000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/qdamebrjaTXx00QlboR-V",
+  "imageUrl": "images/animals/thomson-s-gazelle.webp",
   "slug": "thomson-s-gazelle",
   "coordinates": {
    "lat": -2.5,
@@ -3088,7 +3088,7 @@
    "minWeightG": 39900,
    "maxWeightG": 74800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Fxyh9Sg01ob_nWO4TQ4_0",
+  "imageUrl": "images/animals/impala.webp",
   "slug": "impala",
   "coordinates": {
    "lat": -19.0,
@@ -3124,7 +3124,7 @@
    "minWeightG": 168000,
    "maxWeightG": 274000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/2WbzJNBTKflnLNuK9MdHg",
+  "imageUrl": "images/animals/blue-wildebeest.webp",
   "slug": "blue-wildebeest",
   "coordinates": {
    "lat": -2.3,
@@ -3160,7 +3160,7 @@
    "minWeightG": 54000,
    "maxWeightG": 75000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Blp5oQOXSNVHtjqQCOyhi",
+  "imageUrl": "images/animals/arabian-oryx.webp",
   "slug": "arabian-oryx",
   "coordinates": {
    "lat": 21.0,
@@ -3198,7 +3198,7 @@
    "minWeightG": 27000,
    "maxWeightG": 42000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/rql6qbGgkydczAw9cv_mq",
+  "imageUrl": "images/animals/springbok.webp",
   "slug": "springbok",
   "coordinates": {
    "lat": -24.0,
@@ -3234,7 +3234,7 @@
    "minWeightG": 21000,
    "maxWeightG": 51000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/wKzPQvQu743owrglO7Hof",
+  "imageUrl": "images/animals/saiga-antelope.webp",
   "slug": "saiga-antelope",
   "coordinates": {
    "lat": 48.0,
@@ -3269,7 +3269,7 @@
    "minWeightG": 40000,
    "maxWeightG": 120000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/C9g-WYngA45PNEMv7_ytX",
+  "imageUrl": "images/animals/alpine-ibex.webp",
   "slug": "alpine-ibex",
   "coordinates": {
    "lat": 45.9,
@@ -3306,7 +3306,7 @@
    "minWeightG": 25000,
    "maxWeightG": 50000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/yu-kxxJcd_CphU5nQozmI",
+  "imageUrl": "images/animals/chamois.webp",
   "slug": "chamois",
   "coordinates": {
    "lat": 46.5,
@@ -3343,7 +3343,7 @@
    "minWeightG": 32000,
    "maxWeightG": 110000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/AvhxWNFViOLHxLHZWEZYk",
+  "imageUrl": "images/animals/markhor.webp",
   "slug": "markhor",
   "coordinates": {
    "lat": 35.0,
@@ -3379,7 +3379,7 @@
    "minWeightG": 120000,
    "maxWeightG": 200000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/26EJZ9g6pDLqwMvS5-Huf",
+  "imageUrl": "images/animals/llama.webp",
   "slug": "llama",
   "coordinates": {
    "lat": -16.0,
@@ -3416,7 +3416,7 @@
    "minWeightG": 45000,
    "maxWeightG": 90000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/CU3f1Y1yOLaHZcQ99p0FY",
+  "imageUrl": "images/animals/alpaca.webp",
   "slug": "alpaca",
   "coordinates": {
    "lat": -14.5,
@@ -3453,7 +3453,7 @@
    "minWeightG": 35000,
    "maxWeightG": 65000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/2sOvHFwi5vEpNYiu6LwHa",
+  "imageUrl": "images/animals/vicuna.webp",
   "slug": "vicuna",
   "coordinates": {
    "lat": -18.0,
@@ -3488,7 +3488,7 @@
    "minWeightG": 400000,
    "maxWeightG": 600000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/P5o26-Ie9txbtD8FHnk0X",
+  "imageUrl": "images/animals/dromedary.webp",
   "slug": "dromedary",
   "coordinates": {
    "lat": 24.0,
@@ -3527,7 +3527,7 @@
    "minWeightG": 300000,
    "maxWeightG": 1000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/8RDctzc17h2cKBe0usAwT",
+  "imageUrl": "images/animals/bactrian-camel.webp",
   "slug": "bactrian-camel",
   "coordinates": {
    "lat": 42.0,
@@ -3564,7 +3564,7 @@
    "minWeightG": 80000000,
    "maxWeightG": 150000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/x41X_Zq8sd35FaeaP0QzP",
+  "imageUrl": "images/animals/blue-whale.webp",
   "slug": "blue-whale",
   "coordinates": {
    "lat": 36.5,
@@ -3602,7 +3602,7 @@
    "minWeightG": 61600000,
    "maxWeightG": 220000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/0XgwDtG_Ak-tfA17SuqPX",
+  "imageUrl": "images/animals/sperm-whale.webp",
   "slug": "sperm-whale",
   "coordinates": {
    "lat": -0.5,
@@ -3639,7 +3639,7 @@
    "minWeightG": 25000000,
    "maxWeightG": 40000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/XwMk91R2jMmXioQ7IRqSa",
+  "imageUrl": "images/animals/humpback-whale.webp",
   "slug": "humpback-whale",
   "coordinates": {
    "lat": 20.8,
@@ -3676,7 +3676,7 @@
    "minWeightG": 3000000,
    "maxWeightG": 10000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/4H2RK4tQX8Mi2LCwbwLSA",
+  "imageUrl": "images/animals/orca.webp",
   "slug": "orca",
   "coordinates": {
    "lat": 48.5,
@@ -3713,7 +3713,7 @@
    "minWeightG": 150000,
    "maxWeightG": 650000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ysQrNNUkUJjHwDKHlZNRU",
+  "imageUrl": "images/animals/bottlenose-dolphin.webp",
   "slug": "bottlenose-dolphin",
   "coordinates": {
    "lat": 27.5,
@@ -3750,7 +3750,7 @@
    "minWeightG": 80000,
    "maxWeightG": 140000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/iQqDLaE4KMaqnbpq64ivu",
+  "imageUrl": "images/animals/common-dolphin.webp",
   "slug": "common-dolphin",
   "coordinates": {
    "lat": 36.0,
@@ -3787,7 +3787,7 @@
    "minWeightG": 700000,
    "maxWeightG": 1600000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/y0AqJJq6rNOfWxAFlzZWG",
+  "imageUrl": "images/animals/narwhal.webp",
   "slug": "narwhal",
   "coordinates": {
    "lat": 74.5,
@@ -3825,7 +3825,7 @@
    "minWeightG": 700000,
    "maxWeightG": 1900000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/bvymtOU2toLaEr3rpndqv",
+  "imageUrl": "images/animals/beluga-whale.webp",
   "slug": "beluga-whale",
   "coordinates": {
    "lat": 72.0,
@@ -3862,7 +3862,7 @@
    "minWeightG": 105000,
    "maxWeightG": 339000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/eXL51EmdyypdYrNsdeUEy",
+  "imageUrl": "images/animals/grey-seal.webp",
   "slug": "grey-seal",
   "coordinates": {
    "lat": 57.0,
@@ -3900,7 +3900,7 @@
    "minWeightG": 240000,
    "maxWeightG": 300000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Xu_xGcT3evlNh_H8iWPun",
+  "imageUrl": "images/animals/mediterranean-monk-seal.webp",
   "slug": "mediterranean-monk-seal",
   "coordinates": {
    "lat": 36.5,
@@ -3937,7 +3937,7 @@
    "minWeightG": 91000,
    "maxWeightG": 390000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ULMBsMOq1b0WE9EkFY-1N",
+  "imageUrl": "images/animals/california-sea-lion.webp",
   "slug": "california-sea-lion",
   "coordinates": {
    "lat": 33.0,
@@ -3974,7 +3974,7 @@
    "minWeightG": 600000,
    "maxWeightG": 2000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ajiMT1_ZpbJ7eTjyk1AO8",
+  "imageUrl": "images/animals/walrus.webp",
   "slug": "walrus",
   "coordinates": {
    "lat": 75.0,
@@ -4011,7 +4011,7 @@
    "minWeightG": 230000,
    "maxWeightG": 400000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/cw7br7Hqi1LRJNfR5fFWn",
+  "imageUrl": "images/animals/dugong.webp",
   "slug": "dugong",
   "coordinates": {
    "lat": -18.0,
@@ -4050,7 +4050,7 @@
    "minWeightG": 200000,
    "maxWeightG": 600000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/fL6hqheSJ5-cfrSQEF2qh",
+  "imageUrl": "images/animals/west-indian-manatee.webp",
   "slug": "west-indian-manatee",
   "coordinates": {
    "lat": 27.5,
@@ -4089,7 +4089,7 @@
    "minWeightG": 13000,
    "maxWeightG": 35000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/RpExe8zS3EDWieZvRsCQN",
+  "imageUrl": "images/animals/eurasian-beaver.webp",
   "slug": "eurasian-beaver",
   "coordinates": {
    "lat": 59.0,
@@ -4128,7 +4128,7 @@
    "minWeightG": 35000,
    "maxWeightG": 66000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Xa7Shb9T2bC4fQtVoup9b",
+  "imageUrl": "images/animals/capybara.webp",
   "slug": "capybara",
   "coordinates": {
    "lat": -15.0,
@@ -4167,7 +4167,7 @@
    "minWeightG": 5000,
    "maxWeightG": 14000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sRfR6-8OOYKjZ_DQums22",
+  "imageUrl": "images/animals/north-american-porcupine.webp",
   "slug": "north-american-porcupine",
   "coordinates": {
    "lat": 50.0,
@@ -4206,7 +4206,7 @@
    "minWeightG": 8000,
    "maxWeightG": 27000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/FVyR8b31bqNVTgadWk3iT",
+  "imageUrl": "images/animals/crested-porcupine.webp",
   "slug": "crested-porcupine",
   "coordinates": {
    "lat": 9.0,
@@ -4242,7 +4242,7 @@
    "minWeightG": 250,
    "maxWeightG": 350
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/SaaHst6uMlHTiG3bVSmdT",
+  "imageUrl": "images/animals/red-squirrel.webp",
   "slug": "red-squirrel",
   "coordinates": {
    "lat": 55.0,
@@ -4277,7 +4277,7 @@
    "minWeightG": 38,
    "maxWeightG": 90
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/jx6Z3e8Hx65N9Jl4uN3_g",
+  "imageUrl": "images/animals/flying-squirrel.webp",
   "slug": "flying-squirrel",
   "coordinates": {
    "lat": 45.0,
@@ -4313,7 +4313,7 @@
    "minWeightG": 4000,
    "maxWeightG": 8000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Kk6QMStaj3ss2Ud9Bcmzw",
+  "imageUrl": "images/animals/alpine-marmot.webp",
   "slug": "alpine-marmot",
   "coordinates": {
    "lat": 46.0,
@@ -4349,7 +4349,7 @@
    "minWeightG": 100,
    "maxWeightG": 125
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/s1uR9GWqxJPfAm4v6glQB",
+  "imageUrl": "images/animals/golden-hamster.webp",
   "slug": "golden-hamster",
   "coordinates": {
    "lat": 36.2,
@@ -4387,7 +4387,7 @@
    "minWeightG": 40,
    "maxWeightG": 130
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/KaFdhLYt8q4UqMBTWxHMJ",
+  "imageUrl": "images/animals/norway-lemming.webp",
   "slug": "norway-lemming",
   "coordinates": {
    "lat": 69.0,
@@ -4425,7 +4425,7 @@
    "minWeightG": 70000,
    "maxWeightG": 130000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/HsM-uhju45uLhcq0ufeM4",
+  "imageUrl": "images/animals/european-mole.webp",
   "slug": "european-mole",
   "coordinates": {
    "lat": 50.0,
@@ -4463,7 +4463,7 @@
    "minWeightG": 400,
    "maxWeightG": 1200
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/jFpojvWmpXKeWDJ7RdiPy",
+  "imageUrl": "images/animals/european-hedgehog.webp",
   "slug": "european-hedgehog",
   "coordinates": {
    "lat": 51.5,
@@ -4502,7 +4502,7 @@
    "minWeightG": 5,
    "maxWeightG": 14
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/773wimkSpjr3u7mBF12YI",
+  "imageUrl": "images/animals/common-shrew.webp",
   "slug": "common-shrew",
   "coordinates": {
    "lat": 54.0,
@@ -4540,7 +4540,7 @@
    "minWeightG": 25,
    "maxWeightG": 40
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/WdHtuISt6ntuW7TZgQAP5",
+  "imageUrl": "images/animals/vampire-bat.webp",
   "slug": "vampire-bat",
   "coordinates": {
    "lat": -10.0,
@@ -4576,7 +4576,7 @@
    "minWeightG": 600,
    "maxWeightG": 1100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/YmStejJZD1i0Jz8jOGNG7",
+  "imageUrl": "images/animals/flying-fox.webp",
   "slug": "flying-fox",
   "coordinates": {
    "lat": -6.0,
@@ -4615,7 +4615,7 @@
    "minWeightG": 700,
    "maxWeightG": 2400
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/elhJcVAsI39VKLHqr7vEY",
+  "imageUrl": "images/animals/platypus.webp",
   "slug": "platypus",
   "coordinates": {
    "lat": -33.0,
@@ -4655,7 +4655,7 @@
    "minWeightG": 2000,
    "maxWeightG": 7000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/VyKmYp7s6mGnzWlJc9Dz5",
+  "imageUrl": "images/animals/short-beaked-echidna.webp",
   "slug": "short-beaked-echidna",
   "coordinates": {
    "lat": -25.0,
@@ -4691,7 +4691,7 @@
    "minWeightG": 4000,
    "maxWeightG": 15000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/xLTw-fRLIRYv2j7iDBaat",
+  "imageUrl": "images/animals/koala.webp",
   "slug": "koala",
   "coordinates": {
    "lat": -28.0,
@@ -4729,7 +4729,7 @@
    "minWeightG": 18000,
    "maxWeightG": 92000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/xpnNHDDUuzYqk2k13fRkh",
+  "imageUrl": "images/animals/red-kangaroo.webp",
   "slug": "red-kangaroo",
   "coordinates": {
    "lat": -26.0,
@@ -4767,7 +4767,7 @@
    "minWeightG": 11000,
    "maxWeightG": 27000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/SOj3OiruObgF7I9wJqsUI",
+  "imageUrl": "images/animals/red-necked-wallaby.webp",
   "slug": "red-necked-wallaby",
   "coordinates": {
    "lat": -37.0,
@@ -4803,7 +4803,7 @@
    "minWeightG": 2500,
    "maxWeightG": 5000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/UmqDXH9XSVzpTGN_xpPRI",
+  "imageUrl": "images/animals/quokka.webp",
   "slug": "quokka",
   "coordinates": {
    "lat": -32.0,
@@ -4841,7 +4841,7 @@
    "minWeightG": 22000,
    "maxWeightG": 39000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/iKEl26l603VqiWwt8P3t7",
+  "imageUrl": "images/animals/common-wombat.webp",
   "slug": "common-wombat",
   "coordinates": {
    "lat": -37.5,
@@ -4878,7 +4878,7 @@
    "minWeightG": 4000,
    "maxWeightG": 12000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/CUXI3KIA80wvzetGPNpD-",
+  "imageUrl": "images/animals/tasmanian-devil.webp",
   "slug": "tasmanian-devil",
   "coordinates": {
    "lat": -42.0,
@@ -4918,7 +4918,7 @@
    "minWeightG": 1800,
    "maxWeightG": 4500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Cfz0yrCzb0G3mb_tDnHfL",
+  "imageUrl": "images/animals/virginia-opossum.webp",
   "slug": "virginia-opossum",
   "coordinates": {
    "lat": 38.0,
@@ -4957,7 +4957,7 @@
    "minWeightG": 3500,
    "maxWeightG": 4500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/a2ulbstQc9sX7OpRz6Hno",
+  "imageUrl": "images/animals/three-toed-sloth.webp",
   "slug": "three-toed-sloth",
   "coordinates": {
    "lat": -3.0,
@@ -4995,7 +4995,7 @@
    "minWeightG": 27000,
    "maxWeightG": 50000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/olfUPJurbI4G8pVOBsCbN",
+  "imageUrl": "images/animals/giant-anteater.webp",
   "slug": "giant-anteater",
   "coordinates": {
    "lat": -16.0,
@@ -5035,7 +5035,7 @@
    "minWeightG": 2500,
    "maxWeightG": 6500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/VQQRBrzTi6wYrDiF5RIrY",
+  "imageUrl": "images/animals/nine-banded-armadillo.webp",
   "slug": "nine-banded-armadillo",
   "coordinates": {
    "lat": 30.0,
@@ -5073,7 +5073,7 @@
    "minWeightG": 2500,
    "maxWeightG": 17100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vgi1Qj2yofmVz4AA6y0Ry",
+  "imageUrl": "images/animals/ground-pangolin.webp",
   "slug": "ground-pangolin",
   "coordinates": {
    "lat": -20.0,
@@ -5111,7 +5111,7 @@
    "minWeightG": 40000,
    "maxWeightG": 80000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sfKiraNc7d4mjosrcqLf2",
+  "imageUrl": "images/animals/aardvark.webp",
   "slug": "aardvark",
   "coordinates": {
    "lat": -24.0,
@@ -5149,7 +5149,7 @@
    "minWeightG": 3000,
    "maxWeightG": 6125
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/mtRhAMkAafM-HOUexrzC_",
+  "imageUrl": "images/animals/golden-eagle.webp",
   "slug": "golden-eagle",
   "coordinates": {
    "lat": 45.0,
@@ -5189,7 +5189,7 @@
    "minWeightG": 3600,
    "maxWeightG": 6600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/nuiwkIeEUkH2lrtnlaX8J",
+  "imageUrl": "images/animals/bald-eagle.webp",
   "slug": "bald-eagle",
   "coordinates": {
    "lat": 58.0,
@@ -5227,7 +5227,7 @@
    "minWeightG": 4000,
    "maxWeightG": 10000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/65PVEJReek9Md9rLtmzvT",
+  "imageUrl": "images/animals/harpy-eagle.webp",
   "slug": "harpy-eagle",
   "coordinates": {
    "lat": -4.0,
@@ -5265,7 +5265,7 @@
    "minWeightG": 530,
    "maxWeightG": 1600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Wc_xMH7RzEzYjOnc2bycC",
+  "imageUrl": "images/animals/peregrine-falcon.webp",
   "slug": "peregrine-falcon",
   "coordinates": {
    "lat": 51.5,
@@ -5303,7 +5303,7 @@
    "minWeightG": 150,
    "maxWeightG": 190
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/MivWeKKM-09dONq3QSd8m",
+  "imageUrl": "images/animals/common-kestrel.webp",
   "slug": "common-kestrel",
   "coordinates": {
    "lat": 48.0,
@@ -5340,7 +5340,7 @@
    "minWeightG": 631,
    "maxWeightG": 2000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/3t-D1NqwwHz27-M8lLVPy",
+  "imageUrl": "images/animals/northern-goshawk.webp",
   "slug": "northern-goshawk",
   "coordinates": {
    "lat": 60.0,
@@ -5377,7 +5377,7 @@
    "minWeightG": 6000,
    "maxWeightG": 11000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/NrSlHKZiBUwuuF98SyYfc",
+  "imageUrl": "images/animals/griffon-vulture.webp",
   "slug": "griffon-vulture",
   "coordinates": {
    "lat": 41.0,
@@ -5413,7 +5413,7 @@
    "minWeightG": 4500,
    "maxWeightG": 7100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/mKmPNZBO9TVQnrHAerwiQ",
+  "imageUrl": "images/animals/bearded-vulture.webp",
   "slug": "bearded-vulture",
   "coordinates": {
    "lat": 42.7,
@@ -5450,7 +5450,7 @@
    "minWeightG": 8000,
    "maxWeightG": 15000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/VBBf-0YrOSAwJN6Os4kGs",
+  "imageUrl": "images/animals/andean-condor.webp",
   "slug": "andean-condor",
   "coordinates": {
    "lat": -32.0,
@@ -5488,7 +5488,7 @@
    "minWeightG": 7000,
    "maxWeightG": 10000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/fwqPoYw6nTz1wzDtJk-Mh",
+  "imageUrl": "images/animals/california-condor.webp",
   "slug": "california-condor",
   "coordinates": {
    "lat": 35.5,
@@ -5528,7 +5528,7 @@
    "minWeightG": 1100,
    "maxWeightG": 2000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/l_t3jHlkBzrseY7MlhVJi",
+  "imageUrl": "images/animals/osprey.webp",
   "slug": "osprey",
   "coordinates": {
    "lat": 44.0,
@@ -5568,7 +5568,7 @@
    "minWeightG": 1500,
    "maxWeightG": 4200
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/KKCMJ-oJMcHcLfLo81ND8",
+  "imageUrl": "images/animals/eurasian-eagle-owl.webp",
   "slug": "eurasian-eagle-owl",
   "coordinates": {
    "lat": 47.0,
@@ -5604,7 +5604,7 @@
    "minWeightG": 420,
    "maxWeightG": 590
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/F_Yg8BI_lABWQZQPbSJfh",
+  "imageUrl": "images/animals/tawny-owl.webp",
   "slug": "tawny-owl",
   "coordinates": {
    "lat": 52.0,
@@ -5643,7 +5643,7 @@
    "minWeightG": 250,
    "maxWeightG": 350
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/DJlZXq9BCLzZQVqPn3Vzy",
+  "imageUrl": "images/animals/barn-owl.webp",
   "slug": "barn-owl",
   "coordinates": {
    "lat": 40.0,
@@ -5681,7 +5681,7 @@
    "minWeightG": 1600,
    "maxWeightG": 2950
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Xwgjmu3AaaOl1Pvt8WhXe",
+  "imageUrl": "images/animals/snowy-owl.webp",
   "slug": "snowy-owl",
   "coordinates": {
    "lat": 71.0,
@@ -5718,7 +5718,7 @@
    "minWeightG": 25000,
    "maxWeightG": 45000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IcBc8qVIcHT-9YZ2W-h2Y",
+  "imageUrl": "images/animals/emperor-penguin.webp",
   "slug": "emperor-penguin",
   "coordinates": {
    "lat": -75.0,
@@ -5755,7 +5755,7 @@
    "minWeightG": 9300,
    "maxWeightG": 17300
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sF7XZYvlAuKwbJxwmMilD",
+  "imageUrl": "images/animals/king-penguin.webp",
   "slug": "king-penguin",
   "coordinates": {
    "lat": -54.5,
@@ -5792,7 +5792,7 @@
    "minWeightG": 3800,
    "maxWeightG": 8200
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Xrmp1_3xR4rd9pVoHd8hv",
+  "imageUrl": "images/animals/adelie-penguin.webp",
   "slug": "adelie-penguin",
   "coordinates": {
    "lat": -66.5,
@@ -5829,7 +5829,7 @@
    "minWeightG": 2000,
    "maxWeightG": 3800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/96MARIT19szzAmQN5DNqd",
+  "imageUrl": "images/animals/rockhopper-penguin.webp",
   "slug": "rockhopper-penguin",
   "coordinates": {
    "lat": -51.7,
@@ -5866,7 +5866,7 @@
    "minWeightG": 1600,
    "maxWeightG": 2500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/lDHwmsAC5WBbVhcdS3I0I",
+  "imageUrl": "images/animals/galapagos-penguin.webp",
   "slug": "galapagos-penguin",
   "coordinates": {
    "lat": -0.9,
@@ -5903,7 +5903,7 @@
    "minWeightG": 90000,
    "maxWeightG": 156000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/DPKXmMtfNNRX72l20vgQb",
+  "imageUrl": "images/animals/common-ostrich.webp",
   "slug": "common-ostrich",
   "coordinates": {
    "lat": -2.0,
@@ -5940,7 +5940,7 @@
    "minWeightG": 18000,
    "maxWeightG": 60000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/QndGots6tAkrz2TXw3t2O",
+  "imageUrl": "images/animals/emu.webp",
   "slug": "emu",
   "coordinates": {
    "lat": -28.0,
@@ -5977,7 +5977,7 @@
    "minWeightG": 17000,
    "maxWeightG": 76000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/3qM6bFKEFHHk6JUlcvh4a",
+  "imageUrl": "images/animals/southern-cassowary.webp",
   "slug": "southern-cassowary",
   "coordinates": {
    "lat": -17.0,
@@ -6014,7 +6014,7 @@
    "minWeightG": 2000,
    "maxWeightG": 2800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/eoQR0v23_3a2DIbpMJM4U",
+  "imageUrl": "images/animals/brown-kiwi.webp",
   "slug": "brown-kiwi",
   "coordinates": {
    "lat": -38.5,
@@ -6053,7 +6053,7 @@
    "minWeightG": 2500,
    "maxWeightG": 10800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/EnwspGEhmHuFZZod_w03D",
+  "imageUrl": "images/animals/wild-turkey.webp",
   "slug": "wild-turkey",
   "coordinates": {
    "lat": 38.0,
@@ -6091,7 +6091,7 @@
    "minWeightG": 2750,
    "maxWeightG": 6000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/foUiV3meNA7eofbW4CPNk",
+  "imageUrl": "images/animals/indian-peafowl.webp",
   "slug": "indian-peafowl",
   "coordinates": {
    "lat": 22.0,
@@ -6129,7 +6129,7 @@
    "minWeightG": 720,
    "maxWeightG": 1600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/0ezUEHo2_24QSm2Mxa-6W",
+  "imageUrl": "images/animals/common-pheasant.webp",
   "slug": "common-pheasant",
   "coordinates": {
    "lat": 40.0,
@@ -6166,7 +6166,7 @@
    "minWeightG": 310,
    "maxWeightG": 600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/rFRaZRsULp0sjfq4gJ1ZE",
+  "imageUrl": "images/animals/atlantic-puffin.webp",
   "slug": "atlantic-puffin",
   "coordinates": {
    "lat": 65.0,
@@ -6203,7 +6203,7 @@
    "minWeightG": 8870,
    "maxWeightG": 10920
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ESzQMcEiqQWD2sf_DEjcG",
+  "imageUrl": "images/animals/wandering-albatross.webp",
   "slug": "wandering-albatross",
   "coordinates": {
    "lat": -50.0,
@@ -6240,7 +6240,7 @@
    "minWeightG": 2470,
    "maxWeightG": 3470
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/90NxiXaA4TMySvWYl26wM",
+  "imageUrl": "images/animals/northern-gannet.webp",
   "slug": "northern-gannet",
   "coordinates": {
    "lat": 57.0,
@@ -6280,7 +6280,7 @@
    "minWeightG": 1800,
    "maxWeightG": 4000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/2fKf80AzeV58HpNlG9sTH",
+  "imageUrl": "images/animals/great-cormorant.webp",
   "slug": "great-cormorant",
   "coordinates": {
    "lat": 52.0,
@@ -6318,7 +6318,7 @@
    "minWeightG": 8000,
    "maxWeightG": 15000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/PU0-ItDR5vnrPJ-BzaSMv",
+  "imageUrl": "images/animals/great-white-pelican.webp",
   "slug": "great-white-pelican",
   "coordinates": {
    "lat": 0.5,
@@ -6354,7 +6354,7 @@
    "minWeightG": 2000,
    "maxWeightG": 4000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/yDw2tELhd7atw8PC3ZTlF",
+  "imageUrl": "images/animals/greater-flamingo.webp",
   "slug": "greater-flamingo",
   "coordinates": {
    "lat": 43.5,
@@ -6394,7 +6394,7 @@
    "minWeightG": 1020,
    "maxWeightG": 2080
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sUW2ipJN1WloJBVbPCSFv",
+  "imageUrl": "images/animals/grey-heron.webp",
   "slug": "grey-heron",
   "coordinates": {
    "lat": 51.5,
@@ -6433,7 +6433,7 @@
    "minWeightG": 2300,
    "maxWeightG": 4400
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/6dy7c7_Fy1kuUXqUTYIdg",
+  "imageUrl": "images/animals/white-stork.webp",
   "slug": "white-stork",
   "coordinates": {
    "lat": 52.0,
@@ -6471,7 +6471,7 @@
    "minWeightG": 1100,
    "maxWeightG": 1800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/I8_JkkgCWJsQ6PLykHPh4",
+  "imageUrl": "images/animals/sacred-ibis.webp",
   "slug": "sacred-ibis",
   "coordinates": {
    "lat": 5.0,
@@ -6509,7 +6509,7 @@
    "minWeightG": 3500,
    "maxWeightG": 7000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ZJ0LjzalUP7QAwKO3ptCj",
+  "imageUrl": "images/animals/common-crane.webp",
   "slug": "common-crane",
   "coordinates": {
    "lat": 60.0,
@@ -6547,7 +6547,7 @@
    "minWeightG": 3000,
    "maxWeightG": 4000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Qq3CSh4Ol0B_kxdlK5hoX",
+  "imageUrl": "images/animals/grey-crowned-crane.webp",
   "slug": "grey-crowned-crane",
   "coordinates": {
    "lat": -1.5,
@@ -6585,7 +6585,7 @@
    "minWeightG": 5500,
    "maxWeightG": 14300
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/gVwnIvPKEQEG9eeuda0za",
+  "imageUrl": "images/animals/mute-swan.webp",
   "slug": "mute-swan",
   "coordinates": {
    "lat": 52.0,
@@ -6624,7 +6624,7 @@
    "minWeightG": 2070,
    "maxWeightG": 4560
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/q4NIQOv8iGJZjDYsT3VOc",
+  "imageUrl": "images/animals/greylag-goose.webp",
   "slug": "greylag-goose",
   "coordinates": {
    "lat": 58.0,
@@ -6664,7 +6664,7 @@
    "minWeightG": 700,
    "maxWeightG": 1600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/13Sy6koAkCvRrKPKjo6i_",
+  "imageUrl": "images/animals/mallard.webp",
   "slug": "mallard",
   "coordinates": {
    "lat": 48.0,
@@ -6700,7 +6700,7 @@
    "minWeightG": 225,
    "maxWeightG": 400
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/MvxvrUvk20RVOgavXnPOB",
+  "imageUrl": "images/animals/eurasian-woodcock.webp",
   "slug": "eurasian-woodcock",
   "coordinates": {
    "lat": 58.0,
@@ -6739,7 +6739,7 @@
    "minWeightG": 770,
    "maxWeightG": 1000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/lW1jTPA40bpsTd19RG52C",
+  "imageUrl": "images/animals/eurasian-curlew.webp",
   "slug": "eurasian-curlew",
   "coordinates": {
    "lat": 55.0,
@@ -6776,7 +6776,7 @@
    "minWeightG": 190,
    "maxWeightG": 330
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/deQ7B-LZMeVhPl11g6hm4",
+  "imageUrl": "images/animals/northern-lapwing.webp",
   "slug": "northern-lapwing",
   "coordinates": {
    "lat": 53.0,
@@ -6815,7 +6815,7 @@
    "minWeightG": 110,
    "maxWeightG": 145
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/OeRVEWkF-pzpVnx2lRHj0",
+  "imageUrl": "images/animals/common-tern.webp",
   "slug": "common-tern",
   "coordinates": {
    "lat": 54.0,
@@ -6852,7 +6852,7 @@
    "minWeightG": 86,
    "maxWeightG": 127
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/EFDdAWYe7AgrRt0-Wn3jf",
+  "imageUrl": "images/animals/arctic-tern.webp",
   "slug": "arctic-tern",
   "coordinates": {
    "lat": 70.0,
@@ -6891,7 +6891,7 @@
    "minWeightG": 23,
    "maxWeightG": 46
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/0XsvHTJc95sUw7glRExBR",
+  "imageUrl": "images/animals/common-kingfisher.webp",
   "slug": "common-kingfisher",
   "coordinates": {
    "lat": 49.0,
@@ -6929,7 +6929,7 @@
    "minWeightG": 500,
    "maxWeightG": 860
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/0u49i3_vvejikw9vSZdP1",
+  "imageUrl": "images/animals/toco-toucan.webp",
   "slug": "toco-toucan",
   "coordinates": {
    "lat": -15.0,
@@ -6966,7 +6966,7 @@
    "minWeightG": 900,
    "maxWeightG": 1490
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/5oP7khVW5TrqyXDY3NoOL",
+  "imageUrl": "images/animals/scarlet-macaw.webp",
   "slug": "scarlet-macaw",
   "coordinates": {
    "lat": -4.0,
@@ -7003,7 +7003,7 @@
    "minWeightG": 700,
    "maxWeightG": 950
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/TVf05tfKv2nZD82uyhLz9",
+  "imageUrl": "images/animals/sulphur-crested-cockatoo.webp",
   "slug": "sulphur-crested-cockatoo",
   "coordinates": {
    "lat": -33.5,
@@ -7039,7 +7039,7 @@
    "minWeightG": 380,
    "maxWeightG": 490
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/xZtRgHsSrkXmF7d4KCccn",
+  "imageUrl": "images/animals/african-grey-parrot.webp",
   "slug": "african-grey-parrot",
   "coordinates": {
    "lat": 0.0,
@@ -7079,7 +7079,7 @@
    "minWeightG": 75,
    "maxWeightG": 157
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Kou-ftv7XzVFi2790PxpV",
+  "imageUrl": "images/animals/rainbow-lorikeet.webp",
   "slug": "rainbow-lorikeet",
   "coordinates": {
    "lat": -27.5,
@@ -7117,7 +7117,7 @@
    "minWeightG": 18,
    "maxWeightG": 24
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/9mxRE0J84h83ErGEPZ_GZ",
+  "imageUrl": "images/animals/giant-hummingbird.webp",
   "slug": "giant-hummingbird",
   "coordinates": {
    "lat": -16.0,
@@ -7154,7 +7154,7 @@
    "minWeightG": 3,
    "maxWeightG": 6
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/hSyV6WG-KQ48Wo0xP_hP9",
+  "imageUrl": "images/animals/anna-s-hummingbird.webp",
   "slug": "anna-s-hummingbird",
   "coordinates": {
    "lat": 37.5,
@@ -7189,7 +7189,7 @@
    "minWeightG": 180,
    "maxWeightG": 210
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/rz8KFJ6WC4QP79hZrFSyH",
+  "imageUrl": "images/animals/resplendent-quetzal.webp",
   "slug": "resplendent-quetzal",
   "coordinates": {
    "lat": 10.0,
@@ -7225,7 +7225,7 @@
    "minWeightG": 171,
    "maxWeightG": 255
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vzJtCviLfdHxZ2nm4RNrx",
+  "imageUrl": "images/animals/greater-bird-of-paradise.webp",
   "slug": "greater-bird-of-paradise",
   "coordinates": {
    "lat": -5.5,
@@ -7263,7 +7263,7 @@
    "minWeightG": 975,
    "maxWeightG": 1100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/phPW-R6CT4yeS52sUmR2V",
+  "imageUrl": "images/animals/superb-lyrebird.webp",
   "slug": "superb-lyrebird",
   "coordinates": {
    "lat": -37.0,
@@ -7300,7 +7300,7 @@
    "minWeightG": 1000,
    "maxWeightG": 1900
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/cqluMG5gs3B6ktWzXBBf3",
+  "imageUrl": "images/animals/magnificent-frigatebird.webp",
   "slug": "magnificent-frigatebird",
   "coordinates": {
    "lat": 9.0,
@@ -7337,7 +7337,7 @@
    "minWeightG": 31,
    "maxWeightG": 56
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/oFJdppm1rZgZjeyEzOgWi",
+  "imageUrl": "images/animals/common-swift.webp",
   "slug": "common-swift",
   "coordinates": {
    "lat": 48.5,
@@ -7375,7 +7375,7 @@
    "minWeightG": 70,
    "maxWeightG": 98
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/v8OxAlCu4ZmHiU3zAd8ZJ",
+  "imageUrl": "images/animals/great-spotted-woodpecker.webp",
   "slug": "great-spotted-woodpecker",
   "coordinates": {
    "lat": 52.0,
@@ -7414,7 +7414,7 @@
    "minWeightG": 180,
    "maxWeightG": 220
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/kvv2Lq1KM6slgqeNLu7Iq",
+  "imageUrl": "images/animals/european-green-woodpecker.webp",
   "slug": "european-green-woodpecker",
   "coordinates": {
    "lat": 47.0,
@@ -7452,7 +7452,7 @@
    "minWeightG": 46,
    "maxWeightG": 89
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/KdRqZ4I5AsJmNnYAdYlh9",
+  "imageUrl": "images/animals/hoopoe.webp",
   "slug": "hoopoe",
   "coordinates": {
    "lat": 40.0,
@@ -7489,7 +7489,7 @@
    "minWeightG": 109,
    "maxWeightG": 190
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/WrIRZO_e9g8W0j_OCgPei",
+  "imageUrl": "images/animals/eurasian-jay.webp",
   "slug": "eurasian-jay",
   "coordinates": {
    "lat": 50.0,
@@ -7527,7 +7527,7 @@
    "minWeightG": 185,
    "maxWeightG": 268
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/SQozf8wX8Y-TfHH_GwGL4",
+  "imageUrl": "images/animals/eurasian-magpie.webp",
   "slug": "eurasian-magpie",
   "coordinates": {
    "lat": 51.0,
@@ -7566,7 +7566,7 @@
    "minWeightG": 400,
    "maxWeightG": 600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/JRtzrNnytF9SVzB5OaUMN",
+  "imageUrl": "images/animals/hooded-crow.webp",
   "slug": "hooded-crow",
   "coordinates": {
    "lat": 55.7,
@@ -7606,7 +7606,7 @@
    "minWeightG": 689,
    "maxWeightG": 1625
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/9Lhue1hE-zNjNjlmbJwPu",
+  "imageUrl": "images/animals/common-raven.webp",
   "slug": "common-raven",
   "coordinates": {
    "lat": 60.0,
@@ -7643,7 +7643,7 @@
    "minWeightG": 16,
    "maxWeightG": 22
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vItqRf1ji0i6A07FzhxD3",
+  "imageUrl": "images/animals/european-robin.webp",
   "slug": "european-robin",
   "coordinates": {
    "lat": 51.5,
@@ -7680,7 +7680,7 @@
    "minWeightG": 18,
    "maxWeightG": 27
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/BE-w5SJ7Fd0PK807UEXil",
+  "imageUrl": "images/animals/common-nightingale.webp",
   "slug": "common-nightingale",
   "coordinates": {
    "lat": 45.0,
@@ -7718,7 +7718,7 @@
    "minWeightG": 80,
    "maxWeightG": 125
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/iPA59GCwxN_7DX7rubltV",
+  "imageUrl": "images/animals/common-blackbird.webp",
   "slug": "common-blackbird",
   "coordinates": {
    "lat": 50.0,
@@ -7756,7 +7756,7 @@
    "minWeightG": 65,
    "maxWeightG": 100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/yYE1QNK5AGaNhZ3oOmMXv",
+  "imageUrl": "images/animals/song-thrush.webp",
   "slug": "song-thrush",
   "coordinates": {
    "lat": 52.0,
@@ -7794,7 +7794,7 @@
    "minWeightG": 11.9,
    "maxWeightG": 22.1
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/go8iiifblwrNV436p-Dwy",
+  "imageUrl": "images/animals/great-tit.webp",
   "slug": "great-tit",
   "coordinates": {
    "lat": 51.0,
@@ -7832,7 +7832,7 @@
    "minWeightG": 8,
    "maxWeightG": 15
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/d5Xd9wc-6hQ1scWC7jrnW",
+  "imageUrl": "images/animals/eurasian-blue-tit.webp",
   "slug": "eurasian-blue-tit",
   "coordinates": {
    "lat": 48.0,
@@ -7868,7 +7868,7 @@
    "minWeightG": 11,
    "maxWeightG": 23
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/snQyOVSXmmbbgLPnd-hl9",
+  "imageUrl": "images/animals/common-redstart.webp",
   "slug": "common-redstart",
   "coordinates": {
    "lat": 53.0,
@@ -7905,7 +7905,7 @@
    "minWeightG": 14,
    "maxWeightG": 20
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IFTjG_gE7Fb5PONmhcba_",
+  "imageUrl": "images/animals/eurasian-blackcap.webp",
   "slug": "eurasian-blackcap",
   "coordinates": {
    "lat": 47.0,
@@ -7943,7 +7943,7 @@
    "minWeightG": 8,
    "maxWeightG": 12
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ohOjEuBjJYq6y_PBslBoL",
+  "imageUrl": "images/animals/eurasian-wren.webp",
   "slug": "eurasian-wren",
   "coordinates": {
    "lat": 54.0,
@@ -7981,7 +7981,7 @@
    "minWeightG": 17,
    "maxWeightG": 29
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_xCSYj4_zhNDfkqNPEJI9",
+  "imageUrl": "images/animals/common-chaffinch.webp",
   "slug": "common-chaffinch",
   "coordinates": {
    "lat": 50.5,
@@ -8019,7 +8019,7 @@
    "minWeightG": 10.8,
    "maxWeightG": 30
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/WmltGzw6I1SaxVDS-rXBw",
+  "imageUrl": "images/animals/european-goldfinch.webp",
   "slug": "european-goldfinch",
   "coordinates": {
    "lat": 44.0,
@@ -8057,7 +8057,7 @@
    "minWeightG": 24,
    "maxWeightG": 40
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/TG3HR6q67PreHW4uZVKT-",
+  "imageUrl": "images/animals/house-sparrow.webp",
   "slug": "house-sparrow",
   "coordinates": {
    "lat": 51.5,
@@ -8096,7 +8096,7 @@
    "minWeightG": 70,
    "maxWeightG": 100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/pGr_0HpyeTQ_Ofqw7Hand",
+  "imageUrl": "images/animals/common-starling.webp",
   "slug": "common-starling",
   "coordinates": {
    "lat": 52.5,
@@ -8133,7 +8133,7 @@
    "minWeightG": 56,
    "maxWeightG": 79
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/gg34OTclVwRvDRqH_fvP8",
+  "imageUrl": "images/animals/eurasian-golden-oriole.webp",
   "slug": "eurasian-golden-oriole",
   "coordinates": {
    "lat": 46.0,
@@ -8169,7 +8169,7 @@
    "minWeightG": 17,
    "maxWeightG": 55
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/4E9AsBtorJuH-GGNprZOo",
+  "imageUrl": "images/animals/eurasian-skylark.webp",
   "slug": "eurasian-skylark",
   "coordinates": {
    "lat": 52.0,
@@ -8209,7 +8209,7 @@
    "minWeightG": 17,
    "maxWeightG": 20
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/YrUz371PWNY4U_KPd-dN4",
+  "imageUrl": "images/animals/barn-swallow.webp",
   "slug": "barn-swallow",
   "coordinates": {
    "lat": 47.0,
@@ -8247,7 +8247,7 @@
    "minWeightG": 44,
    "maxWeightG": 78
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/CX3bax8dpc1jlVlQir4LV",
+  "imageUrl": "images/animals/european-bee-eater.webp",
   "slug": "european-bee-eater",
   "coordinates": {
    "lat": 40.0,
@@ -8286,7 +8286,7 @@
    "minWeightG": 225000,
    "maxWeightG": 500000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/PTYGxtTbjtB07PF89Tpqv",
+  "imageUrl": "images/animals/nile-crocodile.webp",
   "slug": "nile-crocodile",
   "coordinates": {
    "lat": -1.0,
@@ -8325,7 +8325,7 @@
    "minWeightG": 200000,
    "maxWeightG": 1200000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/EMc_6Ijff0kT91VK4Jcfq",
+  "imageUrl": "images/animals/saltwater-crocodile.webp",
   "slug": "saltwater-crocodile",
   "coordinates": {
    "lat": -13.0,
@@ -8364,7 +8364,7 @@
    "minWeightG": 9000,
    "maxWeightG": 360000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/TXLvzOPjN1Y0elMUySTVZ",
+  "imageUrl": "images/animals/american-alligator.webp",
   "slug": "american-alligator",
   "coordinates": {
    "lat": 29.5,
@@ -8400,7 +8400,7 @@
    "minWeightG": 159000,
    "maxWeightG": 181000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/WyAUIUvp9XE0EO3AjFpam",
+  "imageUrl": "images/animals/gharial.webp",
   "slug": "gharial",
   "coordinates": {
    "lat": 27.0,
@@ -8440,7 +8440,7 @@
    "minWeightG": 170000,
    "maxWeightG": 170000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/8p7H6DQiMTQecSfbV1LN5",
+  "imageUrl": "images/animals/reticulated-python.webp",
   "slug": "reticulated-python",
   "coordinates": {
    "lat": 1.0,
@@ -8479,7 +8479,7 @@
    "minWeightG": 0,
    "maxWeightG": 250000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_rScDURV3AyYBmbm500ju",
+  "imageUrl": "images/animals/green-anaconda.webp",
   "slug": "green-anaconda",
   "coordinates": {
    "lat": -4.0,
@@ -8520,7 +8520,7 @@
    "minWeightG": 10000,
    "maxWeightG": 27000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_x2Fx2iAz1tVQzNSxJA8Y",
+  "imageUrl": "images/animals/boa-constrictor.webp",
   "slug": "boa-constrictor",
   "coordinates": {
    "lat": 5.0,
@@ -8558,7 +8558,7 @@
    "minWeightG": 4600,
    "maxWeightG": 8440
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/5Awx7sVdXJf4GO8sLuM1k",
+  "imageUrl": "images/animals/king-cobra.webp",
   "slug": "king-cobra",
   "coordinates": {
    "lat": 14.0,
@@ -8596,7 +8596,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/74BVydV9RNZOcnxlD55TQ",
+  "imageUrl": "images/animals/black-mamba.webp",
   "slug": "black-mamba",
   "coordinates": {
    "lat": -18.0,
@@ -8635,7 +8635,7 @@
    "minWeightG": 1000,
    "maxWeightG": 2000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/X8RFN5vxEfj4Gaka39YK6",
+  "imageUrl": "images/animals/eastern-green-mamba.webp",
   "slug": "eastern-green-mamba",
   "coordinates": {
    "lat": -6.0,
@@ -8674,7 +8674,7 @@
    "minWeightG": 7000,
    "maxWeightG": 10000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/238ocZ8dWykY0rWbo_2i_",
+  "imageUrl": "images/animals/gaboon-viper.webp",
   "slug": "gaboon-viper",
   "coordinates": {
    "lat": 0.0,
@@ -8713,7 +8713,7 @@
    "minWeightG": 50,
    "maxWeightG": 100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sAh8C6sanQW6zlGpf8zwT",
+  "imageUrl": "images/animals/common-european-adder.webp",
   "slug": "common-european-adder",
   "coordinates": {
    "lat": 58.0,
@@ -8751,7 +8751,7 @@
    "minWeightG": 1400,
    "maxWeightG": 2700
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/KOjb36Tcjn7owN1bRht36",
+  "imageUrl": "images/animals/western-diamondback-rattlesnake.webp",
   "slug": "western-diamondback-rattlesnake",
   "coordinates": {
    "lat": 31.0,
@@ -8787,7 +8787,7 @@
    "minWeightG": 580,
    "maxWeightG": 900
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/BmCJrTk2vbp6oYbQ_ztH5",
+  "imageUrl": "images/animals/timber-rattlesnake.webp",
   "slug": "timber-rattlesnake",
   "coordinates": {
    "lat": 40.0,
@@ -8824,7 +8824,7 @@
    "minWeightG": 1000,
    "maxWeightG": 2000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/pBN3oG56WyP1i0VWFIxpH",
+  "imageUrl": "images/animals/inland-taipan.webp",
   "slug": "inland-taipan",
   "coordinates": {
    "lat": -26.0,
@@ -8862,7 +8862,7 @@
    "minWeightG": 150,
    "maxWeightG": 600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/b4drKu44JPazIf0MCcS0D",
+  "imageUrl": "images/animals/eastern-coral-snake.webp",
   "slug": "eastern-coral-snake",
   "coordinates": {
    "lat": 29.0,
@@ -8902,7 +8902,7 @@
    "minWeightG": 120,
    "maxWeightG": 240
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/6mwYl47caoL5v-c-MzJGD",
+  "imageUrl": "images/animals/grass-snake.webp",
   "slug": "grass-snake",
   "coordinates": {
    "lat": 50.0,
@@ -8940,7 +8940,7 @@
    "minWeightG": 50000,
    "maxWeightG": 90000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/1ujwDhooSy7GLElyl1G3c",
+  "imageUrl": "images/animals/komodo-dragon.webp",
   "slug": "komodo-dragon",
   "coordinates": {
    "lat": -8.6,
@@ -8981,7 +8981,7 @@
    "minWeightG": 4000,
    "maxWeightG": 8000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/C25kNIuRhrUAswUcU87ch",
+  "imageUrl": "images/animals/green-iguana.webp",
   "slug": "green-iguana",
   "coordinates": {
    "lat": 9.0,
@@ -9018,7 +9018,7 @@
    "minWeightG": 500,
    "maxWeightG": 1500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/17oE7c834cpckqaAe7pPK",
+  "imageUrl": "images/animals/marine-iguana.webp",
   "slug": "marine-iguana",
   "coordinates": {
    "lat": -0.7,
@@ -9054,7 +9054,7 @@
    "minWeightG": 140,
    "maxWeightG": 220
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/eoUPW5sZnxFSeUfESt1gu",
+  "imageUrl": "images/animals/panther-chameleon.webp",
   "slug": "panther-chameleon",
   "coordinates": {
    "lat": -15.0,
@@ -9090,7 +9090,7 @@
    "minWeightG": 85,
    "maxWeightG": 200
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/31noeTTzvudZwT5o8mP_-",
+  "imageUrl": "images/animals/veiled-chameleon.webp",
   "slug": "veiled-chameleon",
   "coordinates": {
    "lat": 15.0,
@@ -9127,7 +9127,7 @@
    "minWeightG": 50,
    "maxWeightG": 80
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/lZKFeyZM3fiDgTBWCCZ4A",
+  "imageUrl": "images/animals/leopard-gecko.webp",
   "slug": "leopard-gecko",
   "coordinates": {
    "lat": 30.0,
@@ -9166,7 +9166,7 @@
    "minWeightG": 50,
    "maxWeightG": 150
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/qSndhEZ3byDnSPizSuzFD",
+  "imageUrl": "images/animals/tokay-gecko.webp",
   "slug": "tokay-gecko",
   "coordinates": {
    "lat": 15.0,
@@ -9203,7 +9203,7 @@
    "minWeightG": 20,
    "maxWeightG": 60
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/EgwdtdnhidtDpNBizt5LN",
+  "imageUrl": "images/animals/european-green-lizard.webp",
   "slug": "european-green-lizard",
   "coordinates": {
    "lat": 45.0,
@@ -9242,7 +9242,7 @@
    "minWeightG": 2500,
    "maxWeightG": 9340
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/KdAA_uTta7ZpeQD1sqDL_",
+  "imageUrl": "images/animals/common-wall-lizard.webp",
   "slug": "common-wall-lizard",
   "coordinates": {
    "lat": 43.0,
@@ -9281,7 +9281,7 @@
    "minWeightG": 200,
    "maxWeightG": 500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/4w2acDNK15C3KbaPH6X8D",
+  "imageUrl": "images/animals/green-basilisk.webp",
   "slug": "green-basilisk",
   "coordinates": {
    "lat": 10.0,
@@ -9319,7 +9319,7 @@
    "minWeightG": 300,
    "maxWeightG": 900
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/aubyQcXLIMX_hIg6UupwH",
+  "imageUrl": "images/animals/frilled-necked-lizard.webp",
   "slug": "frilled-necked-lizard",
   "coordinates": {
    "lat": -14.0,
@@ -9357,7 +9357,7 @@
    "minWeightG": 550,
    "maxWeightG": 800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/LJIgxtYMmKt7iJpn04kbs",
+  "imageUrl": "images/animals/gila-monster.webp",
   "slug": "gila-monster",
   "coordinates": {
    "lat": 33.0,
@@ -9396,7 +9396,7 @@
    "minWeightG": 200,
    "maxWeightG": 440
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/8OzfwP-Mg6Y2kAiAVkwlk",
+  "imageUrl": "images/animals/blue-tongued-skink.webp",
   "slug": "blue-tongued-skink",
   "coordinates": {
    "lat": -33.0,
@@ -9434,7 +9434,7 @@
    "minWeightG": 3175,
    "maxWeightG": 5443
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/nnbtp9LhErjlPHXqOqpOl",
+  "imageUrl": "images/animals/argentine-black-and-white-tegu.webp",
   "slug": "argentine-black-and-white-tegu",
   "coordinates": {
    "lat": -30.0,
@@ -9471,7 +9471,7 @@
    "minWeightG": 110000,
    "maxWeightG": 190000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/aOS2_DbNbfAL-q7ZKGMez",
+  "imageUrl": "images/animals/green-sea-turtle.webp",
   "slug": "green-sea-turtle",
   "coordinates": {
    "lat": 19.5,
@@ -9508,7 +9508,7 @@
    "minWeightG": 43000,
    "maxWeightG": 91000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/geTjaO-ts0aErYOZh_skn",
+  "imageUrl": "images/animals/hawksbill-sea-turtle.webp",
   "slug": "hawksbill-sea-turtle",
   "coordinates": {
    "lat": -18.0,
@@ -9545,7 +9545,7 @@
    "minWeightG": 227000,
    "maxWeightG": 907000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/wE43GCTGFxxvZ_8GFSbla",
+  "imageUrl": "images/animals/leatherback-sea-turtle.webp",
   "slug": "leatherback-sea-turtle",
   "coordinates": {
    "lat": 8.0,
@@ -9583,7 +9583,7 @@
    "minWeightG": 77000,
    "maxWeightG": 200000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/DIZY4fdRlzo14D4g-UGUK",
+  "imageUrl": "images/animals/loggerhead-sea-turtle.webp",
   "slug": "loggerhead-sea-turtle",
   "coordinates": {
    "lat": 28.0,
@@ -9622,7 +9622,7 @@
    "minWeightG": 4500,
    "maxWeightG": 16000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/47S3DgYSnWyWwW0YVU8-b",
+  "imageUrl": "images/animals/common-snapping-turtle.webp",
   "slug": "common-snapping-turtle",
   "coordinates": {
    "lat": 40.0,
@@ -9659,7 +9659,7 @@
    "minWeightG": 113000,
    "maxWeightG": 227000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Iz-Ja67IZMTbiLMlj-M_-",
+  "imageUrl": "images/animals/galapagos-giant-tortoise.webp",
   "slug": "galapagos-giant-tortoise",
   "coordinates": {
    "lat": -0.6,
@@ -9696,7 +9696,7 @@
    "minWeightG": 159000,
    "maxWeightG": 250000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/MTr9EUcXyVI2r1HXZl8CK",
+  "imageUrl": "images/animals/aldabra-giant-tortoise.webp",
   "slug": "aldabra-giant-tortoise",
   "coordinates": {
    "lat": -9.4,
@@ -9733,7 +9733,7 @@
    "minWeightG": 500,
    "maxWeightG": 2500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/meBw9BhHVhh7NI_0ZGFZ5",
+  "imageUrl": "images/animals/hermann-s-tortoise.webp",
   "slug": "hermann-s-tortoise",
   "coordinates": {
    "lat": 42.0,
@@ -9772,7 +9772,7 @@
    "minWeightG": 330,
    "maxWeightG": 550
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sHbLW-C1IgUHhFMXx-gO1",
+  "imageUrl": "images/animals/european-pond-turtle.webp",
   "slug": "european-pond-turtle",
   "coordinates": {
    "lat": 45.5,
@@ -9811,7 +9811,7 @@
    "minWeightG": 1000,
    "maxWeightG": 3200
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/jodtaJewBejccYv2INVzE",
+  "imageUrl": "images/animals/chinese-softshell-turtle.webp",
   "slug": "chinese-softshell-turtle",
   "coordinates": {
    "lat": 31.0,
@@ -9847,7 +9847,7 @@
    "minWeightG": 400,
    "maxWeightG": 1000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Akou96e2Ym5PcVndCDOwx",
+  "imageUrl": "images/animals/tuatara.webp",
   "slug": "tuatara",
   "coordinates": {
    "lat": -41.3,
@@ -9886,7 +9886,7 @@
    "minWeightG": 17,
    "maxWeightG": 50
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IbsrpFrzXMnlklFQDifpf",
+  "imageUrl": "images/animals/fire-salamander.webp",
   "slug": "fire-salamander",
   "coordinates": {
    "lat": 49.5,
@@ -9925,7 +9925,7 @@
    "minWeightG": 10,
    "maxWeightG": 40
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IyXjgiuWeV_a3WKyQoRLX",
+  "imageUrl": "images/animals/northern-crested-newt.webp",
   "slug": "northern-crested-newt",
   "coordinates": {
    "lat": 52.0,
@@ -9965,7 +9965,7 @@
    "minWeightG": 1.4,
    "maxWeightG": 6.4
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/r2M3KxcIXsR5iOuPjZJ2H",
+  "imageUrl": "images/animals/alpine-newt.webp",
   "slug": "alpine-newt",
   "coordinates": {
    "lat": 47.0,
@@ -10004,7 +10004,7 @@
    "minWeightG": 20,
    "maxWeightG": 200
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/2iEbEtHU85M8XCezzYVk4",
+  "imageUrl": "images/animals/axolotl.webp",
   "slug": "axolotl",
   "coordinates": {
    "lat": 19.26,
@@ -10042,7 +10042,7 @@
    "minWeightG": 15,
    "maxWeightG": 20
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/UfVU6DExES_hCRYbdUuA6",
+  "imageUrl": "images/animals/olm.webp",
   "slug": "olm",
   "coordinates": {
    "lat": 45.8,
@@ -10079,7 +10079,7 @@
    "minWeightG": 5000,
    "maxWeightG": 35000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/SdOhmhsQF9rhvBcSbrnkO",
+  "imageUrl": "images/animals/japanese-giant-salamander.webp",
   "slug": "japanese-giant-salamander",
   "coordinates": {
    "lat": 34.9,
@@ -10117,7 +10117,7 @@
    "minWeightG": 50,
    "maxWeightG": 533
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/h4MDj0fp3m70l2faVi6Bn",
+  "imageUrl": "images/animals/two-toed-amphiuma.webp",
   "slug": "two-toed-amphiuma",
   "coordinates": {
    "lat": 30.5,
@@ -10155,7 +10155,7 @@
    "minWeightG": 20,
    "maxWeightG": 60
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/YHcxgUQhuVqGGkspe8PXR",
+  "imageUrl": "images/animals/caecilian.webp",
   "slug": "caecilian",
   "coordinates": {
    "lat": 4.0,
@@ -10192,7 +10192,7 @@
    "minWeightG": 3000,
    "maxWeightG": 12000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/JS7IGlXuV8aFogcsY7NwF",
+  "imageUrl": "images/animals/alpine-salamander.webp",
   "slug": "alpine-salamander",
   "coordinates": {
    "lat": 47.2,
@@ -10229,7 +10229,7 @@
    "minWeightG": 520000,
    "maxWeightG": 770000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/iTCpoX3n1l_8z7tRYezYz",
+  "imageUrl": "images/animals/great-white-shark.webp",
   "slug": "great-white-shark",
   "coordinates": {
    "lat": -34.5,
@@ -10267,7 +10267,7 @@
    "minWeightG": 385000,
    "maxWeightG": 635000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Qtn7vVPM-ZakiHSYn5WiQ",
+  "imageUrl": "images/animals/tiger-shark.webp",
   "slug": "tiger-shark",
   "coordinates": {
    "lat": 21.0,
@@ -10306,7 +10306,7 @@
    "minWeightG": 200000,
    "maxWeightG": 450000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/tHnhqp1w5UyMktc-4tUll",
+  "imageUrl": "images/animals/great-hammerhead-shark.webp",
   "slug": "great-hammerhead-shark",
   "coordinates": {
    "lat": 24.5,
@@ -10345,7 +10345,7 @@
    "minWeightG": 0,
    "maxWeightG": 21500000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/EV-8LmkufNdT79xMg-gvG",
+  "imageUrl": "images/animals/whale-shark.webp",
   "slug": "whale-shark",
   "coordinates": {
    "lat": -22.0,
@@ -10383,7 +10383,7 @@
    "minWeightG": 3500000,
    "maxWeightG": 7000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/DgJyaA4ApE9MVev5Jqez5",
+  "imageUrl": "images/animals/basking-shark.webp",
   "slug": "basking-shark",
   "coordinates": {
    "lat": 56.0,
@@ -10422,7 +10422,7 @@
    "minWeightG": 95000,
    "maxWeightG": 130000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/roEylG21U3Q_j3BXc9soF",
+  "imageUrl": "images/animals/bull-shark.webp",
   "slug": "bull-shark",
   "coordinates": {
    "lat": 25.5,
@@ -10460,7 +10460,7 @@
    "minWeightG": 60000000,
    "maxWeightG": 140000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/JxHtU8ztiHYHPY9qZ2ZHE",
+  "imageUrl": "images/animals/shortfin-mako-shark.webp",
   "slug": "shortfin-mako-shark",
   "coordinates": {
    "lat": 35.0,
@@ -10498,7 +10498,7 @@
    "minWeightG": 27000000,
    "maxWeightG": 240000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/WaUle-Ylrh7COndbSNzqt",
+  "imageUrl": "images/animals/blue-shark.webp",
   "slug": "blue-shark",
   "coordinates": {
    "lat": 40.0,
@@ -10535,7 +10535,7 @@
    "minWeightG": 90000,
    "maxWeightG": 150000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/JQd5isaWWa24t-6ga9Qm3",
+  "imageUrl": "images/animals/nurse-shark.webp",
   "slug": "nurse-shark",
   "coordinates": {
    "lat": 24.0,
@@ -10573,7 +10573,7 @@
    "minWeightG": 0,
    "maxWeightG": 13600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/VtbKxJxwoBwAmHmkicYfO",
+  "imageUrl": "images/animals/blacktip-reef-shark.webp",
   "slug": "blacktip-reef-shark",
   "coordinates": {
    "lat": -17.5,
@@ -10612,7 +10612,7 @@
    "minWeightG": 50000,
    "maxWeightG": 600000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/yF_Mxg36TTDcJWabQTdFs",
+  "imageUrl": "images/animals/largetooth-sawfish.webp",
   "slug": "largetooth-sawfish",
   "coordinates": {
    "lat": -14.0,
@@ -10650,7 +10650,7 @@
    "minWeightG": 500000,
    "maxWeightG": 2000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/BM3VtvX9wYD-dku7ViNkn",
+  "imageUrl": "images/animals/giant-manta-ray.webp",
   "slug": "giant-manta-ray",
   "coordinates": {
    "lat": -8.4,
@@ -10686,7 +10686,7 @@
    "minWeightG": 0,
    "maxWeightG": 10200
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/CjXZnqAA654bI5wyaTgof",
+  "imageUrl": "images/animals/common-stingray.webp",
   "slug": "common-stingray",
   "coordinates": {
    "lat": 43.0,
@@ -10723,7 +10723,7 @@
    "minWeightG": 0,
    "maxWeightG": 3000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/s-0SwSjWoCk72RMIxlRTs",
+  "imageUrl": "images/animals/marbled-electric-ray.webp",
   "slug": "marbled-electric-ray",
   "coordinates": {
    "lat": 38.0,
@@ -10759,7 +10759,7 @@
    "minWeightG": 3000,
    "maxWeightG": 4000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Nqms3uLmjQMypd0gQHMuV",
+  "imageUrl": "images/animals/blue-spotted-stingray.webp",
   "slug": "blue-spotted-stingray",
   "coordinates": {
    "lat": -3.0,
@@ -10797,7 +10797,7 @@
    "minWeightG": 30000000,
    "maxWeightG": 680000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Ybdvh1SLQut7xZqKZxSjS",
+  "imageUrl": "images/animals/atlantic-bluefin-tuna.webp",
   "slug": "atlantic-bluefin-tuna",
   "coordinates": {
    "lat": 37.0,
@@ -10835,7 +10835,7 @@
    "minWeightG": 15000,
    "maxWeightG": 100000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vZbqDjfi2exiWFsQrXYPq",
+  "imageUrl": "images/animals/yellowfin-tuna.webp",
   "slug": "yellowfin-tuna",
   "coordinates": {
    "lat": 5.0,
@@ -10872,7 +10872,7 @@
    "minWeightG": 300,
    "maxWeightG": 3400
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/cpfuH7-mv0Ob-T3Xh6RK8",
+  "imageUrl": "images/animals/atlantic-mackerel.webp",
   "slug": "atlantic-mackerel",
   "coordinates": {
    "lat": 55.0,
@@ -10909,7 +10909,7 @@
    "minWeightG": 100,
    "maxWeightG": 700
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/MvKCpHSvCJnK3CA7m-7uR",
+  "imageUrl": "images/animals/atlantic-herring.webp",
   "slug": "atlantic-herring",
   "coordinates": {
    "lat": 58.0,
@@ -10947,7 +10947,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/JkM3YQMVgFHOGbf_11jD4",
+  "imageUrl": "images/animals/swordfish.webp",
   "slug": "swordfish",
   "coordinates": {
    "lat": 30.0,
@@ -10984,7 +10984,7 @@
    "minWeightG": 70000,
    "maxWeightG": 175000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/cUr8n5GGMuC-LdOSNCOOC",
+  "imageUrl": "images/animals/blue-marlin.webp",
   "slug": "blue-marlin",
   "coordinates": {
    "lat": 20.0,
@@ -11021,7 +11021,7 @@
    "minWeightG": 0,
    "maxWeightG": 100000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/qssFPgKFGH94UWzdv1fqm",
+  "imageUrl": "images/animals/sailfish.webp",
   "slug": "sailfish",
   "coordinates": {
    "lat": 12.0,
@@ -11060,7 +11060,7 @@
    "minWeightG": 0,
    "maxWeightG": 50000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/CAgzVM7ikls3ZCeOCf2FJ",
+  "imageUrl": "images/animals/great-barracuda.webp",
   "slug": "great-barracuda",
   "coordinates": {
    "lat": 25.0,
@@ -11095,7 +11095,7 @@
    "minWeightG": 160,
    "maxWeightG": 17200
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/tlv6mHcAqoHR4lKjzn5hD",
+  "imageUrl": "images/animals/gilt-head-bream.webp",
   "slug": "gilt-head-bream",
   "coordinates": {
    "lat": 40.0,
@@ -11133,7 +11133,7 @@
    "minWeightG": 1000,
    "maxWeightG": 12000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/OWDd3iuppJX6Bc-LC7Z4H",
+  "imageUrl": "images/animals/european-seabass.webp",
   "slug": "european-seabass",
   "coordinates": {
    "lat": 46.0,
@@ -11170,7 +11170,7 @@
    "minWeightG": 0,
    "maxWeightG": 400000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/77uFYig1Emr_r3rWn9YUN",
+  "imageUrl": "images/animals/giant-grouper.webp",
   "slug": "giant-grouper",
   "coordinates": {
    "lat": -16.0,
@@ -11207,7 +11207,7 @@
    "minWeightG": 500,
    "maxWeightG": 1820
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/cZCyQi5kZ_J8L3ONnB4ZT",
+  "imageUrl": "images/animals/parrotfish.webp",
   "slug": "parrotfish",
   "coordinates": {
    "lat": -18.0,
@@ -11244,7 +11244,7 @@
    "minWeightG": 40,
    "maxWeightG": 250
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/z96JUF-IERNz4Z50gauMa",
+  "imageUrl": "images/animals/surgeonfish.webp",
   "slug": "surgeonfish",
   "coordinates": {
    "lat": 20.0,
@@ -11281,7 +11281,7 @@
    "minWeightG": 500,
    "maxWeightG": 1400
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Q3cH8DzzZItbayUlMHRGj",
+  "imageUrl": "images/animals/emperor-angelfish.webp",
   "slug": "emperor-angelfish",
   "coordinates": {
    "lat": -8.0,
@@ -11318,7 +11318,7 @@
    "minWeightG": 52,
    "maxWeightG": 194
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/9_qeiA3v2awKtAc8GaMV5",
+  "imageUrl": "images/animals/butterflyfish.webp",
   "slug": "butterflyfish",
   "coordinates": {
    "lat": -17.0,
@@ -11355,7 +11355,7 @@
    "minWeightG": 2,
    "maxWeightG": 20
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/i-iuQ2-zbPO_vWseqE0ZH",
+  "imageUrl": "images/animals/clownfish.webp",
   "slug": "clownfish",
   "coordinates": {
    "lat": -18.3,
@@ -11392,7 +11392,7 @@
    "minWeightG": 500,
    "maxWeightG": 2300
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Lj8qsmu2q0KW8YyYaYKWQ",
+  "imageUrl": "images/animals/triggerfish.webp",
   "slug": "triggerfish",
   "coordinates": {
    "lat": -8.5,
@@ -11427,7 +11427,7 @@
    "minWeightG": 300,
    "maxWeightG": 10000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/icprQo7x1pLxHXFtLw19X",
+  "imageUrl": "images/animals/pufferfish.webp",
   "slug": "pufferfish",
   "coordinates": {
    "lat": 10.0,
@@ -11465,7 +11465,7 @@
    "minWeightG": 3366,
    "maxWeightG": 3366
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/9NgxGma4fMxYkfxZwVC0s",
+  "imageUrl": "images/animals/porcupinefish.webp",
   "slug": "porcupinefish",
   "coordinates": {
    "lat": 20.0,
@@ -11503,7 +11503,7 @@
    "minWeightG": 500,
    "maxWeightG": 6500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/r6XC7WqRYYOdQAfBzz4Rh",
+  "imageUrl": "images/animals/mediterranean-moray.webp",
   "slug": "mediterranean-moray",
   "coordinates": {
    "lat": 38.5,
@@ -11542,7 +11542,7 @@
    "minWeightG": 500,
    "maxWeightG": 6600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Dzx7lSjdbb0W5dXCmKsuF",
+  "imageUrl": "images/animals/european-eel.webp",
   "slug": "european-eel",
   "coordinates": {
    "lat": 47.0,
@@ -11579,7 +11579,7 @@
    "minWeightG": 500,
    "maxWeightG": 3000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/OhRnbvhnMe8FIggT_rp5l",
+  "imageUrl": "images/animals/red-scorpionfish.webp",
   "slug": "red-scorpionfish",
   "coordinates": {
    "lat": 37.0,
@@ -11615,7 +11615,7 @@
    "minWeightG": 500,
    "maxWeightG": 2400
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/mQc-GiEHOl408Jjv8Kzbx",
+  "imageUrl": "images/animals/stonefish.webp",
   "slug": "stonefish",
   "coordinates": {
    "lat": -16.0,
@@ -11653,7 +11653,7 @@
    "minWeightG": 0,
    "maxWeightG": 1400
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/REBSnm6CuV6yH94vdvLB3",
+  "imageUrl": "images/animals/lionfish.webp",
   "slug": "lionfish",
   "coordinates": {
    "lat": 25.0,
@@ -11688,7 +11688,7 @@
    "minWeightG": 5,
    "maxWeightG": 20
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/pLOBrCwdQnsnKTGgYi1oz",
+  "imageUrl": "images/animals/seahorse.webp",
   "slug": "seahorse",
   "coordinates": {
    "lat": 43.0,
@@ -11724,7 +11724,7 @@
    "minWeightG": 30,
    "maxWeightG": 16950
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/gUqzb4Xy-Lq_OA5pNKl6P",
+  "imageUrl": "images/animals/pipefish.webp",
   "slug": "pipefish",
   "coordinates": {
    "lat": 50.5,
@@ -11760,7 +11760,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/eSC37hCP8aGr5502k7Qtf",
+  "imageUrl": "images/animals/flying-fish.webp",
   "slug": "flying-fish",
   "coordinates": {
    "lat": 13.1,
@@ -11796,7 +11796,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/FqBih5iuDvbmYcQaneFN8",
+  "imageUrl": "images/animals/lanternfish.webp",
   "slug": "lanternfish",
   "coordinates": {
    "lat": -20.0,
@@ -11832,7 +11832,7 @@
    "minWeightG": 5.66,
    "maxWeightG": 5.66
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/P-07DXUXHiRYeVV6VQKSQ",
+  "imageUrl": "images/animals/viperfish.webp",
   "slug": "viperfish",
   "coordinates": {
    "lat": 30.0,
@@ -11869,7 +11869,7 @@
    "minWeightG": 1,
    "maxWeightG": 52
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/-Ek0Rps98pKTEhMkGVKkJ",
+  "imageUrl": "images/animals/black-dragonfish.webp",
   "slug": "black-dragonfish",
   "coordinates": {
    "lat": -25.0,
@@ -11907,7 +11907,7 @@
    "minWeightG": 37200,
    "maxWeightG": 82100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/zpdgYyn6QpRNns9OhOhk9",
+  "imageUrl": "images/animals/coelacanth.webp",
   "slug": "coelacanth",
   "coordinates": {
    "lat": -12.2,
@@ -11945,7 +11945,7 @@
    "minWeightG": 100000,
    "maxWeightG": 272000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/htPrTQxpbp0YS1ydhPDIj",
+  "imageUrl": "images/animals/giant-oarfish.webp",
   "slug": "giant-oarfish",
   "coordinates": {
    "lat": 33.0,
@@ -11983,7 +11983,7 @@
    "minWeightG": 0,
    "maxWeightG": 400000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/EOAnwzeXziJmbWXM1AoZB",
+  "imageUrl": "images/animals/european-sturgeon.webp",
   "slug": "european-sturgeon",
   "coordinates": {
    "lat": 45.3,
@@ -12022,7 +12022,7 @@
    "minWeightG": 70000000,
    "maxWeightG": 1571000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/qH2m9IvWCvFV4ASx3dsvy",
+  "imageUrl": "images/animals/beluga-sturgeon.webp",
   "slug": "beluga-sturgeon",
   "coordinates": {
    "lat": 42.5,
@@ -12061,7 +12061,7 @@
    "minWeightG": 3629,
    "maxWeightG": 5443
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/GJmKKndNqMpbej9u_6NOf",
+  "imageUrl": "images/animals/atlantic-salmon.webp",
   "slug": "atlantic-salmon",
   "coordinates": {
    "lat": 60.0,
@@ -12100,7 +12100,7 @@
    "minWeightG": 454,
    "maxWeightG": 1814
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/CfiGaBxMGnK6iZsxh5Rhr",
+  "imageUrl": "images/animals/brown-trout.webp",
   "slug": "brown-trout",
   "coordinates": {
    "lat": 47.5,
@@ -12139,7 +12139,7 @@
    "minWeightG": 1000,
    "maxWeightG": 24000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vbi1oRLsduqdUPnekyT3K",
+  "imageUrl": "images/animals/rainbow-trout.webp",
   "slug": "rainbow-trout",
   "coordinates": {
    "lat": 45.0,
@@ -12177,7 +12177,7 @@
    "minWeightG": 1588,
    "maxWeightG": 3402
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/5UQnVO7bBUZIOsYO4GEc_",
+  "imageUrl": "images/animals/northern-pike.webp",
   "slug": "northern-pike",
   "coordinates": {
    "lat": 55.0,
@@ -12215,7 +12215,7 @@
    "minWeightG": 500,
    "maxWeightG": 3000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/NFm7RZwN1uq1adbATbUrt",
+  "imageUrl": "images/animals/european-perch.webp",
   "slug": "european-perch",
   "coordinates": {
    "lat": 52.0,
@@ -12253,7 +12253,7 @@
    "minWeightG": 200,
    "maxWeightG": 40000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/4V5VaFsVzHgBOqIXH4Y2h",
+  "imageUrl": "images/animals/common-carp.webp",
   "slug": "common-carp",
   "coordinates": {
    "lat": 47.5,
@@ -12291,7 +12291,7 @@
    "minWeightG": 2000,
    "maxWeightG": 96000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Hkpa9m2dE873Y-NJOlovL",
+  "imageUrl": "images/animals/atlantic-cod.webp",
   "slug": "atlantic-cod",
   "coordinates": {
    "lat": 55.0,
@@ -12327,7 +12327,7 @@
    "minWeightG": 500,
    "maxWeightG": 250000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Tyulb7ycvrNoE37Qu71fZ",
+  "imageUrl": "images/animals/turbot.webp",
   "slug": "turbot",
   "coordinates": {
    "lat": 54.0,
@@ -12365,7 +12365,7 @@
    "minWeightG": 70000,
    "maxWeightG": 370000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/SitQxZOPjyoogpHmkIZE_",
+  "imageUrl": "images/animals/sea-lamprey.webp",
   "slug": "sea-lamprey",
   "coordinates": {
    "lat": 44.0,
@@ -12401,7 +12401,7 @@
    "minWeightG": 330,
    "maxWeightG": 395
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_w9XYb4wfC_mhBiRGS_k3",
+  "imageUrl": "images/animals/red-bellied-piranha.webp",
   "slug": "red-bellied-piranha",
   "coordinates": {
    "lat": -3.5,
@@ -12440,7 +12440,7 @@
    "minWeightG": 15000000,
    "maxWeightG": 220000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Zs94X7KPSsFyRAQAXaf4K",
+  "imageUrl": "images/animals/wels-catfish.webp",
   "slug": "wels-catfish",
   "coordinates": {
    "lat": 48.0,
@@ -12478,7 +12478,7 @@
    "minWeightG": 0,
    "maxWeightG": 5897
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/QTjudozOWEUr8MiZsrpQY",
+  "imageUrl": "images/animals/silver-arowana.webp",
   "slug": "silver-arowana",
   "coordinates": {
    "lat": -2.0,
@@ -12515,7 +12515,7 @@
    "minWeightG": 570,
    "maxWeightG": 1970
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/5eYCbX5ZsjQ761XZssy1P",
+  "imageUrl": "images/animals/siamese-fighting-fish.webp",
   "slug": "siamese-fighting-fish",
   "coordinates": {
    "lat": 15.0,
@@ -12553,7 +12553,7 @@
    "minWeightG": 37200,
    "maxWeightG": 82100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/oSOeOo3h09yBIhekjy8Wr",
+  "imageUrl": "images/animals/west-indian-ocean-coelacanth.webp",
   "slug": "west-indian-ocean-coelacanth",
   "coordinates": {
    "lat": -11.7,
@@ -12590,7 +12590,7 @@
    "minWeightG": 0.0154,
    "maxWeightG": 0.03
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/5EdVtAhbV2xPfUvbaSff-",
+  "imageUrl": "images/animals/seven-spot-ladybird.webp",
   "slug": "seven-spot-ladybird",
   "coordinates": {
    "lat": 51.5,
@@ -12627,7 +12627,7 @@
    "minWeightG": 4,
    "maxWeightG": 20
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/obE123Pk4yKA2pfrT57WW",
+  "imageUrl": "images/animals/european-mantis.webp",
   "slug": "european-mantis",
   "coordinates": {
    "lat": 44.0,
@@ -12664,7 +12664,7 @@
    "minWeightG": 6000,
    "maxWeightG": 10000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/rKBfbYJdqnPxuksw0Q4I1",
+  "imageUrl": "images/animals/rhinoceros-beetle.webp",
   "slug": "rhinoceros-beetle",
   "coordinates": {
    "lat": 4.0,
@@ -12700,7 +12700,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/VWP2hRS3fQJAvliM09vKN",
+  "imageUrl": "images/animals/stag-beetle.webp",
   "slug": "stag-beetle",
   "coordinates": {
    "lat": 49.0,
@@ -12737,7 +12737,7 @@
    "minWeightG": 0.2,
    "maxWeightG": 0.2
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/KYpcnZ5KfX97i_UF0Oqkz",
+  "imageUrl": "images/animals/dung-beetle.webp",
   "slug": "dung-beetle",
   "coordinates": {
    "lat": -1.0,
@@ -12773,7 +12773,7 @@
    "minWeightG": 0.1,
    "maxWeightG": 0.3
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/eJoIyUy02u_XSSR51QWag",
+  "imageUrl": "images/animals/tiger-beetle.webp",
   "slug": "tiger-beetle",
   "coordinates": {
    "lat": 40.0,
@@ -12810,7 +12810,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/AYAyG6Y3DXAmJJ9cUon_E",
+  "imageUrl": "images/animals/firefly.webp",
   "slug": "firefly",
   "coordinates": {
    "lat": 36.0,
@@ -12848,7 +12848,7 @@
    "minWeightG": 0.5,
    "maxWeightG": 1.5
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/rllF1h6yZ3J5zKpAARqqW",
+  "imageUrl": "images/animals/emperor-dragonfly.webp",
   "slug": "emperor-dragonfly",
   "coordinates": {
    "lat": 51.0,
@@ -12886,7 +12886,7 @@
    "minWeightG": 0.091,
    "maxWeightG": 0.119
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/BO1debIkCglFJgs26OpFu",
+  "imageUrl": "images/animals/damselfly.webp",
   "slug": "damselfly",
   "coordinates": {
    "lat": 52.0,
@@ -12926,7 +12926,7 @@
    "minWeightG": 0.2,
    "maxWeightG": 0.65
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/W5Sa023ojh-314d0Zx4GQ",
+  "imageUrl": "images/animals/grasshopper.webp",
   "slug": "grasshopper",
   "coordinates": {
    "lat": 41.0,
@@ -12962,7 +12962,7 @@
    "minWeightG": 1290,
    "maxWeightG": 2010
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/oEzzZ2KSoRP4MVQ8ZANjG",
+  "imageUrl": "images/animals/migratory-locust.webp",
   "slug": "migratory-locust",
   "coordinates": {
    "lat": 14.0,
@@ -12999,7 +12999,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/HzGgKXzPP4SpWPuagEr93",
+  "imageUrl": "images/animals/cicada.webp",
   "slug": "cicada",
   "coordinates": {
    "lat": 38.0,
@@ -13036,7 +13036,7 @@
    "minWeightG": 0.1,
    "maxWeightG": 0.2
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/BIcO7_sfQE48Txf6Ayc75",
+  "imageUrl": "images/animals/honey-bee.webp",
   "slug": "honey-bee",
   "coordinates": {
    "lat": 48.0,
@@ -13073,7 +13073,7 @@
    "minWeightG": 0.068,
    "maxWeightG": 0.754
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/8qpztlinfctd9gSsm5ol7",
+  "imageUrl": "images/animals/buff-tailed-bumblebee.webp",
   "slug": "buff-tailed-bumblebee",
   "coordinates": {
    "lat": 52.0,
@@ -13111,7 +13111,7 @@
    "minWeightG": 0.0651,
    "maxWeightG": 0.1031
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/zQMnkvg-gQnKZEkUuW_qD",
+  "imageUrl": "images/animals/common-wasp.webp",
   "slug": "common-wasp",
   "coordinates": {
    "lat": 51.0,
@@ -13149,7 +13149,7 @@
    "minWeightG": 0.418,
    "maxWeightG": 0.537
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/2kZnkmpSRCM58OTvXkF-x",
+  "imageUrl": "images/animals/european-hornet.webp",
   "slug": "european-hornet",
   "coordinates": {
    "lat": 49.5,
@@ -13186,7 +13186,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/QmaNn6ZePMi-uxTOAO0KO",
+  "imageUrl": "images/animals/red-wood-ant.webp",
   "slug": "red-wood-ant",
   "coordinates": {
    "lat": 60.0,
@@ -13223,7 +13223,7 @@
    "minWeightG": 0.001,
    "maxWeightG": 1.5
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/0H-bQR501IlxVB73MZB-y",
+  "imageUrl": "images/animals/leafcutter-ant.webp",
   "slug": "leafcutter-ant",
   "coordinates": {
    "lat": -3.0,
@@ -13260,7 +13260,7 @@
    "minWeightG": 0.000417,
    "maxWeightG": 0.01218
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Db_MiQWaRKONMzENKlgBh",
+  "imageUrl": "images/animals/army-ant.webp",
   "slug": "army-ant",
   "coordinates": {
    "lat": 0.5,
@@ -13297,7 +13297,7 @@
    "minWeightG": 0.00427,
    "maxWeightG": 0.00427
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/NcbJFpvHDoiXGpGYZO3Hn",
+  "imageUrl": "images/animals/termite.webp",
   "slug": "termite",
   "coordinates": {
    "lat": -1.5,
@@ -13335,7 +13335,7 @@
    "minWeightG": 0.25,
    "maxWeightG": 0.75
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/5z_4M6m-jH8t__btBEbKR",
+  "imageUrl": "images/animals/monarch-butterfly.webp",
   "slug": "monarch-butterfly",
   "coordinates": {
    "lat": 19.6,
@@ -13372,7 +13372,7 @@
    "minWeightG": 0.3,
    "maxWeightG": 0.5
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/wzVUwwFbrThzTrhiJ68Dw",
+  "imageUrl": "images/animals/red-admiral.webp",
   "slug": "red-admiral",
   "coordinates": {
    "lat": 48.0,
@@ -13411,7 +13411,7 @@
    "minWeightG": 0.2,
    "maxWeightG": 0.8
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/s2IeDZleHkVX071ZU4UYr",
+  "imageUrl": "images/animals/old-world-swallowtail.webp",
   "slug": "old-world-swallowtail",
   "coordinates": {
    "lat": 50.0,
@@ -13447,7 +13447,7 @@
    "minWeightG": 0.3,
    "maxWeightG": 0.8
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/zAvRpnvx9XxBlqinl4H6J",
+  "imageUrl": "images/animals/apollo-butterfly.webp",
   "slug": "apollo-butterfly",
   "coordinates": {
    "lat": 46.5,
@@ -13484,7 +13484,7 @@
    "minWeightG": 0.33,
    "maxWeightG": 0.33
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/fkpuMrIebNVbDYgrgZ9ul",
+  "imageUrl": "images/animals/hummingbird-hawk-moth.webp",
   "slug": "hummingbird-hawk-moth",
   "coordinates": {
    "lat": 43.0,
@@ -13520,7 +13520,7 @@
    "minWeightG": 0.5,
    "maxWeightG": 2
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sdiVm_-DW3YHBdp2vo8gl",
+  "imageUrl": "images/animals/silkworm-moth.webp",
   "slug": "silkworm-moth",
   "coordinates": {
    "lat": 30.6,
@@ -13555,7 +13555,7 @@
    "minWeightG": 4.2,
    "maxWeightG": 5.34
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/mHXd2kUzZVsKaSnK4I56y",
+  "imageUrl": "images/animals/atlas-moth.webp",
   "slug": "atlas-moth",
   "coordinates": {
    "lat": 3.5,
@@ -13591,7 +13591,7 @@
    "minWeightG": 0.2,
    "maxWeightG": 1
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/XmK_o4SHBhJMDR7LBk7ym",
+  "imageUrl": "images/animals/pine-processionary.webp",
   "slug": "pine-processionary",
   "coordinates": {
    "lat": 40.0,
@@ -13626,7 +13626,7 @@
    "minWeightG": 0.012,
    "maxWeightG": 0.012
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/6QpOdt5W4g8kDCX-MfsGt",
+  "imageUrl": "images/animals/housefly.webp",
   "slug": "housefly",
   "coordinates": {
    "lat": 40.7,
@@ -13664,7 +13664,7 @@
    "minWeightG": 0.001,
    "maxWeightG": 0.005
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/A641bBy_G_kWTvfXHrfim",
+  "imageUrl": "images/animals/asian-tiger-mosquito.webp",
   "slug": "asian-tiger-mosquito",
   "coordinates": {
    "lat": 22.0,
@@ -13704,7 +13704,7 @@
    "minWeightG": 0.1,
    "maxWeightG": 0.3
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/GM_vr5Xa5O1cF8W2a6JT6",
+  "imageUrl": "images/animals/horsefly.webp",
   "slug": "horsefly",
   "coordinates": {
    "lat": 45.0,
@@ -13743,7 +13743,7 @@
    "minWeightG": 0.02,
    "maxWeightG": 0.2
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/t7Hrl541KwOpGCRfEE8W7",
+  "imageUrl": "images/animals/mayfly.webp",
   "slug": "mayfly",
   "coordinates": {
    "lat": 47.0,
@@ -13781,7 +13781,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/3ZcDARrMqqruYE0X0ntEB",
+  "imageUrl": "images/animals/burying-beetle.webp",
   "slug": "burying-beetle",
   "coordinates": {
    "lat": 42.0,
@@ -13815,7 +13815,7 @@
    "minWeightG": 0.001,
    "maxWeightG": 0.005
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IRiJJ8vLjTUYTsuWJwtHy",
+  "imageUrl": "images/animals/weevil.webp",
   "slug": "weevil",
   "coordinates": {
    "lat": 41.9,
@@ -13852,7 +13852,7 @@
    "minWeightG": 100,
    "maxWeightG": 300
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/9ONEr5xng91UxC-DPbz0a",
+  "imageUrl": "images/animals/green-shield-bug.webp",
   "slug": "green-shield-bug",
   "coordinates": {
    "lat": 51.5,
@@ -13891,7 +13891,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/L_0yPPgri2OB-WSnAyAOp",
+  "imageUrl": "images/animals/brown-marmorated-stink-bug.webp",
   "slug": "brown-marmorated-stink-bug",
   "coordinates": {
    "lat": 35.7,
@@ -13929,7 +13929,7 @@
    "minWeightG": 0.46,
    "maxWeightG": 0.7
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/oWGBZJ0PKe-shEg9FL4IH",
+  "imageUrl": "images/animals/stick-insect.webp",
   "slug": "stick-insect",
   "coordinates": {
    "lat": -6.0,
@@ -13965,7 +13965,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/9BL22PNyH6mTFpBd26FFP",
+  "imageUrl": "images/animals/leaf-insect.webp",
   "slug": "leaf-insect",
   "coordinates": {
    "lat": 7.0,
@@ -14004,7 +14004,7 @@
    "minWeightG": 0.2,
    "maxWeightG": 1
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IQiRXZ-jE_bJy0l9J_QPa",
+  "imageUrl": "images/animals/water-scorpion.webp",
   "slug": "water-scorpion",
   "coordinates": {
    "lat": 52.0,
@@ -14042,7 +14042,7 @@
    "minWeightG": 10430,
    "maxWeightG": 17050
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Vw-unTveyp_IZZKhDv-hs",
+  "imageUrl": "images/animals/tarantula.webp",
   "slug": "tarantula",
   "coordinates": {
    "lat": 32.0,
@@ -14080,7 +14080,7 @@
    "minWeightG": 1,
    "maxWeightG": 1
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/V_8kZKlU2l78iVL4qFUm2",
+  "imageUrl": "images/animals/black-widow.webp",
   "slug": "black-widow",
   "coordinates": {
    "lat": 34.0,
@@ -14116,7 +14116,7 @@
    "minWeightG": 0.05,
    "maxWeightG": 0.3
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Tkg9cciWmIpPM4UkDvJyp",
+  "imageUrl": "images/animals/brown-recluse-spider.webp",
   "slug": "brown-recluse-spider",
   "coordinates": {
    "lat": 36.0,
@@ -14155,7 +14155,7 @@
    "minWeightG": 0.15,
    "maxWeightG": 0.34
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/lKDLCamuqfK9QOlgjBIOY",
+  "imageUrl": "images/animals/jumping-spider.webp",
   "slug": "jumping-spider",
   "coordinates": {
    "lat": 38.0,
@@ -14191,7 +14191,7 @@
    "minWeightG": 0.0693,
    "maxWeightG": 0.1353
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/RYNkhFJl0B7YLmBiwkk-2",
+  "imageUrl": "images/animals/wasp-spider.webp",
   "slug": "wasp-spider",
   "coordinates": {
    "lat": 48.5,
@@ -14228,7 +14228,7 @@
    "minWeightG": 0.02,
    "maxWeightG": 0.2
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/TVbaQyoLwfX303PpvTNdm",
+  "imageUrl": "images/animals/orb-weaver-spider.webp",
   "slug": "orb-weaver-spider",
   "coordinates": {
    "lat": 40.0,
@@ -14265,7 +14265,7 @@
    "minWeightG": 0.1,
    "maxWeightG": 1
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/I0vcoq5jLqLuIQFJNkYd1",
+  "imageUrl": "images/animals/european-garden-spider.webp",
   "slug": "european-garden-spider",
   "coordinates": {
    "lat": 52.0,
@@ -14300,7 +14300,7 @@
    "minWeightG": 30,
    "maxWeightG": 60
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/3xJFzEx2f1ew0yC7ojIdb",
+  "imageUrl": "images/animals/emperor-scorpion.webp",
   "slug": "emperor-scorpion",
   "coordinates": {
    "lat": 6.0,
@@ -14339,7 +14339,7 @@
    "minWeightG": 1,
    "maxWeightG": 4
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IxpJSnBPmzaj6bdgaussk",
+  "imageUrl": "images/animals/mediterranean-scorpion.webp",
   "slug": "mediterranean-scorpion",
   "coordinates": {
    "lat": 40.5,
@@ -14376,7 +14376,7 @@
    "minWeightG": 0.002,
    "maxWeightG": 0.1862
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/PjZzYI6fSFrTBgpEUQQXY",
+  "imageUrl": "images/animals/castor-bean-tick.webp",
   "slug": "castor-bean-tick",
   "coordinates": {
    "lat": 50.0,
@@ -14413,7 +14413,7 @@
    "minWeightG": 10,
    "maxWeightG": 50
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/CL-OulMdp0Iu9Fs9n42Zf",
+  "imageUrl": "images/animals/centipede.webp",
   "slug": "centipede",
   "coordinates": {
    "lat": 4.0,
@@ -14449,7 +14449,7 @@
    "minWeightG": 181,
    "maxWeightG": 272
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_mU8QlLBZyTyG--bAnLc-",
+  "imageUrl": "images/animals/millipede.webp",
   "slug": "millipede",
   "coordinates": {
    "lat": 45.0,
@@ -14486,7 +14486,7 @@
    "minWeightG": 4.3,
    "maxWeightG": 10
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/CA7h_hNsnP5IAbu-gAl02",
+  "imageUrl": "images/animals/mediterranean-banded-centipede.webp",
   "slug": "mediterranean-banded-centipede",
   "coordinates": {
    "lat": 41.0,
@@ -14524,7 +14524,7 @@
    "minWeightG": 2000,
    "maxWeightG": 10000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/kIB0aLmYPuDnRcReuSRn6",
+  "imageUrl": "images/animals/common-octopus.webp",
   "slug": "common-octopus",
   "coordinates": {
    "lat": 36.0,
@@ -14560,7 +14560,7 @@
    "minWeightG": 900,
    "maxWeightG": 5900
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/oDCIWIH0g5qwKepTHwxSf",
+  "imageUrl": "images/animals/dumbo-octopus.webp",
   "slug": "dumbo-octopus",
   "coordinates": {
    "lat": 30.0,
@@ -14597,7 +14597,7 @@
    "minWeightG": 150,
    "maxWeightG": 4000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/jYKzt5KZj4QmqZkL0j0GE",
+  "imageUrl": "images/animals/common-cuttlefish.webp",
   "slug": "common-cuttlefish",
   "coordinates": {
    "lat": 43.5,
@@ -14634,7 +14634,7 @@
    "minWeightG": 50000,
    "maxWeightG": 200000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/pjLue-6wmVl8yiWQ_uX6M",
+  "imageUrl": "images/animals/giant-squid.webp",
   "slug": "giant-squid",
   "coordinates": {
    "lat": 42.0,
@@ -14670,7 +14670,7 @@
    "minWeightG": 0,
    "maxWeightG": 495000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/WxmX4ldQz5WUhmG8jlFPW",
+  "imageUrl": "images/animals/colossal-squid.webp",
   "slug": "colossal-squid",
   "coordinates": {
    "lat": -65.0,
@@ -14707,7 +14707,7 @@
    "minWeightG": 850,
    "maxWeightG": 1675
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/asj0AxD0VJ2e1P7PbPELH",
+  "imageUrl": "images/animals/chambered-nautilus.webp",
   "slug": "chambered-nautilus",
   "coordinates": {
    "lat": -9.0,
@@ -14743,7 +14743,7 @@
    "minWeightG": 200,
    "maxWeightG": 2300
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/UitTap-8FqJwDJWgX6ZvZ",
+  "imageUrl": "images/animals/sea-slug.webp",
   "slug": "sea-slug",
   "coordinates": {
    "lat": 36.5,
@@ -14780,7 +14780,7 @@
    "minWeightG": 8,
    "maxWeightG": 15
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Psr0dQtVQO6F_S94bwv64",
+  "imageUrl": "images/animals/garden-snail.webp",
   "slug": "garden-snail",
   "coordinates": {
    "lat": 48.8,
@@ -14818,7 +14818,7 @@
    "minWeightG": 10,
    "maxWeightG": 50
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/DaCYFBED9eNaqaQwLra-z",
+  "imageUrl": "images/animals/red-slug.webp",
   "slug": "red-slug",
   "coordinates": {
    "lat": 51.0,
@@ -14855,7 +14855,7 @@
    "minWeightG": 5,
    "maxWeightG": 30
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/qWRKyCPeMzuAMKf950i2v",
+  "imageUrl": "images/animals/blue-mussel.webp",
   "slug": "blue-mussel",
   "coordinates": {
    "lat": 55.0,
@@ -14891,7 +14891,7 @@
    "minWeightG": 7,
    "maxWeightG": 8
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/XdgkaxfArDxtVqO-gevk2",
+  "imageUrl": "images/animals/manila-clam.webp",
   "slug": "manila-clam",
   "coordinates": {
    "lat": 35.0,
@@ -14928,7 +14928,7 @@
    "minWeightG": 15,
    "maxWeightG": 40
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/cEPXDYkvfUEGXj-zeABUD",
+  "imageUrl": "images/animals/european-flat-oyster.webp",
   "slug": "european-flat-oyster",
   "coordinates": {
    "lat": 47.5,
@@ -14964,7 +14964,7 @@
    "minWeightG": 500,
    "maxWeightG": 600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/3jl63cgvLWoA4OUJ3mS3U",
+  "imageUrl": "images/animals/great-scallop.webp",
   "slug": "great-scallop",
   "coordinates": {
    "lat": 50.0,
@@ -15001,7 +15001,7 @@
    "minWeightG": 10,
    "maxWeightG": 80
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/EqOV_oiKzQ_joGRyMJbQG",
+  "imageUrl": "images/animals/spiny-dye-murex.webp",
   "slug": "spiny-dye-murex",
   "coordinates": {
    "lat": 38.0,
@@ -15037,7 +15037,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/obIjJNCW8yT0RegudS0Wz",
+  "imageUrl": "images/animals/trumpet-triton.webp",
   "slug": "trumpet-triton",
   "coordinates": {
    "lat": -18.0,
@@ -15074,7 +15074,7 @@
    "minWeightG": 50,
    "maxWeightG": 5000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/rvSCYtuvchnwqxZkj9VvJ",
+  "imageUrl": "images/animals/common-starfish.webp",
   "slug": "common-starfish",
   "coordinates": {
    "lat": 55.5,
@@ -15110,7 +15110,7 @@
    "minWeightG": 20,
    "maxWeightG": 200
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_kgaCmlnCffuUQvRzyxKP",
+  "imageUrl": "images/animals/sea-urchin.webp",
   "slug": "sea-urchin",
   "coordinates": {
    "lat": 43.0,
@@ -15146,7 +15146,7 @@
    "minWeightG": 500,
    "maxWeightG": 500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/hg144HCoj-3HSifVWnK4G",
+  "imageUrl": "images/animals/sea-cucumber.webp",
   "slug": "sea-cucumber",
   "coordinates": {
    "lat": -8.5,
@@ -15182,7 +15182,7 @@
    "minWeightG": 10,
    "maxWeightG": 30000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/0pIey22VshPkrrP5rTqFQ",
+  "imageUrl": "images/animals/moon-jellyfish.webp",
   "slug": "moon-jellyfish",
   "coordinates": {
    "lat": 54.0,
@@ -15219,7 +15219,7 @@
    "minWeightG": 1000,
    "maxWeightG": 6000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/bbNqvwUiAFTxFXMczcG5h",
+  "imageUrl": "images/animals/box-jellyfish.webp",
   "slug": "box-jellyfish",
   "coordinates": {
    "lat": -16.9,
@@ -15255,7 +15255,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/8zPuFhP1j7GcTJPjI-SxG",
+  "imageUrl": "images/animals/portuguese-man-o-war.webp",
   "slug": "portuguese-man-o-war",
   "coordinates": {
    "lat": 28.0,
@@ -15292,7 +15292,7 @@
    "minWeightG": 15000,
    "maxWeightG": 30000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ZT3ZGbvzdlAmBLzdroOAU",
+  "imageUrl": "images/animals/snakelocks-anemone.webp",
   "slug": "snakelocks-anemone",
   "coordinates": {
    "lat": 43.4,
@@ -15330,7 +15330,7 @@
    "minWeightG": 50,
    "maxWeightG": 300
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/yw1A5JDHfI0opQhd4DNZQ",
+  "imageUrl": "images/animals/red-coral.webp",
   "slug": "red-coral",
   "coordinates": {
    "lat": 38.1,
@@ -15365,7 +15365,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/UswfDFp9Z2r6XzBy9hH3E",
+  "imageUrl": "images/animals/brain-coral.webp",
   "slug": "brain-coral",
   "coordinates": {
    "lat": 24.5,
@@ -15402,7 +15402,7 @@
    "minWeightG": 120700,
    "maxWeightG": 247600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/YE3sLqvIIBZWr7p676HhX",
+  "imageUrl": "images/animals/bath-sponge.webp",
   "slug": "bath-sponge",
   "coordinates": {
    "lat": 36.9,
@@ -15438,7 +15438,7 @@
    "minWeightG": 2,
    "maxWeightG": 10
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/jg7zLYSmDFdKf3IcnqZV-",
+  "imageUrl": "images/animals/fiddler-crab.webp",
   "slug": "fiddler-crab",
   "coordinates": {
    "lat": 27.8,
@@ -15476,7 +15476,7 @@
    "minWeightG": 0.3,
    "maxWeightG": 140
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/8MTHd2PBcgElMBmEiTbcI",
+  "imageUrl": "images/animals/hermit-crab.webp",
   "slug": "hermit-crab",
   "coordinates": {
    "lat": 21.3,
@@ -15513,7 +15513,7 @@
    "minWeightG": 10000,
    "maxWeightG": 12700
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Tn2jjVlNaK3XvIwnyoh58",
+  "imageUrl": "images/animals/red-king-crab.webp",
   "slug": "red-king-crab",
   "coordinates": {
    "lat": 57.5,
@@ -15550,7 +15550,7 @@
    "minWeightG": 500,
    "maxWeightG": 4500
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/m4ZanWWMXMz0JbhJ8CUX2",
+  "imageUrl": "images/animals/spiny-lobster.webp",
   "slug": "spiny-lobster",
   "coordinates": {
    "lat": 25.0,
@@ -15586,7 +15586,7 @@
    "minWeightG": 500,
    "maxWeightG": 6000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Myf98y3t8OhFtJHyYV9xW",
+  "imageUrl": "images/animals/european-lobster.webp",
   "slug": "european-lobster",
   "coordinates": {
    "lat": 50.0,
@@ -15621,7 +15621,7 @@
    "minWeightG": 2900,
    "maxWeightG": 88100
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/BawdqMPrleWupS15ADq4L",
+  "imageUrl": "images/animals/norway-lobster.webp",
   "slug": "norway-lobster",
   "coordinates": {
    "lat": 57.0,
@@ -15660,7 +15660,7 @@
    "minWeightG": 5,
    "maxWeightG": 40
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/9Xi72ENnAPjlgcVcsuDOB",
+  "imageUrl": "images/animals/common-earthworm.webp",
   "slug": "common-earthworm",
   "coordinates": {
    "lat": 51.5,
@@ -15696,7 +15696,7 @@
    "minWeightG": 2,
    "maxWeightG": 3
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_IrT19h_bRh33gmm2QT0p",
+  "imageUrl": "images/animals/medicinal-leech.webp",
   "slug": "medicinal-leech",
   "coordinates": {
    "lat": 47.5,
@@ -15733,7 +15733,7 @@
    "minWeightG": 1e-06,
    "maxWeightG": 1e-05
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/viLDYqlgi6GvF2xPN5jMf",
+  "imageUrl": "images/animals/tardigrade.webp",
   "slug": "tardigrade",
   "coordinates": {
    "lat": 60.0,
@@ -15769,7 +15769,7 @@
    "minWeightG": 5000,
    "maxWeightG": 5000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Ges2mu5IWaZ5gzxfUHgRD",
+  "imageUrl": "images/animals/great-auk.webp",
   "slug": "great-auk",
   "coordinates": {
    "lat": 63.3,
@@ -15805,7 +15805,7 @@
    "minWeightG": 260,
    "maxWeightG": 340
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/YjkBNintVD_RhnSIduZBN",
+  "imageUrl": "images/animals/passenger-pigeon.webp",
   "slug": "passenger-pigeon",
   "coordinates": {
    "lat": 41.5,
@@ -15843,7 +15843,7 @@
    "minWeightG": 280,
    "maxWeightG": 280
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/nd5IKBT_HIr3kIrFULCif",
+  "imageUrl": "images/animals/carolina-parakeet.webp",
   "slug": "carolina-parakeet",
   "coordinates": {
    "lat": 32.0,
@@ -15879,7 +15879,7 @@
    "minWeightG": 175000,
    "maxWeightG": 322000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/WVo4oGyNKNgPJkBHU4j96",
+  "imageUrl": "images/animals/quagga.webp",
   "slug": "quagga",
   "coordinates": {
    "lat": -30.5,
@@ -15917,7 +15917,7 @@
    "minWeightG": 16000,
    "maxWeightG": 29000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/lnuGOCkvEMRrJ8YakNThm",
+  "imageUrl": "images/animals/thylacine.webp",
   "slug": "thylacine",
   "coordinates": {
    "lat": -42.0,
@@ -15954,7 +15954,7 @@
    "minWeightG": 5400000,
    "maxWeightG": 11196000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Une4QPUEtpsi9dI40Sfze",
+  "imageUrl": "images/animals/steller-s-sea-cow.webp",
   "slug": "steller-s-sea-cow",
   "coordinates": {
    "lat": 55.2,
@@ -15989,7 +15989,7 @@
    "minWeightG": 66000,
    "maxWeightG": 66000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/i3mGpN_XINb2829mbEm_I",
+  "imageUrl": "images/animals/pyrenean-ibex.webp",
   "slug": "pyrenean-ibex",
   "coordinates": {
    "lat": 42.6,
@@ -16026,7 +16026,7 @@
    "minWeightG": 700000,
    "maxWeightG": 1000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/GI4ubMCjFyMO24CTwZ0be",
+  "imageUrl": "images/animals/aurochs.webp",
   "slug": "aurochs",
   "coordinates": {
    "lat": 52.0,
@@ -16063,7 +16063,7 @@
    "minWeightG": 300000,
    "maxWeightG": 400000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/uURlBp2i3049JiD7zf3gp",
+  "imageUrl": "images/animals/tarpan.webp",
   "slug": "tarpan",
   "coordinates": {
    "lat": 50.5,
@@ -16098,7 +16098,7 @@
    "minWeightG": 120000,
    "maxWeightG": 200000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/ORpoDWvuCV7502reB_mhY",
+  "imageUrl": "images/animals/bluebuck.webp",
   "slug": "bluebuck",
   "coordinates": {
    "lat": -34.4,
@@ -16135,7 +16135,7 @@
    "minWeightG": 100000,
    "maxWeightG": 200000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/T7B082Q2djHjyN7VDo0h8",
+  "imageUrl": "images/animals/bubal-hartebeest.webp",
   "slug": "bubal-hartebeest",
   "coordinates": {
    "lat": 32.5,
@@ -16170,7 +16170,7 @@
    "minWeightG": 70000,
    "maxWeightG": 140000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/cLSsPrp96TreMgOFq3Enw",
+  "imageUrl": "images/animals/caribbean-monk-seal.webp",
   "slug": "caribbean-monk-seal",
   "coordinates": {
    "lat": 20.5,
@@ -16206,7 +16206,7 @@
    "minWeightG": 450000,
    "maxWeightG": 560000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vsxNvMYssIU1X1uc3M5Gn",
+  "imageUrl": "images/animals/japanese-sea-lion.webp",
   "slug": "japanese-sea-lion",
   "coordinates": {
    "lat": 37.2,
@@ -16241,7 +16241,7 @@
    "minWeightG": 12000,
    "maxWeightG": 14000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vFYggW7il2_KFeBfGwBIF",
+  "imageUrl": "images/animals/falkland-islands-wolf.webp",
   "slug": "falkland-islands-wolf",
   "coordinates": {
    "lat": -51.7,
@@ -16278,7 +16278,7 @@
    "minWeightG": 800,
    "maxWeightG": 1000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/1qwOGI1QpWVFggcSTyHNI",
+  "imageUrl": "images/animals/heath-hen.webp",
   "slug": "heath-hen",
   "coordinates": {
    "lat": 41.4,
@@ -16314,7 +16314,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/XqDs5nK-SzRhalc1I7evh",
+  "imageUrl": "images/animals/labrador-duck.webp",
   "slug": "labrador-duck",
   "coordinates": {
    "lat": 47.5,
@@ -16350,7 +16350,7 @@
    "minWeightG": 270,
    "maxWeightG": 454
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/qfiob1Ds3pqFr9GCACxtu",
+  "imageUrl": "images/animals/eskimo-curlew.webp",
   "slug": "eskimo-curlew",
   "coordinates": {
    "lat": 69.0,
@@ -16385,7 +16385,7 @@
    "minWeightG": 300,
    "maxWeightG": 406
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/S3FYVrz_UoVsG3HU0VBBY",
+  "imageUrl": "images/animals/huia.webp",
   "slug": "huia",
   "coordinates": {
    "lat": -40.5,
@@ -16422,7 +16422,7 @@
    "minWeightG": 600,
    "maxWeightG": 600
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sqKK7umK4w0w_4LA6uFEw",
+  "imageUrl": "images/animals/laughing-owl.webp",
   "slug": "laughing-owl",
   "coordinates": {
    "lat": -43.5,
@@ -16458,7 +16458,7 @@
    "minWeightG": 75000,
    "maxWeightG": 250000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/liCHI2tK6A0C-UJHJCS4N",
+  "imageUrl": "images/animals/pinta-island-tortoise.webp",
   "slug": "pinta-island-tortoise",
   "coordinates": {
    "lat": 0.58,
@@ -16493,7 +16493,7 @@
    "minWeightG": 800000,
    "maxWeightG": 1350000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/huZkzdT8zIAZvPhWXrugD",
+  "imageUrl": "images/animals/western-black-rhinoceros.webp",
   "slug": "western-black-rhinoceros",
   "coordinates": {
    "lat": 8.0,
@@ -16532,7 +16532,7 @@
    "minWeightG": 170000,
    "maxWeightG": 240000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/RHRtg3AV-ijjAlXPmb81n",
+  "imageUrl": "images/animals/caspian-tiger.webp",
   "slug": "caspian-tiger",
   "coordinates": {
    "lat": 39.5,
@@ -16569,7 +16569,7 @@
    "minWeightG": 120000,
    "maxWeightG": 242000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Jl8Gj-DRE6q2s2EfxkR2Z",
+  "imageUrl": "images/animals/barbary-lion.webp",
   "slug": "barbary-lion",
   "coordinates": {
    "lat": 33.5,
@@ -16605,7 +16605,7 @@
    "minWeightG": 65000,
    "maxWeightG": 100000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/H1ELLhDUYncOy7Y76EjBA",
+  "imageUrl": "images/animals/bali-tiger.webp",
   "slug": "bali-tiger",
   "coordinates": {
    "lat": -8.3,
@@ -16641,7 +16641,7 @@
    "minWeightG": 100000,
    "maxWeightG": 141000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/PQuHixhaZ65_lNY1oAP3C",
+  "imageUrl": "images/animals/javan-tiger.webp",
   "slug": "javan-tiger",
   "coordinates": {
    "lat": -7.7,
@@ -16678,7 +16678,7 @@
    "minWeightG": 200000,
    "maxWeightG": 250000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/327wdRyxEZVeq5PnagD6x",
+  "imageUrl": "images/animals/moa.webp",
   "slug": "moa",
   "coordinates": {
    "lat": -44.0,
@@ -16712,7 +16712,7 @@
    "minWeightG": 334000,
    "maxWeightG": 541000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/LkLzUceA9sqmssVRPZcB6",
+  "imageUrl": "images/animals/elephant-bird.webp",
   "slug": "elephant-bird",
   "coordinates": {
    "lat": -19.0,
@@ -16749,7 +16749,7 @@
    "minWeightG": 5000000,
    "maxWeightG": 9000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/V1hukSPhmcDcQUtDf3mX2",
+  "imageUrl": "images/animals/tyrannosaurus-rex.webp",
   "slug": "tyrannosaurus-rex",
   "coordinates": {
    "lat": 47.5,
@@ -16785,7 +16785,7 @@
    "minWeightG": 6000000,
    "maxWeightG": 12000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/IF6WpvzOntdEo7N62e7o9",
+  "imageUrl": "images/animals/triceratops.webp",
   "slug": "triceratops",
   "coordinates": {
    "lat": 44.5,
@@ -16820,7 +16820,7 @@
    "minWeightG": 13000,
    "maxWeightG": 20000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/6heB7bDlJt7KX9nkUUlqD",
+  "imageUrl": "images/animals/velociraptor.webp",
   "slug": "velociraptor",
   "coordinates": {
    "lat": 43.5,
@@ -16856,7 +16856,7 @@
    "minWeightG": 3000000,
    "maxWeightG": 7000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/kUmbey11qmtykTxPxRBdB",
+  "imageUrl": "images/animals/stegosaurus.webp",
   "slug": "stegosaurus",
   "coordinates": {
    "lat": 39.0,
@@ -16891,7 +16891,7 @@
    "minWeightG": 28000000,
    "maxWeightG": 56000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/3TDf9u1nIGv0D0poRslNj",
+  "imageUrl": "images/animals/brachiosaurus.webp",
   "slug": "brachiosaurus",
   "coordinates": {
    "lat": 39.1,
@@ -16926,7 +16926,7 @@
    "minWeightG": 5800000,
    "maxWeightG": 18500000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/R-MQxKa2sa-iRC5mxchgf",
+  "imageUrl": "images/animals/diplodocus.webp",
   "slug": "diplodocus",
   "coordinates": {
    "lat": 42.0,
@@ -16962,7 +16962,7 @@
    "minWeightG": 6400000,
    "maxWeightG": 7400000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/GLx6JGCqGY6K_hxwhiN7m",
+  "imageUrl": "images/animals/spinosaurus.webp",
   "slug": "spinosaurus",
   "coordinates": {
    "lat": 28.0,
@@ -16996,7 +16996,7 @@
    "minWeightG": 1500000,
    "maxWeightG": 2700000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/VvO7SsjpCyytTyR5aDnNP",
+  "imageUrl": "images/animals/allosaurus.webp",
   "slug": "allosaurus",
   "coordinates": {
    "lat": 40.5,
@@ -17032,7 +17032,7 @@
    "minWeightG": 5000000,
    "maxWeightG": 8000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/eDYsjaM7sZSNbyreb5Lmj",
+  "imageUrl": "images/animals/ankylosaurus.webp",
   "slug": "ankylosaurus",
   "coordinates": {
    "lat": 47.5,
@@ -17070,7 +17070,7 @@
    "minWeightG": 2500000,
    "maxWeightG": 3500000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/DD_MsikwyS3mwHmzN6zVQ",
+  "imageUrl": "images/animals/parasaurolophus.webp",
   "slug": "parasaurolophus",
   "coordinates": {
    "lat": 36.5,
@@ -17106,7 +17106,7 @@
    "minWeightG": 2000000,
    "maxWeightG": 5000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vlfglIPcf-Oguh7F9fMTh",
+  "imageUrl": "images/animals/iguanodon.webp",
   "slug": "iguanodon",
   "coordinates": {
    "lat": 50.4,
@@ -17141,7 +17141,7 @@
    "minWeightG": 500,
    "maxWeightG": 1000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/W_tLXMCZIb29elDWusped",
+  "imageUrl": "images/animals/archaeopteryx.webp",
   "slug": "archaeopteryx",
   "coordinates": {
    "lat": 48.9,
@@ -17177,7 +17177,7 @@
    "minWeightG": 60000,
    "maxWeightG": 73000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/wseAQO9Du12MdOUU5Dr4G",
+  "imageUrl": "images/animals/deinonychus.webp",
   "slug": "deinonychus",
   "coordinates": {
    "lat": 45.8,
@@ -17211,7 +17211,7 @@
    "minWeightG": 4935000,
    "maxWeightG": 6647000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/6bnJPN_OmnhhBaNlEmwjU",
+  "imageUrl": "images/animals/therizinosaurus.webp",
   "slug": "therizinosaurus",
   "coordinates": {
    "lat": 43.5,
@@ -17246,7 +17246,7 @@
    "minWeightG": 400000,
    "maxWeightG": 490000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/JKiXh1DRCVsM0r5WagZ_v",
+  "imageUrl": "images/animals/gallimimus.webp",
   "slug": "gallimimus",
   "coordinates": {
    "lat": 43.7,
@@ -17281,7 +17281,7 @@
    "minWeightG": 1350000,
    "maxWeightG": 2100000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/qLyGZcQTHreE0vJF5WgPK",
+  "imageUrl": "images/animals/carnotaurus.webp",
   "slug": "carnotaurus",
   "coordinates": {
    "lat": -44.5,
@@ -17318,7 +17318,7 @@
    "minWeightG": 370000,
    "maxWeightG": 450000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/YMVFeKgExp-WivcLtO5kx",
+  "imageUrl": "images/animals/pachycephalosaurus.webp",
   "slug": "pachycephalosaurus",
   "coordinates": {
    "lat": 46.8,
@@ -17352,7 +17352,7 @@
    "minWeightG": 2000,
    "maxWeightG": 2800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/UmGBy8vMgV7_RR23L6uVa",
+  "imageUrl": "images/animals/compsognathus.webp",
   "slug": "compsognathus",
   "coordinates": {
    "lat": 48.9,
@@ -17387,7 +17387,7 @@
    "minWeightG": 60000000,
    "maxWeightG": 124000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/p6O676pMnz1_c3tAoSXCo",
+  "imageUrl": "images/animals/argentinosaurus.webp",
   "slug": "argentinosaurus",
   "coordinates": {
    "lat": -38.5,
@@ -17423,7 +17423,7 @@
    "minWeightG": 20000,
    "maxWeightG": 35000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/u-V8jQL9YmPQUhMzWiaZ9",
+  "imageUrl": "images/animals/pteranodon.webp",
   "slug": "pteranodon",
   "coordinates": {
    "lat": 38.8,
@@ -17459,7 +17459,7 @@
    "minWeightG": 200000,
    "maxWeightG": 250000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/_ITLnP_ZushUCtU7cki5L",
+  "imageUrl": "images/animals/quetzalcoatlus.webp",
   "slug": "quetzalcoatlus",
   "coordinates": {
    "lat": 29.3,
@@ -17495,7 +17495,7 @@
    "minWeightG": 3800000,
    "maxWeightG": 3800000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/sxCeK5VMSUqkvP_sKMoxI",
+  "imageUrl": "images/animals/mosasaurus.webp",
   "slug": "mosasaurus",
   "coordinates": {
    "lat": 50.85,
@@ -17531,7 +17531,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/K09gtX7qkKihZlTke_3qj",
+  "imageUrl": "images/animals/plesiosaurus.webp",
   "slug": "plesiosaurus",
   "coordinates": {
    "lat": 50.7,
@@ -17568,7 +17568,7 @@
    "minWeightG": 50000,
    "maxWeightG": 90700
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/u6ZYc-EnJBoGa8xUa0otW",
+  "imageUrl": "images/animals/ichthyosaurus.webp",
   "slug": "ichthyosaurus",
   "coordinates": {
    "lat": 50.7,
@@ -17604,7 +17604,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vwrMXXTJAB5Vz_oHx-DQI",
+  "imageUrl": "images/animals/liopleurodon.webp",
   "slug": "liopleurodon",
   "coordinates": {
    "lat": 51.0,
@@ -17639,7 +17639,7 @@
    "minWeightG": 200000,
    "maxWeightG": 250000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/Zv670E4zglYKo6rE_CDFg",
+  "imageUrl": "images/animals/dimetrodon.webp",
   "slug": "dimetrodon",
   "coordinates": {
    "lat": 33.6,
@@ -17676,7 +17676,7 @@
    "minWeightG": 4000000,
    "maxWeightG": 6000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/fA1AdGASwmDHI6s4AMY8h",
+  "imageUrl": "images/animals/woolly-mammoth.webp",
   "slug": "woolly-mammoth",
   "coordinates": {
    "lat": 66.0,
@@ -17712,7 +17712,7 @@
    "minWeightG": 1500000,
    "maxWeightG": 2000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/WoEwMerK_85FX556UyiD9",
+  "imageUrl": "images/animals/woolly-rhinoceros.webp",
   "slug": "woolly-rhinoceros",
   "coordinates": {
    "lat": 60.0,
@@ -17751,7 +17751,7 @@
    "minWeightG": 160000,
    "maxWeightG": 280000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/28jFYwULS-gnNAfKMBXWU",
+  "imageUrl": "images/animals/smilodon.webp",
   "slug": "smilodon",
   "coordinates": {
    "lat": 34.06,
@@ -17788,7 +17788,7 @@
    "minWeightG": 340000,
    "maxWeightG": 590000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/kHfIENVCG6cWw0bjQUHRk",
+  "imageUrl": "images/animals/cave-bear.webp",
   "slug": "cave-bear",
   "coordinates": {
    "lat": 47.5,
@@ -17824,7 +17824,7 @@
    "minWeightG": 249000,
    "maxWeightG": 360000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/S8A0QowAOl280_kbof57E",
+  "imageUrl": "images/animals/cave-lion.webp",
   "slug": "cave-lion",
   "coordinates": {
    "lat": 52.0,
@@ -17860,7 +17860,7 @@
    "minWeightG": 3000000,
    "maxWeightG": 4000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/OlaChms6P2FDf84_F13ql",
+  "imageUrl": "images/animals/giant-ground-sloth.webp",
   "slug": "giant-ground-sloth",
   "coordinates": {
    "lat": -34.6,
@@ -17895,7 +17895,7 @@
    "minWeightG": 2000000,
    "maxWeightG": 2000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/D4X-cL0dH38-CIhBQqL76",
+  "imageUrl": "images/animals/glyptodon.webp",
   "slug": "glyptodon",
   "coordinates": {
    "lat": -34.9,
@@ -17930,7 +17930,7 @@
    "minWeightG": 484400,
    "maxWeightG": 700000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/dEXvVGOMnAr5M8HbYPg6D",
+  "imageUrl": "images/animals/megaloceros.webp",
   "slug": "megaloceros",
   "coordinates": {
    "lat": 53.3,
@@ -17967,7 +17967,7 @@
    "minWeightG": 1000000,
    "maxWeightG": 1000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/5ox5sRcWEBTW_aTdXt86e",
+  "imageUrl": "images/animals/andrewsarchus.webp",
   "slug": "andrewsarchus",
   "coordinates": {
    "lat": 44.0,
@@ -18002,7 +18002,7 @@
    "minWeightG": 15000000,
    "maxWeightG": 20000000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/YvQAivxusQJTJ-DcZLujf",
+  "imageUrl": "images/animals/paraceratherium.webp",
   "slug": "paraceratherium",
   "coordinates": {
    "lat": 34.0,
@@ -18037,7 +18037,7 @@
    "minWeightG": 3000000,
    "maxWeightG": 4500000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/9kJ7ziNJ8_YKFhnUyzP1R",
+  "imageUrl": "images/animals/uintatherium.webp",
   "slug": "uintatherium",
   "coordinates": {
    "lat": 40.8,
@@ -18073,7 +18073,7 @@
    "minWeightG": 830000,
    "maxWeightG": 1100000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/kkzLBSdtKqQfRkrExP8nJ",
+  "imageUrl": "images/animals/macrauchenia.webp",
   "slug": "macrauchenia",
   "coordinates": {
    "lat": -45.0,
@@ -18109,7 +18109,7 @@
    "minWeightG": 1400000,
    "maxWeightG": 2370000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/oaCoRZzu2NKt4O5LmCaVq",
+  "imageUrl": "images/animals/doedicurus.webp",
   "slug": "doedicurus",
   "coordinates": {
    "lat": -35.5,
@@ -18145,7 +18145,7 @@
    "minWeightG": 3500000,
    "maxWeightG": 5443000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/wf99GQjtnNiwqzB7EM8Id",
+  "imageUrl": "images/animals/american-mastodon.webp",
   "slug": "american-mastodon",
   "coordinates": {
    "lat": 42.3,
@@ -18180,7 +18180,7 @@
    "minWeightG": 56700,
    "maxWeightG": 79400
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/8UUu8Dov1KiusmJHMlJIy",
+  "imageUrl": "images/animals/dire-wolf.webp",
   "slug": "dire-wolf",
   "coordinates": {
    "lat": 34.06,
@@ -18215,7 +18215,7 @@
    "minWeightG": 950000,
    "maxWeightG": 1764000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/n2k8O7RYnoDqY2FKLBQjc",
+  "imageUrl": "images/animals/dunkleosteus.webp",
   "slug": "dunkleosteus",
   "coordinates": {
    "lat": 41.5,
@@ -18251,7 +18251,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/MknTi5K5LvyzOn0UiiK50",
+  "imageUrl": "images/animals/megalodon.webp",
   "slug": "megalodon",
   "coordinates": {
    "lat": 26.0,
@@ -18285,7 +18285,7 @@
    "minWeightG": 0,
    "maxWeightG": 0
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/7lyMbkjlOemqbRf5B_tRa",
+  "imageUrl": "images/animals/helicoprion.webp",
   "slug": "helicoprion",
   "coordinates": {
    "lat": 42.5,
@@ -18320,7 +18320,7 @@
    "minWeightG": 10000,
    "maxWeightG": 50000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/85CqVuGwqF2CvgKxvap9v",
+  "imageUrl": "images/animals/arthropleura.webp",
   "slug": "arthropleura",
   "coordinates": {
    "lat": 39.9,
@@ -18353,7 +18353,7 @@
    "minWeightG": 18,
    "maxWeightG": 150
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/7nIVRXZB_2fGm5FdY-ksK",
+  "imageUrl": "images/animals/meganeura.webp",
   "slug": "meganeura",
   "coordinates": {
    "lat": 46.4,
@@ -18388,7 +18388,7 @@
    "minWeightG": 200,
    "maxWeightG": 800
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/rbXkxLlMShF3SYd43V_87",
+  "imageUrl": "images/animals/anomalocaris.webp",
   "slug": "anomalocaris",
   "coordinates": {
    "lat": 51.4,
@@ -18423,7 +18423,7 @@
    "minWeightG": 38000,
    "maxWeightG": 38000
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/D92FMf137ElQi87jOEJr6",
+  "imageUrl": "images/animals/trilobite.webp",
   "slug": "trilobite",
   "coordinates": {
    "lat": 43.6,
@@ -18457,7 +18457,7 @@
    "minWeightG": 1,
    "maxWeightG": 10
   },
-  "imageUrl": "https://cdn.callimacus.ai/demo.atlas.ai/media/uploads/vzglaSr9ibgem0alfW7QD",
+  "imageUrl": "images/animals/opabinia.webp",
   "slug": "opabinia",
   "coordinates": {
    "lat": 51.4,
