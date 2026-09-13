@@ -1,4 +1,5 @@
 import {AnimatePresence, motion} from "motion/react";
+import Markdown from "react-markdown";
 import styles from './TextResponse.module.scss';
 
 type TextResponseProps = {
@@ -12,7 +13,7 @@ function TextResponse({title, text}: TextResponseProps) {
 		<div className={styles.container}>
 			<AnimatePresence>
 				<h2 key="title">{hasTitle ? title : ''}</h2>
-				<motion.p key="text" initial={false} layout={'position'} layoutDependency={hasTitle}>{text}</motion.p>
+				<motion.div key="text" className={styles.text} initial={false} layout={'position'} layoutDependency={hasTitle}><Markdown>{text}</Markdown></motion.div>
 			</AnimatePresence>
 		</div>
 	)

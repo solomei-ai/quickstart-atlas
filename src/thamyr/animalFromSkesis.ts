@@ -36,15 +36,20 @@ function asNumber(value: unknown): number {
 }
 
 /**
- * `imageUrl` is a plain string: the producer resolves it before ingest and the
- * passthrough binder stores what it was sent, so there is no asset list to
- * unwrap. Guarded rather than `String()`-coerced because this value lands in an
- * `<img src>` / `url()`, where a stray object would stringify to
- * `"[object Object]"` and fetch; `''` is the sentinel the cards already read as
- * "no image".
+ * `imageUrl` arrives in one of two shapes. A record that named its file with
+ * `{"$asset": "<path>"}` comes back with the resolved asset, `{ url: "https://…" }`;
+ * a record that carried a durable url comes back with that string. Anything
+ * else is `''`, the sentinel the cards already read as "no image" — guarded
+ * rather than `String()`-coerced because this value lands in an `<img src>` /
+ * `url()`, where a stray object would stringify to `"[object Object]"` and fetch.
  */
 function asImageUrl(value: unknown): string {
-	return typeof value === 'string' ? value : '';
+	if (typeof value === 'string') return value;
+	if (value !== null && typeof value === 'object') {
+		const url = (value as {url?: unknown}).url;
+		if (typeof url === 'string') return url;
+	}
+	return '';
 }
 
 /**
